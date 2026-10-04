@@ -57,6 +57,10 @@
   function catName(id) { return catById[id] ? catById[id].title : id; }
   function catAccent(id) { return catById[id] ? catById[id].accent : "#6d7cff"; }
   function catIcon(id) { return catById[id] ? catById[id].icon : "book"; }
+  function slug(s) {
+    return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  }
+  var CALLOUT_RE = /^(reality check|key takeaway|quick understanding|the bottom line|summary|verdict)\b/i;
 
   /* ---------------- state ---------------- */
   var LS_PROGRESS = "mindtrace.progress";
@@ -109,7 +113,7 @@
       '<a class="card topic-card" href="#/topic/' + esc(t.slug) + '" style="--cat:' + a + '">' +
         '<div class="t-top">' +
           '<span class="badge"><span class="dot"></span>' + esc(catName(t.category)) + "</span>" +
-          (isDone(t.id) ? '<span class="badge" style="color:var(--good)">' + icon("check") + " Done</span>" : "") +
+          (isDone(t.id) ? '<span class="badge done">' + icon("check") + " Done</span>" : "") +
         "</div>" +
         "<h3>" + esc(t.title) + "</h3>" +
         "<p>" + esc(t.description) + "</p>" +
@@ -295,13 +299,24 @@
     var booked = isBooked(t.id);
 
     var sections = t.sections.map(function (s) {
-      var body = s.content.map(function (line) { return "<p>" + esc(line) + "</p>"; }).join("");
-      var isList = s.content.length > 1;
-      if (isList) {
+      var body;
+      if (s.content.length > 1) {
         body = "<ul>" + s.content.map(function (line) { return "<li>" + esc(line) + "</li>"; }).join("") + "</ul>";
+      } else {
+        body = "<p>" + esc(s.content[0]) + "</p>";
       }
-      return '<section class="section"><h2>' + esc(s.title) + "</h2>" + body + "</section>";
+      var cls = "section" + (CALLOUT_RE.test(s.title) ? " callout" : "");
+      return '<section class="' + cls + '" id="' + esc(slug(s.title)) + '"><h2>' + esc(s.title) + "</h2>" + body + "</section>";
     }).join("");
+
+    var toc = t.sections.length >= 5
+      ? '<nav class="toc" aria-label="On this topic"><h2>In this topic</h2><ol>' +
+          t.sections.map(function (s) {
+            var sid = slug(s.title);
+            return '<li><a href="#' + esc(sid) + '" data-action="scroll" data-target="' + esc(sid) + '">' + esc(s.title) + "</a></li>";
+          }).join("") +
+        "</ol></nav>"
+      : "";
 
     var related = (t.relatedTopics || [])
       .map(function (id) { return topicBySlug[id] || TOPICS.filter(function (x) { return x.id === id; })[0]; })
@@ -327,6 +342,7 @@
               icon("bookmark") + (booked ? "Bookmarked" : "Bookmark") + "</button>" +
           "</div>" +
         "</header>" +
+        toc +
         '<div class="sections">' + sections + "</div>";
 
     if (related.length) {
@@ -420,6 +436,12 @@
     var el = e.target.closest("[data-action]");
     if (!el) return;
     var action = el.getAttribute("data-action");
+    if (action === "scroll") {
+      e.preventDefault();
+      var node = document.getElementById(el.getAttribute("data-target"));
+      if (node) node.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
     var id = el.getAttribute("data-id");
     if (action === "toggle-done") { toggleDone(id); render(); }
     else if (action === "toggle-book") { toggleBook(id); render(); }

@@ -16,7 +16,8 @@ browser and ship on any static host.
   14 modules you can work through in order.
 - **Library** — browse all topics, filter by module, and search by title or description.
 - **Topic reader** — every topic is broken into clear sections (what it is, how it
-  works, warning signs, protection strategies, and more) with a reading-progress bar.
+  works, warning signs, protection strategies, and more) with a reading-progress bar,
+  an in-topic table of contents, and callouts for the key takeaways.
 - **Progress tracking** — mark topics complete; per-module and overall progress bars.
 - **Bookmarks** — save topics and find them again on the Bookmarks page.
 - **Light / dark theme** — toggle in the header, remembered in `localStorage`.
