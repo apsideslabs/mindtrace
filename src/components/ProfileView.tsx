@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BookOpen, Bookmark, Clock, ChevronRight, Trash2, ShieldCheck } from 'lucide-react';
+import { BookOpen, Bookmark, Clock, ChevronRight, Trash2, ShieldCheck, StickyNote } from 'lucide-react';
 import { UserStats } from '../types';
 import { getTopicCount } from '../content/content-index';
 
@@ -9,10 +9,12 @@ export function ProfileView({
   stats,
   go,
   clearStats,
+  noteCount = 0,
 }: {
   stats: UserStats;
   go: Go;
   clearStats: () => void;
+  noteCount?: number;
 }) {
   const [showSettings, setShowSettings] = useState(false);
 
@@ -69,6 +71,21 @@ export function ProfileView({
       </section>
 
       <div className="space-y-3">
+        <button onClick={() => go('notes')} className="card w-full p-5 flex items-center justify-between group">
+          <span className="flex items-center gap-4">
+            <span className="w-10 h-10 rounded-xl bg-accent-soft flex items-center justify-center">
+              <StickyNote className="w-5 h-5 text-accent" />
+            </span>
+            <span className="text-left">
+              <span className="block font-display text-[16px] font-semibold text-ink">Notes &amp; highlights</span>
+              <span className="block text-[13px] text-muted mt-0.5">
+                {noteCount ? `${noteCount} note${noteCount === 1 ? '' : 's'} saved` : 'Nothing saved yet'}
+              </span>
+            </span>
+          </span>
+          <ChevronRight className="w-5 h-5 text-muted group-hover:text-ink transition-colors" />
+        </button>
+
         <button onClick={() => go('bookmarks')} className="card w-full p-5 flex items-center justify-between group">
           <span className="flex items-center gap-4">
             <span className="w-10 h-10 rounded-xl bg-accent-soft flex items-center justify-center">

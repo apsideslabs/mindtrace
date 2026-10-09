@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react';
-import { UserStats, TopicId } from './types';
+import { useState, useEffect, useCallback } from 'react';
+import { UserStats, TopicId, Note } from './types';
 
 const STATS_KEY = 'mindtrace_user_stats';
+const NOTES_KEY = 'mindtrace_notes';
 
 const DEFAULT_STATS: UserStats = {
   topicsRead: [],
@@ -9,7 +10,7 @@ const DEFAULT_STATS: UserStats = {
   bookmarkedTopics: [],
 };
 
-function load(): UserStats {
+function loadStats(): UserStats {
   try {
     const saved = localStorage.getItem(STATS_KEY);
     if (saved) return { ...DEFAULT_STATS, ...JSON.parse(saved) };
@@ -20,7 +21,7 @@ function load(): UserStats {
 }
 
 export function useUserStats() {
-  const [stats, setStats] = useState<UserStats>(load);
+  const [stats, setStats] = useState<UserStats>(loadStats);
 
   useEffect(() => {
     try {
@@ -52,4 +53,50 @@ export function useUserStats() {
   const clearStats = () => setStats(DEFAULT_STATS);
 
   return { stats, toggleBookmark, markTopicRead, addReadingTime, clearStats };
+}
+
+function loadNotes(): Note[] {
+  try {
+    const saved = localStorage.getItem(NOTES_KEY);
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      if (Array.isArray(parsed)) return parsed;
+    }
+  } catch {
+    /* ignore malformed state */
+  }
+  return [];
+}
+
+const uid = () => `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
+
+export function useNotes() {
+  const [notes, setNotes] = useState<Note[]>(loadNotes);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(NOTES_KEY, JSON.stringify(notes));
+    } catch {
+      /* storage may be unavailable */
+    }
+  }, [notes]);
+
+  const addNote = useCallback((topicId: TopicId, quote: string, body: string) => {
+    const trimmedBody = body.trim();
+    const trimmedQuote = quote.trim();
+    if (!trimmedBody && !trimmedQuote) return null;
+    const note: Note = { id: uid(), topicId, quote: trimmedQuote, body: trimmedBody, createdAt: Date.now() };
+    setNotes((prev) => [note, ...prev]);
+    return note;
+  }, []);
+
+  const removeNote = useCallback((id: string) => {
+    setNotes((prev) => prev.filter((n) => n.id !== id));
+  }, []);
+
+  const clearNotes = useCallback(() => setNotes([]), []);
+
+  const notesFor = useCallback((topicId: TopicId) => notes.filter((n) => n.topicId === topicId), [notes]);
+
+  return { notes, addNote, removeNote, clearNotes, notesFor };
 }

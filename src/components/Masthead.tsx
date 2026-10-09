@@ -1,7 +1,7 @@
 import React from 'react';
-import { Search, Bookmark, User as UserIcon } from 'lucide-react';
+import { Search, Bookmark, User as UserIcon, StickyNote } from 'lucide-react';
 
-export type NavKey = 'home' | 'explore' | 'visualize' | 'quotes' | 'facts' | 'bookmarks' | 'profile';
+export type NavKey = 'home' | 'explore' | 'visualize' | 'quotes' | 'facts' | 'bookmarks' | 'profile' | 'notes';
 
 const LINKS: { key: NavKey; label: string }[] = [
   { key: 'explore', label: 'Library' },
@@ -36,11 +36,12 @@ export function Masthead({
           </span>
         </button>
 
-        <nav className="hidden md:flex items-center gap-1">
+        <nav aria-label="Primary" className="hidden md:flex items-center gap-1">
           {LINKS.map((l) => (
             <button
               key={l.key}
               onClick={() => onNavigate(l.key)}
+              aria-current={active === l.key ? 'page' : undefined}
               className={`px-3.5 py-2 text-[13px] font-medium rounded-full transition-colors ${
                 active === l.key ? 'text-ink bg-paper-2' : 'text-ink-soft hover:text-ink hover:bg-paper-2/70'
               }`}
@@ -66,6 +67,15 @@ export function Masthead({
             aria-label="Search"
           >
             <Search className="w-[18px] h-[18px]" />
+          </button>
+          <button
+            onClick={() => onNavigate('notes')}
+            className={`hidden md:flex w-9 h-9 items-center justify-center rounded-full transition-colors ${
+              active === 'notes' ? 'text-accent bg-accent-soft' : 'text-ink-soft hover:bg-paper-2'
+            }`}
+            aria-label="Notes and highlights"
+          >
+            <StickyNote className="w-[18px] h-[18px]" />
           </button>
           <button
             onClick={() => onNavigate('bookmarks')}

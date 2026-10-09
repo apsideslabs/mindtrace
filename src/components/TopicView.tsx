@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, ArrowRight, Bookmark, Share2, Clock, List, X, Quote as QuoteIcon, AlertTriangle, ShieldCheck, Lightbulb } from 'lucide-react';
-import { TopicId, UserStats } from '../types';
+import { ArrowLeft, ArrowRight, Bookmark, Share2, Clock, List, X, Quote as QuoteIcon, AlertTriangle, ShieldCheck, Lightbulb, StickyNote, Highlighter, Trash2 } from 'lucide-react';
+import { TopicId, UserStats, Note } from '../types';
 import { getTopicById, getCategoryById, getTopicsByCategory, getRelatedTopics, CATEGORY_ACCENT } from '../content/content-index';
 import { motion, useScroll, useSpring } from 'motion/react';
 
@@ -17,6 +17,9 @@ export function TopicView({
   toggleBookmark,
   onOpenTopic,
   addReadingTime,
+  notes,
+  onAddNote,
+  onDeleteNote,
 }: {
   topicId: TopicId;
   onBack: () => void;
@@ -24,10 +27,21 @@ export function TopicView({
   toggleBookmark: (id: TopicId) => void;
   onOpenTopic: (id: TopicId) => void;
   addReadingTime?: (minutes: number) => void;
+  notes?: Note[];
+  onAddNote?: (topicId: TopicId, quote: string, body: string) => void;
+  onDeleteNote?: (id: string) => void;
 }) {
   const topic = getTopicById(topicId);
   const [toc, setToc] = useState(false);
   const counted = useRef(false);
+  const contentRef = useRef<HTMLDivElement>(null);
+
+  // Notes / highlight state
+  const [sel, setSel] = useState<{ text: string; x: number; y: number } | null>(null);
+  const [composer, setComposer] = useState<{ quote: string } | null>(null);
+  const [draft, setDraft] = useState('');
+  const [savedFlash, setSavedFlash] = useState(false);
+  const composerRef = useRef<HTMLTextAreaElement>(null);
 
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, { stiffness: 120, damping: 30, restDelta: 0.001 });
@@ -44,16 +58,43 @@ export function TopicView({
 
   useEffect(() => {
     counted.current = false;
+    setSel(null);
+    setComposer(null);
     window.scrollTo({ top: 0 });
   }, [topicId]);
 
-  const related = useMemo(() => (topic ? getRelatedTopics(topic) : []), [topic]);
+  // Clear the floating highlight button on scroll / resize
+  useEffect(() => {
+    const clear = () => setSel(null);
+    window.addEventListener('scroll', clear, { passive: true });
+    window.addEventListener('resize', clear);
+    return () => {
+      window.removeEventListener('scroll', clear);
+      window.removeEventListener('resize', clear);
+    };
+  }, []);
 
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Escape') return;
+      if (composer) setComposer(null);
+      else setSel(null);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [composer]);
+
+  useEffect(() => {
+    if (composer) composerRef.current?.focus();
+  }, [composer]);
+
+  const related = useMemo(() => (topic ? getRelatedTopics(topic) : []), [topic]);
   if (!topic) return null;
 
   const category = getCategoryById(topic.category);
   const accent = CATEGORY_ACCENT[topic.category] ?? '#14120f';
   const isSaved = stats.bookmarkedTopics.includes(topic.id);
+  const topicNotes = (notes ?? []).filter((n) => n.topicId === topic.id);
 
   const siblings = getTopicsByCategory(topic.category);
   const idx = siblings.findIndex((t) => t.id === topic.id);
@@ -66,6 +107,34 @@ export function TopicView({
     } catch {
       /* user cancelled or unsupported */
     }
+  };
+
+  const handleSelection = () => {
+    const s = window.getSelection();
+    if (!s || s.isCollapsed) return;
+    const text = s.toString().trim();
+    if (text.length < 4) return;
+    const range = s.getRangeAt(0);
+    const node = range.commonAncestorContainer;
+    const el = node.nodeType === 1 ? (node as Element) : node.parentElement;
+    if (!el || !contentRef.current?.contains(el)) return;
+    const rect = range.getBoundingClientRect();
+    setSel({ text, x: Math.min(Math.max(rect.left + rect.width / 2, 80), window.innerWidth - 80), y: Math.max(rect.top - 12, 70) });
+  };
+
+  const openComposer = (quote: string) => {
+    setSel(null);
+    setDraft('');
+    setComposer({ quote });
+  };
+
+  const saveNote = () => {
+    if (!composer || !onAddNote) return;
+    onAddNote(topic.id, composer.quote, draft);
+    setComposer(null);
+    setDraft('');
+    setSavedFlash(true);
+    setTimeout(() => setSavedFlash(false), 2200);
   };
 
   const lead = topic.sections.find((s) => LEAD_TITLES.includes(s.title));
@@ -143,6 +212,9 @@ export function TopicView({
             <ArrowLeft className="w-4 h-4" /> {category?.title ?? 'Back'}
           </button>
           <div className="flex items-center gap-1">
+            <button onClick={() => openComposer('')} className="p-2 rounded-full text-muted hover:text-ink transition-colors" aria-label="Add a note">
+              <StickyNote className="w-4 h-4" />
+            </button>
             <button onClick={() => setToc((v) => !v)} className="p-2 rounded-full text-muted hover:text-ink transition-colors" aria-label="Contents">
               <List className="w-4 h-4" />
             </button>
@@ -167,7 +239,7 @@ export function TopicView({
           >
             <div className="flex items-center justify-between mb-5">
               <span className="kicker">Contents</span>
-              <button onClick={() => setToc(false)} className="text-muted hover:text-ink"><X className="w-4 h-4" /></button>
+              <button onClick={() => setToc(false)} className="text-muted hover:text-ink" aria-label="Close contents"><X className="w-4 h-4" /></button>
             </div>
             <ul className="space-y-3">
               {topic.sections.map((s, i) => (
@@ -202,7 +274,7 @@ export function TopicView({
           <p className="mt-5 text-[18px] leading-relaxed text-ink-soft">{topic.description}</p>
         </header>
 
-        <div className="reading">
+        <div className="reading" ref={contentRef} onMouseUp={handleSelection} onTouchEnd={handleSelection}>
           {lead && (
             <p className="dropcap text-[18.5px] leading-[1.8] text-ink mb-8">
               {Array.isArray(lead.content) ? lead.content.join(' ') : lead.content}
@@ -210,6 +282,36 @@ export function TopicView({
           )}
           {body.map((s, i) => renderSection(s, i))}
         </div>
+
+        {/* Notes on this entry */}
+        {(topicNotes.length > 0 || savedFlash) && (
+          <section className="mt-14 pt-8 border-t hairline">
+            <div className="flex items-center justify-between mb-4">
+              <div className="kicker flex items-center gap-2">
+                <StickyNote className="w-3.5 h-3.5" /> Your notes on this entry
+              </div>
+              {savedFlash && <span className="font-mono text-[11px] uppercase tracking-wider text-accent">Saved</span>}
+            </div>
+            <ul className="space-y-5">
+              {topicNotes.map((n) => (
+                <li key={n.id} className="group flex items-start gap-4">
+                  <div className="flex-1 min-w-0">
+                    {n.quote && (
+                      <blockquote className="border-l-2 border-accent pl-4 italic text-[15px] text-ink-soft mb-2">{n.quote}</blockquote>
+                    )}
+                    {n.body && <p className="text-[15px] text-ink leading-relaxed whitespace-pre-wrap">{n.body}</p>}
+                    <span className="mt-1.5 block font-mono text-[10.5px] uppercase tracking-wider text-faint">
+                      {new Date(n.createdAt).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })}
+                    </span>
+                  </div>
+                  <button onClick={() => onDeleteNote?.(n.id)} aria-label="Delete note" className="p-2 text-faint hover:text-accent transition-colors shrink-0">
+                    <Trash2 className="w-4 h-4" />
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {related.length > 0 && (
           <section className="mt-14 pt-8 border-t hairline">
@@ -240,6 +342,47 @@ export function TopicView({
           ) : <span />}
         </nav>
       </div>
+
+      {/* Floating highlight button */}
+      {sel && (
+        <button
+          onClick={() => openComposer(sel.text)}
+          style={{ left: sel.x, top: sel.y }}
+          className="fixed -translate-x-1/2 -translate-y-full z-40 flex items-center gap-1.5 bg-ink text-paper text-[12px] font-semibold px-3 py-2 rounded-full shadow-xl hover:bg-accent transition-colors"
+        >
+          <Highlighter className="w-3.5 h-3.5" /> Highlight
+        </button>
+      )}
+
+      {/* Note composer */}
+      {composer && (
+        <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4" role="dialog" aria-modal="true" aria-label="Add a note">
+          <div className="absolute inset-0 bg-ink/30" onClick={() => setComposer(null)} />
+          <div className="relative w-full max-w-lg bg-surface border hairline rounded-2xl shadow-2xl p-5 mt-fade">
+            <div className="flex items-center justify-between mb-3">
+              <span className="kicker flex items-center gap-2"><StickyNote className="w-3.5 h-3.5" /> New note</span>
+              <button onClick={() => setComposer(null)} className="text-muted hover:text-ink" aria-label="Close"><X className="w-4 h-4" /></button>
+            </div>
+            {composer.quote && (
+              <blockquote className="border-l-2 border-accent pl-4 italic text-[14px] text-ink-soft mb-3 max-h-24 overflow-y-auto">
+                {composer.quote}
+              </blockquote>
+            )}
+            <textarea
+              ref={composerRef}
+              value={draft}
+              onChange={(e) => setDraft(e.target.value)}
+              rows={3}
+              placeholder="Add your note…"
+              className="w-full bg-paper border hairline rounded-lg p-3 text-[14px] text-ink placeholder:text-faint outline-none focus:border-accent resize-y"
+            />
+            <div className="flex justify-end gap-2 mt-4">
+              <button onClick={() => setComposer(null)} className="btn btn-ghost">Cancel</button>
+              <button onClick={saveNote} className="btn btn-accent">Save note</button>
+            </div>
+          </div>
+        </div>
+      )}
     </article>
   );
 }

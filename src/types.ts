@@ -35,6 +35,16 @@ export interface UserStats {
   bookmarkedTopics: TopicId[];
 }
 
+export interface Note {
+  id: string;
+  topicId: TopicId;
+  /** The highlighted passage, if the note came from a selection. */
+  quote: string;
+  /** The reader's own note. */
+  body: string;
+  createdAt: number;
+}
+
 export interface Quote {
   id: string;
   text: string;

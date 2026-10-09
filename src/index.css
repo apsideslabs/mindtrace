@@ -7,8 +7,8 @@
   --color-surface: #ffffff;
   --color-ink: #14120f;
   --color-ink-soft: #403b34;
-  --color-muted: #8a8378;
-  --color-faint: #b7b0a3;
+  --color-muted: #6f6a5f;
+  --color-faint: #837b6d;
   --color-line: #e7e1d6;
   --color-line-strong: #d6cec0;
 
@@ -46,6 +46,39 @@ body {
 ::selection {
   background: #f2d9d2;
   color: var(--color-ink);
+}
+
+/* Visible focus ring for keyboard users */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* Skip link */
+.skip-link {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -120%);
+  z-index: 100;
+  background: var(--color-ink);
+  color: var(--color-paper);
+  padding: .6rem 1rem;
+  font-size: .8125rem;
+  font-weight: 600;
+  border-radius: 0 0 6px 6px;
+  transition: transform .15s ease;
+}
+.skip-link:focus { transform: translate(-50%, 0); }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
 }
 
 /* Headings lean on the display serif */
