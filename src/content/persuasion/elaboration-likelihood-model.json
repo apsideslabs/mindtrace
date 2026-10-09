@@ -1,0 +1,75 @@
+{
+  "id": "elaboration-likelihood-model",
+  "slug": "elaboration-likelihood-model",
+  "title": "The Elaboration Likelihood Model",
+  "category": "persuasion",
+  "description": "Persuasion travels one of two routes: careful thinking, or a quick shortcut. Which one you take decides how long the change lasts.",
+  "readTime": 5,
+  "relatedTopics": [
+    "framing-effect",
+    "credibility-signals",
+    "narrative-persuasion"
+  ],
+  "sections": [
+    {
+      "title": "Quick Understanding",
+      "content": "A message can persuade in one of two ways. On the central route, the person thinks carefully about the argument itself. On the peripheral route, they rely on a shortcut — the speaker's confidence, the reaction of the crowd, a polished design. The same message, processed differently, produces very different results."
+    },
+    {
+      "title": "Why It Works",
+      "content": "People only think hard when they are both motivated and able to. If the topic matters to them, and they have the time and knowledge, they take the central route. If they are distracted, uninterested or short on expertise, they fall back on easy cues instead."
+    },
+    {
+      "title": "Real-Life Examples",
+      "content": [
+        "A car buyer comparing engine specifications and resale values is on the central route.",
+        "The same buyer choosing the model their favourite actor drives is on the peripheral route.",
+        "A voter reading a full manifesto is on the central route; nodding along to a confident debate performance is the peripheral route."
+      ]
+    },
+    {
+      "title": "What It Looks Like",
+      "content": [
+        "Central route: questions, objections, notes, requests for evidence.",
+        "Peripheral route: attention on the speaker's status, appearance, or how many others agree."
+      ]
+    },
+    {
+      "title": "Ethical Uses",
+      "content": "When a decision genuinely matters to someone, give them the substance — evidence, trade-offs and your reasoning. It respects them, and it produces a position that survives scrutiny."
+    },
+    {
+      "title": "Manipulative Uses",
+      "content": "Flooding an audience with surface cues such as status, music and repetition, so they never engage with the substance of the claim."
+    },
+    {
+      "title": "Red Flags",
+      "content": [
+        "The message relies entirely on who said it, not what was said.",
+        "You are rushed or distracted whenever the details come up."
+      ]
+    },
+    {
+      "title": "Defense Strategies",
+      "content": [
+        "If a claim will affect you, force the central route: slow down, ask for the evidence, and check it.",
+        "Notice when you are being nudged to decide on vibes rather than facts."
+      ]
+    },
+    {
+      "title": "Mistakes People Make",
+      "content": [
+        "Believing you are always a careful thinker. Most persuasion works precisely because we are not.",
+        "Assuming a confident, well-produced message has been checked."
+      ]
+    },
+    {
+      "title": "Key Lessons",
+      "content": [
+        "Substance persuades slowly and lasts; cues persuade fast and fade.",
+        "Central-route change is more durable and more resistant to counter-argument.",
+        "Ask which route you are being invited to take."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "message-tailoring",
+  "slug": "message-tailoring",
+  "title": "Message Tailoring",
+  "category": "persuasion",
+  "description": "The same argument persuades more when it is matched to the person hearing it.",
+  "readTime": 4,
+  "relatedTopics": [
+    "framing-effect",
+    "unity",
+    "liking"
+  ],
+  "sections": [
+    {
+      "title": "Quick Understanding",
+      "content": "People accept a message more readily when it fits their values, their self-image and the way they already see the world. Tailoring the framing of a claim to the audience can matter more than the strength of the claim itself."
+    },
+    {
+      "title": "Why It Works",
+      "content": "Matching a message reduces the sense of threat and increases perceived relevance. A message that already speaks the audience's language is easier to accept."
+    },
+    {
+      "title": "Real-Life Examples",
+      "content": [
+        "A health message framed around responsibility persuades one group; the same advice framed around family persuades another.",
+        "A proposal emphasising efficiency lands with an operations lead; the identical proposal framed as growth lands with a founder."
+      ]
+    },
+    {
+      "title": "What It Looks Like",
+      "content": [
+        "The argument reshaped to fit who is listening.",
+        "Language that mirrors the audience's own words."
+      ]
+    },
+    {
+      "title": "Ethical Uses",
+      "content": "Explaining the same true thing in terms that matter to the listener respects their perspective."
+    },
+    {
+      "title": "Manipulative Uses",
+      "content": "Telling different audiences different things until the messages contradict each other."
+    },
+    {
+      "title": "Red Flags",
+      "content": [
+        "The same claim presented in incompatible ways to different groups.",
+        "Framing that flatters a bias rather than addressing it."
+      ]
+    },
+    {
+      "title": "Defense Strategies",
+      "content": [
+        "Ask what the argument looks like from another perspective.",
+        "Check whether the framing is doing more work than the facts."
+      ]
+    },
+    {
+      "title": "Mistakes People Make",
+      "content": [
+        "Delivering one generic pitch to everyone.",
+        "Assuming a good argument works regardless of framing."
+      ]
+    },
+    {
+      "title": "Key Lessons",
+      "content": [
+        "Fit beats force.",
+        "Framing is not decoration; it is the message.",
+        "Watch for messages that shift by audience."
+      ]
+    }
+  ]
+}

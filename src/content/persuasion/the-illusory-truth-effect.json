@@ -1,0 +1,75 @@
+{
+  "id": "the-illusory-truth-effect",
+  "slug": "the-illusory-truth-effect",
+  "title": "The Illusory Truth Effect",
+  "category": "persuasion",
+  "description": "Repetition, not evidence, makes a claim feel true.",
+  "readTime": 4,
+  "relatedTopics": [
+    "social-proof",
+    "narrative-persuasion",
+    "priming"
+  ],
+  "sections": [
+    {
+      "title": "Quick Understanding",
+      "content": "Hearing something repeatedly makes it feel truer, even when you were told at the start that it was false. Familiarity is quietly mistaken for accuracy."
+    },
+    {
+      "title": "Why It Works",
+      "content": "The brain uses ease of processing as a cue for truth. A statement you have seen before is read more fluently, and that fluency feels like recognition — a signal that it must be right."
+    },
+    {
+      "title": "Real-Life Examples",
+      "content": [
+        "A rumour repeated across enough headlines begins to sound like established fact.",
+        "Advertising slogans you can recite often feel more credible than products you have actually researched.",
+        "A false claim repeated in meetings over weeks is eventually treated as background truth."
+      ]
+    },
+    {
+      "title": "What It Looks Like",
+      "content": [
+        "\"Everyone knows that…\"",
+        "A claim that keeps returning with no new evidence behind it."
+      ]
+    },
+    {
+      "title": "Ethical Uses",
+      "content": "Repetition is fair when the underlying claim is true and sourced. Consistent messaging helps accurate ideas stick."
+    },
+    {
+      "title": "Manipulative Uses",
+      "content": "Repeating a false or unverified claim until familiarity does the work that evidence cannot."
+    },
+    {
+      "title": "Red Flags",
+      "content": [
+        "You believe something but cannot recall where you first heard it.",
+        "The only support for a claim is how often you have heard it."
+      ]
+    },
+    {
+      "title": "Defense Strategies",
+      "content": [
+        "When a claim feels obviously true, ask: what is the actual evidence?",
+        "Trace claims to a source before accepting them."
+      ]
+    },
+    {
+      "title": "Mistakes People Make",
+      "content": [
+        "Assuming that knowing a claim is false protects you from the effect. It does not.",
+        "Treating fluent familiarity as proof."
+      ]
+    },
+    {
+      "title": "Key Lessons",
+      "content": [
+        "Repetition builds belief independently of truth.",
+        "Fluency is not evidence.",
+        "Ask where you first learned it."
+      ]
+    }
+  ]
+}

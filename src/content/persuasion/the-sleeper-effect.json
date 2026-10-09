@@ -1,0 +1,74 @@
+{
+  "id": "the-sleeper-effect",
+  "slug": "the-sleeper-effect",
+  "title": "The Sleeper Effect",
+  "category": "persuasion",
+  "description": "A message from an untrustworthy source can gain power after you forget who said it.",
+  "readTime": 4,
+  "relatedTopics": [
+    "credibility-signals",
+    "trust-building",
+    "the-illusory-truth-effect"
+  ],
+  "sections": [
+    {
+      "title": "Quick Understanding",
+      "content": "A claim from a dubious source is dismissed at first. But the source fades from memory faster than the claim, so weeks later the idea survives — with its credibility problem stripped away."
+    },
+    {
+      "title": "Why It Works",
+      "content": "Memory stores the message and its source separately. The link between them decays quicker than the content, so a discounted claim can quietly become accepted."
+    },
+    {
+      "title": "Real-Life Examples",
+      "content": [
+        "A rumour you dismissed because of who told you resurfaces later as \"something you heard\".",
+        "The claim in a dubious advertisement outlives any memory of the advertisement."
+      ]
+    },
+    {
+      "title": "What It Looks Like",
+      "content": [
+        "You remember the fact but not where it came from.",
+        "A claim that was once obviously biased now feels neutral."
+      ]
+    },
+    {
+      "title": "Ethical Uses",
+      "content": "There is no tactic here — this is a memory quirk. Being aware of it is the defence."
+    },
+    {
+      "title": "Manipulative Uses",
+      "content": "Seeding a claim through a low-credibility channel, expecting the audience to forget the source and keep the message."
+    },
+    {
+      "title": "Red Flags",
+      "content": [
+        "A strong claim with no traceable origin.",
+        "You cannot say who first told you this."
+      ]
+    },
+    {
+      "title": "Defense Strategies",
+      "content": [
+        "Record where you learned a claim, not just the claim itself.",
+        "Re-check important beliefs against sources rather than memory."
+      ]
+    },
+    {
+      "title": "Mistakes People Make",
+      "content": [
+        "Believing that dismissing a source also deletes the message.",
+        "Trusting a claim simply because it feels familiar and unattributed."
+      ]
+    },
+    {
+      "title": "Key Lessons",
+      "content": [
+        "Messages outlive their sources.",
+        "Attribution is fragile; content is sticky.",
+        "Re-source your beliefs periodically."
+      ]
+    }
+  ]
+}

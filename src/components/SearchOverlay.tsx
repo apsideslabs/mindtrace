@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Search, X, CornerDownLeft, BookOpen, Zap } from 'lucide-react';
-import { searchTopics, searchFacts, getCategoryById } from '../content/content-index';
+import { searchTopics, searchFacts, getCategoryById, getTopicCount } from '../content/content-index';
 
 export function SearchOverlay({
   open,
@@ -60,7 +60,7 @@ export function SearchOverlay({
         <div className="max-h-[52vh] overflow-y-auto">
           {q.trim().length <= 1 && (
             <div className="px-5 py-6 text-[13px] text-muted">
-              Type to search across <strong className="text-ink font-semibold">237 topics</strong> and the Facts library.
+              Type to search across <strong className="text-ink font-semibold">{getTopicCount()} topics</strong> and the Facts library.
               <div className="mt-3 flex flex-wrap gap-2">
                 {['gaslighting', 'attachment', 'anchoring', 'cognitive biases', 'body language'].map((s) => (
                   <button key={s} onClick={() => setQ(s)} className="px-3 py-1 rounded-full border hairline text-[12px] text-ink-soft hover:border-line-strong">

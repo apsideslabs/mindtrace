@@ -1,0 +1,70 @@
+{
+  "id": "contingent-contracts",
+  "slug": "contingent-contracts",
+  "title": "Contingent Contracts",
+  "category": "negotiation",
+  "description": "When you disagree about the future, bet on it instead of arguing.",
+  "readTime": 5,
+  "relatedTopics": [
+    "trust-and-reputation",
+    "zone-of-possible-agreement-zopa",
+    "logrolling-and-trade-offs"
+  ],
+  "sections": [
+    {
+      "title": "Quick Understanding",
+      "content": "If the two sides disagree about what will happen — will it sell, will it cost this much, will it launch on time — a contingent contract turns the disagreement into a wager. Each side's prediction is tested against reality."
+    },
+    {
+      "title": "Why It Works",
+      "content": "A bet exposes confidence. Someone who truly believes their forecast will accept terms that pay off if they are right, which filters out bluffing and settles disputes that argument cannot."
+    },
+    {
+      "title": "Real-Life Examples",
+      "content": [
+        "Payment tied to sales targets.",
+        "A bonus that pays only if delivery happens by an agreed date."
+      ]
+    },
+    {
+      "title": "What It Looks Like",
+      "content": [
+        "\"If X happens, you get Y; if not, I do.\"",
+        "Terms that pay differently depending on a future outcome."
+      ]
+    },
+    {
+      "title": "How to Use It",
+      "content": "Identify the disagreement about the future, then design a term where each side profits if their prediction is right. Keep it simple and measurable."
+    },
+    {
+      "title": "Red Flags",
+      "content": [
+        "Contingencies so complex no one can verify them.",
+        "Bets on things outside either side's control."
+      ]
+    },
+    {
+      "title": "Defense Strategies",
+      "content": [
+        "Only accept a contingency you can verify and that reflects a real difference of view.",
+        "Beware terms that are actually a disguised penalty."
+      ]
+    },
+    {
+      "title": "Mistakes People Make",
+      "content": [
+        "Arguing about forecasts instead of betting on them.",
+        "Designing contracts too complicated to enforce."
+      ]
+    },
+    {
+      "title": "Key Lessons",
+      "content": [
+        "Bets resolve disagreements about the future.",
+        "Confidence should be willing to be tested.",
+        "Make contingencies simple and verifiable."
+      ]
+    }
+  ]
+}
