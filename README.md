@@ -1,8 +1,6 @@
 <div align="center">
 
-<h1>
-  <span style="color:#14120f;">Mind</span><span style="color:#b23a2a;">Trace</span>
-</h1>
+<img src="assets/wordmark.svg" alt="MindTrace" width="330">
 
 **Understand people. Understand yourself.**
 
