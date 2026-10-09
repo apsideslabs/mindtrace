@@ -81,11 +81,11 @@ export function useNotes() {
     }
   }, [notes]);
 
-  const addNote = useCallback((topicId: TopicId, quote: string, body: string) => {
+  const addNote = useCallback((topicId: TopicId, quote: string, body: string, color?: string) => {
     const trimmedBody = body.trim();
     const trimmedQuote = quote.trim();
     if (!trimmedBody && !trimmedQuote) return null;
-    const note: Note = { id: uid(), topicId, quote: trimmedQuote, body: trimmedBody, createdAt: Date.now() };
+    const note: Note = { id: uid(), topicId, quote: trimmedQuote, body: trimmedBody, color, createdAt: Date.now() };
     setNotes((prev) => [note, ...prev]);
     return note;
   }, []);

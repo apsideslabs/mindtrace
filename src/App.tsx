@@ -2,6 +2,7 @@ import React, { useState, useEffect, Suspense, lazy } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Search, BookOpen, Waypoints, Quote as QuoteIcon, Bookmark, User as UserIcon, StickyNote } from 'lucide-react';
 import { useUserStats, useNotes } from './store';
+import { useSettings } from './settings';
 import { CategoryId, TopicId } from './types';
 import { getTopicById, getCategoryById } from './content/content-index';
 import { getFactById } from './content/facts';
@@ -18,6 +19,7 @@ const VisualizeView = lazy(() => import('./components/VisualizeView').then((m) =
 import { SearchOverlay } from './components/SearchOverlay';
 import { DisclaimerModal } from './components/DisclaimerModal';
 import { Masthead, type NavKey } from './components/Masthead';
+import { SettingsPanel } from './components/SettingsPanel';
 
 import { FactsHome } from './facts/FactsHome';
 import { CategoryPage } from './facts/CategoryPage';
@@ -46,6 +48,7 @@ export default function App() {
 
   const { stats, toggleBookmark, markTopicRead, addReadingTime, clearStats } = useUserStats();
   const { notes, addNote, removeNote, notesFor } = useNotes();
+  const { settings, update: updateSettings, reset: resetSettings } = useSettings();
 
   useEffect(() => {
     const accepted = localStorage.getItem('mindtrace_disclaimer_version');
@@ -159,6 +162,8 @@ export default function App() {
             notes={notesFor(activeTopic)}
             onAddNote={addNote}
             onDeleteNote={removeNote}
+            highlightColor={settings.highlight}
+            focusMode={settings.focusMode}
           />
         ) : null;
       case 'visualize':
@@ -216,20 +221,22 @@ export default function App() {
       </AnimatePresence>
 
       <div className={`min-h-screen bg-paper text-ink flex flex-col ${booted ? '' : 'opacity-0'}`}>
-        <Masthead
-          active={navKey}
-          onNavigate={(k) => {
-            if (k === 'home') go('home');
-            else if (k === 'explore') go('explore');
-            else if (k === 'visualize') go('visualize');
-            else if (k === 'quotes') go('quotes');
-            else if (k === 'facts') go('facts-home');
-            else if (k === 'notes') go('notes');
-            else if (k === 'bookmarks') go('bookmarks');
-            else if (k === 'profile') go('profile');
-          }}
-          onSearch={() => setSearchOpen(true)}
-        />
+        {!settings.focusMode && (
+          <Masthead
+            active={navKey}
+            onNavigate={(k) => {
+              if (k === 'home') go('home');
+              else if (k === 'explore') go('explore');
+              else if (k === 'visualize') go('visualize');
+              else if (k === 'quotes') go('quotes');
+              else if (k === 'facts') go('facts-home');
+              else if (k === 'notes') go('notes');
+              else if (k === 'bookmarks') go('bookmarks');
+              else if (k === 'profile') go('profile');
+            }}
+            onSearch={() => setSearchOpen(true)}
+          />
+        )}
 
         <main id="main" className="flex-1 w-full">
           <AnimatePresence mode="wait">
@@ -245,6 +252,7 @@ export default function App() {
           </AnimatePresence>
         </main>
 
+        {!settings.focusMode && (
         <footer className="border-t hairline mt-10">
           <div className="max-w-6xl mx-auto px-5 md:px-8 py-10 flex flex-col sm:flex-row gap-6 sm:items-start justify-between">
             <div>
@@ -270,8 +278,10 @@ export default function App() {
             </nav>
           </div>
         </footer>
+        )}
 
         {/* Mobile bottom navigation */}
+        {!settings.focusMode && (
         <nav aria-label="Primary" className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-paper/90 backdrop-blur-lg border-t hairline pb-safe">
           <div className="h-16 grid grid-cols-5">
             {([
@@ -305,8 +315,11 @@ export default function App() {
             })}
           </div>
         </nav>
-        <div className="md:hidden h-16" aria-hidden />
+        )}
+        {!settings.focusMode && <div className="md:hidden h-16" aria-hidden />}
       </div>
+
+      <SettingsPanel settings={settings} update={updateSettings} reset={resetSettings} />
 
       <SearchOverlay
         open={searchOpen}

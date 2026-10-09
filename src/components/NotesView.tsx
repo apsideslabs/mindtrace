@@ -102,7 +102,7 @@ export function NotesView({
                     <li key={n.id} className="group flex items-start gap-4">
                       <div className="flex-1 min-w-0">
                         {n.quote && (
-                          <blockquote className="border-l-2 border-accent pl-4 italic text-[15px] text-ink-soft mb-2">
+                          <blockquote className="border-l-2 pl-4 italic text-[15px] text-ink-soft mb-2" style={{ borderColor: n.color || undefined }}>
                             {n.quote}
                           </blockquote>
                         )}

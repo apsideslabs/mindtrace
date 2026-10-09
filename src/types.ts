@@ -42,6 +42,8 @@ export interface Note {
   quote: string;
   /** The reader's own note. */
   body: string;
+  /** Highlight colour used when the note was saved. */
+  color?: string;
   createdAt: number;
 }
 

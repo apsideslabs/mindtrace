@@ -81,6 +81,61 @@ body {
   }
 }
 
+/* ---- Themes (set by the floating settings panel) ---- */
+[data-theme="sepia"] {
+  --color-paper: #f4ecd8;
+  --color-paper-2: #eae0c8;
+  --color-surface: #fbf6e9;
+  --color-ink: #2a2317;
+  --color-ink-soft: #4a4130;
+  --color-muted: #6f6350;
+  --color-faint: #8a7d66;
+  --color-line: #e0d4b8;
+  --color-line-strong: #cbbd9c;
+}
+[data-theme="dark"] {
+  --color-paper: #16150f;
+  --color-paper-2: #201e16;
+  --color-surface: #1d1b14;
+  --color-ink: #f2efe4;
+  --color-ink-soft: #cfc9b8;
+  --color-muted: #9a9282;
+  --color-faint: #7c7566;
+  --color-line: #302c22;
+  --color-line-strong: #403a2c;
+}
+[data-theme="dark"] ::selection { background: #4a3a34; }
+[data-theme="dark"] .card:hover { box-shadow: 0 10px 30px -22px rgba(0, 0, 0, .9); }
+
+/* ---- Reading scale (driven by settings) ---- */
+.reading { font-size: var(--reading-size, 1.1875rem); }
+.reading-col { max-width: var(--reading-width, 44rem); }
+
+/* Inline emphasis for key lines */
+.keyline {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--color-accent);
+  font-weight: 600;
+  color: var(--color-ink);
+  background: color-mix(in srgb, var(--color-accent) 8%, transparent);
+  padding: 0 .12em;
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* Reader highlights (colour chosen in settings) */
+mark.hl {
+  background: var(--hl, #ffe680);
+  color: inherit;
+  padding: 0 .1em;
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 /* Headings lean on the display serif */
 h1, h2, h3, .font-display {
   font-family: var(--font-display);

@@ -27,7 +27,7 @@ export function FactReader({
         <div className="h-full bg-accent transition-all duration-300" style={{ width: `${pct}%` }} />
       </div>
 
-      <div className="max-w-2xl mx-auto px-5 md:px-8 pt-12 pb-28">
+      <div className="reading-col mx-auto px-5 md:px-8 pt-12 pb-28">
         <button onClick={onBack} className="flex items-center gap-2 text-[13px] font-medium text-muted hover:text-ink transition-colors mb-8">
           <ArrowLeft className="w-4 h-4" /> {collection.title}
         </button>
@@ -45,23 +45,23 @@ export function FactReader({
           <h1 className="font-display text-[30px] sm:text-[36px] leading-[1.15] font-semibold text-ink">{fact.title}</h1>
         </header>
 
-        <article className="space-y-9">
+        <article className="reading space-y-9">
           <section>
             <h2 className="kicker mb-2">Summary</h2>
-            <p className="text-[17px] leading-[1.75] text-ink">{fact.summary}</p>
+            <p className="text-[1em] leading-[1.75] text-ink">{fact.summary}</p>
           </section>
 
           {fact.whyItHappens && (
             <section>
               <h2 className="kicker mb-2">Why it happens</h2>
-              <p className="text-[16px] leading-[1.75] text-ink-soft">{fact.whyItHappens}</p>
+              <p className="text-[0.95em] leading-[1.75] text-ink-soft">{fact.whyItHappens}</p>
             </section>
           )}
 
           {fact.realWorldExample && (
             <section>
               <h2 className="kicker mb-2">In the real world</h2>
-              <blockquote className="border-l-2 border-accent pl-5 py-1 italic text-[16px] text-ink-soft leading-relaxed">
+              <blockquote className="border-l-2 border-accent pl-5 py-1 italic text-[0.95em] text-ink-soft leading-relaxed">
                 {fact.realWorldExample}
               </blockquote>
             </section>
@@ -70,7 +70,7 @@ export function FactReader({
           {fact.practicalUse && (
             <section>
               <h2 className="kicker mb-2">Practical use</h2>
-              <p className="text-[16px] leading-[1.75] text-ink-soft">{fact.practicalUse}</p>
+              <p className="text-[0.95em] leading-[1.75] text-ink-soft">{fact.practicalUse}</p>
             </section>
           )}
 
