@@ -49,7 +49,7 @@ export function SearchOverlay({
             ref={inputRef}
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Search topics, behaviours, facts…"
+            placeholder="Search the catalogue and facts…"
             className="flex-1 bg-transparent outline-none text-[15px] text-ink placeholder:text-faint"
           />
           <button onClick={onClose} className="w-8 h-8 flex items-center justify-center rounded-full text-muted hover:bg-paper-2">
@@ -60,7 +60,7 @@ export function SearchOverlay({
         <div className="max-h-[52vh] overflow-y-auto">
           {q.trim().length <= 1 && (
             <div className="px-5 py-6 text-[13px] text-muted">
-              Type to search across <strong className="text-ink font-semibold">237 topics</strong> and the Facts library.
+              Type to search across <strong className="text-ink font-semibold">237 entries</strong> and the Facts library.
               <div className="mt-3 flex flex-wrap gap-2">
                 {['gaslighting', 'attachment', 'anchoring', 'cognitive biases', 'body language'].map((s) => (
                   <button key={s} onClick={() => setQ(s)} className="px-3 py-1 rounded-full border hairline text-[12px] text-ink-soft hover:border-line-strong">

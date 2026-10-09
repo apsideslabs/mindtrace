@@ -17,21 +17,21 @@ export function ExploreView({
   const results = useMemo(() => (q.trim().length > 1 ? searchTopics(q).slice(0, 40) : []), [q]);
 
   return (
-    <div className="max-w-6xl mx-auto px-5 md:px-8 pt-12 pb-24">
+    <div className="max-w-5xl mx-auto px-5 md:px-8 pt-12 pb-24">
       <header className="mb-10">
-        <div className="kicker mb-3">The library</div>
-        <h1 className="font-display text-[38px] sm:text-[46px] leading-tight font-semibold text-ink">
-          Every concept, in one place.
+        <div className="kicker mb-3">The catalogue</div>
+        <h1 className="font-display text-[40px] sm:text-[50px] leading-tight font-semibold text-ink">
+          Every entry, in one place.
         </h1>
-        <p className="mt-4 text-[16px] text-ink-soft max-w-2xl leading-relaxed">
-          {getTopicCount()} topics organised into {categories.length} modules. Search directly, or start from a theme.
+        <p className="font-body mt-4 text-[18px] text-ink-soft max-w-2xl leading-relaxed">
+          {getTopicCount()} entries organised into {categories.length} modules. Search directly, or browse a theme.
         </p>
-        <div className="relative mt-7 max-w-md">
+        <div className="relative mt-8 max-w-md">
           <Search className="w-4 h-4 text-muted absolute left-4 top-1/2 -translate-y-1/2" />
           <input
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Search the library…"
+            placeholder="Search the catalogue…"
             className="w-full bg-surface border hairline rounded-full pl-11 pr-4 py-3 text-[14px] text-ink placeholder:text-faint outline-none focus:border-line-strong transition-colors"
           />
         </div>
@@ -45,39 +45,45 @@ export function ExploreView({
               {results.map((t) => (
                 <button key={t.id} onClick={() => onOpenTopic(t.id)} className="w-full flex items-center gap-4 py-4 text-left group">
                   <span className="flex-1 min-w-0">
-                    <span className="block font-display text-[17px] font-semibold text-ink group-hover:text-accent transition-colors">
+                    <span className="block font-display text-[18px] font-semibold text-ink group-hover:text-accent transition-colors">
                       {t.title}
                     </span>
-                    <span className="block text-[13px] text-muted line-clamp-1 mt-0.5">{t.description}</span>
+                    <span className="block font-body text-[13.5px] text-muted line-clamp-1 mt-0.5">{t.description}</span>
                   </span>
-                  <span className="hidden sm:block text-[12px] text-faint shrink-0">{getCategoryById(t.category)?.title}</span>
+                  <span className="hidden sm:block text-[11px] uppercase tracking-wider text-faint shrink-0">{getCategoryById(t.category)?.title}</span>
                   <ArrowRight className="w-4 h-4 text-faint group-hover:text-accent transition-colors shrink-0" />
                 </button>
               ))}
             </div>
           ) : (
-            <p className="text-muted text-[14px] py-10">No topics match “{q}”.</p>
+            <p className="font-body text-muted text-[15px] py-10">No entries match “{q}”.</p>
           )}
         </section>
       ) : (
-        <section className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          {categories.map((c) => {
+        <section className="border-t hairline">
+          {categories.map((c, i) => {
             const Icon = getCategoryIcon(c.iconName);
             const count = getTopicsByCategory(c.id).length;
-            const accent = CATEGORY_ACCENT[c.id] ?? '#14120f';
+            const accent = CATEGORY_ACCENT[c.id] ?? '#17140f';
             return (
-              <button key={c.id} onClick={() => onOpenCategory(c.id)} className="card p-6 text-left group flex flex-col">
-                <div className="flex items-center justify-between mb-4">
-                  <span className="w-10 h-10 rounded-xl flex items-center justify-center" style={{ background: `${accent}14`, color: accent }}>
-                    <Icon className="w-5 h-5" />
-                  </span>
-                  <span className="text-[11px] font-semibold text-muted tabular-nums">{count} topics</span>
-                </div>
-                <h3 className="font-display text-[19px] font-semibold text-ink group-hover:text-accent transition-colors">{c.title}</h3>
-                <p className="mt-1.5 text-[13px] text-muted leading-relaxed flex-1">{c.description}</p>
-                <span className="mt-4 inline-flex items-center gap-1.5 text-[12px] font-semibold text-ink-soft group-hover:text-accent transition-colors">
-                  Open <ArrowRight className="w-3.5 h-3.5" />
+              <button
+                key={c.id}
+                onClick={() => onOpenCategory(c.id)}
+                className="group w-full flex items-start gap-5 py-6 text-left border-b hairline hover:bg-surface/60 transition-colors px-1"
+              >
+                <span className="font-mono text-[13px] text-faint w-7 pt-1 shrink-0 tabular-nums">{String(i + 1).padStart(2, '0')}</span>
+                <span className="w-11 h-11 rounded-xl flex items-center justify-center shrink-0" style={{ background: `${accent}14`, color: accent }}>
+                  <Icon className="w-[21px] h-[21px]" />
                 </span>
+                <span className="flex-1 min-w-0">
+                  <span className="block font-display text-[21px] font-semibold text-ink group-hover:text-accent transition-colors">{c.title}</span>
+                  <span className="block font-body text-[14.5px] text-muted leading-relaxed mt-1 max-w-2xl">{c.description}</span>
+                </span>
+                <span className="hidden sm:flex flex-col items-end shrink-0 pt-1">
+                  <span className="font-display text-[20px] font-semibold text-ink tabular-nums">{count}</span>
+                  <span className="text-[10px] uppercase tracking-wider text-faint">entries</span>
+                </span>
+                <ArrowRight className="w-4 h-4 text-faint group-hover:text-accent transition-colors shrink-0 mt-2" />
               </button>
             );
           })}

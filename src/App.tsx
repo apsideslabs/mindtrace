@@ -220,7 +220,7 @@ export default function App() {
           <div className="h-16 grid grid-cols-5">
             {([
               { key: 'home', icon: Search, label: 'Home' },
-              { key: 'explore', icon: BookOpen, label: 'Library' },
+              { key: 'explore', icon: BookOpen, label: 'Catalogue' },
               { key: 'visualize', icon: Waypoints, label: 'Map' },
               { key: 'quotes', icon: QuoteIcon, label: 'Quotes' },
               { key: 'profile', icon: UserIcon, label: 'Profile' },

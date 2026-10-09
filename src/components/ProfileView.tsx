@@ -24,7 +24,7 @@ export function ProfileView({
     read >= 100 ? 'Scholar' : read >= 50 ? 'Master' : read >= 20 ? 'Advanced' : read >= 5 ? 'Intermediate' : 'Beginner';
 
   const stats3 = [
-    { label: 'Topics read', value: read, icon: BookOpen },
+    { label: 'Entries read', value: read, icon: BookOpen },
     { label: 'Saved', value: stats.bookmarkedTopics.length, icon: Bookmark },
     { label: 'Minutes read', value: stats.readingTimeMinutes || Math.floor(read * 4), icon: Clock },
   ];
@@ -36,7 +36,7 @@ export function ProfileView({
           <span className="font-display text-[22px] font-semibold text-paper">{rank[0]}</span>
         </div>
         <div>
-          <h1 className="font-display text-[32px] font-semibold text-ink">Your profile</h1>
+          <h1 className="font-display text-[34px] font-semibold text-ink">Your profile</h1>
           <p className="text-[14px] text-muted flex items-center gap-1.5 mt-0.5">
             <ShieldCheck className="w-4 h-4 text-good" /> {rank} reader · data stays on this device
           </p>

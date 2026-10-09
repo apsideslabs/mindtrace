@@ -17,22 +17,23 @@ export function FactsHome({ onBack, onOpenCategory }: { onBack: () => void; onOp
 
   return (
     <div className="max-w-4xl mx-auto px-5 md:px-8 pt-12 pb-24">
-      <button onClick={onBack} className="flex items-center gap-2 text-[13px] font-medium text-muted hover:text-ink transition-colors mb-8">
+      <button onClick={onBack} className="flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.12em] text-muted hover:text-ink transition-colors mb-10">
         <ArrowLeft className="w-4 h-4" /> Back
       </button>
 
-      <header className="border-b hairline pb-8 mb-8">
+      <header className="border-b-2 border-ink/10 pb-8 mb-8">
         <div className="kicker mb-3">MindTrace Facts</div>
-        <h1 className="font-display text-[38px] sm:text-[46px] leading-tight font-semibold text-ink">
-          Research-backed findings
+        <h1 className="font-display text-[40px] sm:text-[50px] leading-tight font-semibold text-ink">
+          Research notes
         </h1>
-        <p className="mt-4 text-[16px] text-ink-soft max-w-2xl leading-relaxed">
-          {totalFacts} facts across {factsCategories.length} collections — each one a short, sourced finding you can actually use.
+        <p className="font-body mt-4 text-[18px] text-ink-soft max-w-2xl leading-relaxed">
+          {totalFacts} sourced findings across {factsCategories.length} collections — each one a short, evidence-rated
+          note you can actually use.
         </p>
       </header>
 
-      <div className="grid sm:grid-cols-2 gap-3">
-        {factsCategories.map((c) => {
+      <div className="border-t hairline">
+        {factsCategories.map((c, i) => {
           const collections = getCollectionsForCategory(c.id);
           const count = collections.reduce((a, col) => a + col.facts.length, 0);
           const enabled = count > 0;
@@ -41,19 +42,21 @@ export function FactsHome({ onBack, onOpenCategory }: { onBack: () => void; onOp
               key={c.id}
               onClick={() => enabled && onOpenCategory(c.id)}
               disabled={!enabled}
-              className={`card p-6 text-left group flex flex-col ${enabled ? '' : 'opacity-50 cursor-default'}`}
+              className={`group w-full flex items-start gap-5 py-6 text-left border-b hairline transition-colors px-1 ${enabled ? 'hover:bg-surface/60' : 'opacity-50 cursor-default'}`}
             >
-              <div className="flex items-center justify-between mb-4">
-                <span className="w-10 h-10 rounded-xl bg-accent-soft flex items-center justify-center text-accent">
-                  {ICONS[c.id] ?? <BrainCircuit className="w-5 h-5" />}
-                </span>
-                <span className="text-[11px] font-semibold text-muted tabular-nums">{count} facts</span>
-              </div>
-              <h3 className="font-display text-[19px] font-semibold text-ink group-hover:text-accent transition-colors">{c.title}</h3>
-              <p className="mt-1.5 text-[13px] text-muted leading-relaxed flex-1">{c.description}</p>
-              <span className="mt-4 inline-flex items-center gap-1.5 text-[12px] font-semibold text-ink-soft group-hover:text-accent transition-colors">
-                Open <ArrowRight className="w-3.5 h-3.5" />
+              <span className="font-mono text-[13px] text-faint w-7 pt-1 shrink-0 tabular-nums">{String(i + 1).padStart(2, '0')}</span>
+              <span className="w-11 h-11 rounded-xl bg-accent-soft flex items-center justify-center text-accent shrink-0">
+                {ICONS[c.id] ?? <BrainCircuit className="w-5 h-5" />}
               </span>
+              <span className="flex-1 min-w-0">
+                <span className="block font-display text-[21px] font-semibold text-ink group-hover:text-accent transition-colors">{c.title}</span>
+                <span className="block font-body text-[14.5px] text-muted leading-relaxed mt-1 max-w-2xl">{c.description}</span>
+              </span>
+              <span className="hidden sm:flex flex-col items-end shrink-0 pt-1">
+                <span className="font-display text-[20px] font-semibold text-ink tabular-nums">{count}</span>
+                <span className="text-[10px] uppercase tracking-wider text-faint">notes</span>
+              </span>
+              <ArrowRight className="w-4 h-4 text-faint group-hover:text-accent transition-colors shrink-0 mt-2" />
             </button>
           );
         })}
