@@ -136,6 +136,15 @@ mark.hl {
   -webkit-box-decoration-break: clone;
 }
 
+/* Key point — a bulleted point that carries the substance of a section */
+.keypoint {
+  background: color-mix(in srgb, var(--color-accent) 11%, transparent);
+  padding: 0 .18em;
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 /* Headings lean on the display serif */
 h1, h2, h3, .font-display {
   font-family: var(--font-display);

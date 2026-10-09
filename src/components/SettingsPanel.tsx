@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { SlidersHorizontal, X, RotateCcw, Sun, Moon, BookOpen, Eye, EyeOff, Check } from 'lucide-react';
+import { SlidersHorizontal, X, RotateCcw, Sun, Moon, BookOpen, Eye, EyeOff, Check, Highlighter } from 'lucide-react';
 import { Settings, ACCENTS, HIGHLIGHTS, FONT_SIZES, PAGE_WIDTHS, THEMES, Theme } from '../settings';
 
 const THEME_ICON: Record<Theme, React.ReactNode> = {
@@ -161,6 +161,27 @@ export function SettingsPanel({
             <p className="mt-2.5 text-[12px] text-muted leading-relaxed">
               Select any passage while reading and choose <strong className="text-ink">Highlight</strong> — it is saved to
               Notes in this colour.
+            </p>
+          </Row>
+
+          <Row label="Key-line emphasis">
+            <button
+              onClick={() => update({ emphasis: !settings.emphasis })}
+              aria-pressed={settings.emphasis}
+              className={`w-full flex items-center justify-between px-3 py-2.5 rounded-lg border text-[13px] font-medium transition-colors ${
+                settings.emphasis ? 'border-accent text-accent bg-accent-soft' : 'border-line text-ink-soft hover:border-line-strong'
+              }`}
+            >
+              <span className="flex items-center gap-2">
+                <Highlighter className="w-4 h-4" />
+                Underline key lines
+              </span>
+              <span className={`w-8 h-4 rounded-full relative transition-colors ${settings.emphasis ? 'bg-accent' : 'bg-line-strong'}`}>
+                <span className={`absolute top-0.5 w-3 h-3 rounded-full bg-white transition-all ${settings.emphasis ? 'left-4' : 'left-0.5'}`} />
+              </span>
+            </button>
+            <p className="mt-2.5 text-[12px] text-muted leading-relaxed">
+              Marks the key line of every section and the key points in each list while you read.
             </p>
           </Row>
 

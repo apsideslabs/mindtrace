@@ -46,6 +46,21 @@ function rich(text: string, quotes: string[], hlColor: string): React.ReactNode 
   return parts;
 }
 
+const SENTENCE = /^([\s\S]+?[.!?])(\s+[\s\S]*)$/;
+
+/** Underlines the opening sentence of a prose block (its key line). */
+function keyLine(text: string, quotes: string[], hlColor: string, on: boolean): React.ReactNode {
+  if (!on) return rich(text, quotes, hlColor);
+  const m = text.match(SENTENCE);
+  if (!m) return <span className="keyline">{rich(text, quotes, hlColor)}</span>;
+  return (
+    <>
+      <span className="keyline">{rich(m[1], quotes, hlColor)}</span>
+      {m[2]}
+    </>
+  );
+}
+
 export function TopicView({
   topicId,
   onBack,
@@ -58,6 +73,7 @@ export function TopicView({
   onDeleteNote,
   highlightColor = '#ffe680',
   focusMode = false,
+  emphasis = true,
 }: {
   topicId: TopicId;
   onBack: () => void;
@@ -70,6 +86,7 @@ export function TopicView({
   onDeleteNote?: (id: string) => void;
   highlightColor?: string;
   focusMode?: boolean;
+  emphasis?: boolean;
 }) {
   const topic = getTopicById(topicId);
   const [toc, setToc] = useState(false);
@@ -196,13 +213,13 @@ export function TopicView({
             <ul className="space-y-2.5">
               {arr.map((item, k) => (
                 <li key={k} className="text-[0.95em] leading-relaxed text-ink-soft">
-                  <span className="keyline">{rich(item, quotes, highlightColor)}</span>
+                  <span className={emphasis ? 'keyline' : ''}>{rich(item, quotes, highlightColor)}</span>
                 </li>
               ))}
             </ul>
           ) : (
             <p className="font-display text-[1.05em] leading-relaxed text-ink">
-              <span className="keyline">{rich(section.content as string, quotes, highlightColor)}</span>
+              <span className={emphasis ? 'keyline' : ''}>{rich(section.content as string, quotes, highlightColor)}</span>
             </p>
           )}
         </section>
@@ -216,11 +233,13 @@ export function TopicView({
           {arr ? (
             <ul className="space-y-2.5">
               {arr.map((item, k) => (
-                <li key={k} className="text-[0.95em] leading-relaxed text-ink-soft">{rich(item, quotes, highlightColor)}</li>
+                <li key={k} className="text-[0.95em] leading-relaxed text-ink-soft">
+                  <span className={emphasis ? 'keypoint' : ''}>{rich(item, quotes, highlightColor)}</span>
+                </li>
               ))}
             </ul>
           ) : (
-            <p className="text-[0.95em] leading-[1.75] text-ink-soft">{rich(section.content as string, quotes, highlightColor)}</p>
+            <p className="text-[0.95em] leading-[1.75] text-ink-soft">{keyLine(section.content as string, quotes, highlightColor, emphasis)}</p>
           )}
         </section>
       );
@@ -241,12 +260,12 @@ export function TopicView({
             {arr.map((item, k) => (
               <li key={k} className="flex items-start gap-3 text-[0.95em] leading-relaxed text-ink-soft">
                 <span className="mt-2 w-1.5 h-1.5 rounded-full shrink-0" style={{ background: warn ? '#b23a2a' : prot ? '#2f7d5f' : accent }} />
-                <span>{rich(item, quotes, highlightColor)}</span>
+                <span className={emphasis && (warn || prot) ? 'keypoint' : ''}>{rich(item, quotes, highlightColor)}</span>
               </li>
             ))}
           </ul>
         ) : (
-          <p className="text-[0.95em] leading-[1.75] text-ink-soft">{rich(section.content as string, quotes, highlightColor)}</p>
+          <p className="text-[0.95em] leading-[1.75] text-ink-soft">{keyLine(section.content as string, quotes, highlightColor, emphasis)}</p>
         )}
       </section>
     );

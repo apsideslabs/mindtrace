@@ -164,6 +164,7 @@ export default function App() {
             onDeleteNote={removeNote}
             highlightColor={settings.highlight}
             focusMode={settings.focusMode}
+            emphasis={settings.emphasis}
           />
         ) : null;
       case 'visualize':

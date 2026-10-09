@@ -11,6 +11,8 @@ export interface Settings {
   pageWidth: number;
   /** Highlight colour (hex). */
   highlight: string;
+  /** Underline key lines and highlight key points while reading. */
+  emphasis: boolean;
   /** Distraction-free reading: hides the masthead, footer and nav. */
   focusMode: boolean;
 }
@@ -57,6 +59,7 @@ export const DEFAULT_SETTINGS: Settings = {
   fontSize: 19,
   pageWidth: 44,
   highlight: '#ffe680',
+  emphasis: true,
   focusMode: false,
 };
 
