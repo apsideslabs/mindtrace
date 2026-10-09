@@ -1,5 +1,4 @@
 import React, { useMemo, useState } from 'react';
-import { Quote as QuoteIcon } from 'lucide-react';
 import { QUOTES, quoteCategories } from '../content/quotes';
 
 export function QuotesView() {
@@ -10,45 +9,27 @@ export function QuotesView() {
   );
 
   return (
-    <div className="max-w-5xl mx-auto px-5 md:px-8 pt-12 pb-24">
-      <header className="border-b-2 border-ink/10 pb-8 mb-8">
-        <div className="kicker mb-3">On the mind</div>
-        <h1 className="font-display text-[40px] sm:text-[50px] font-semibold text-ink flex items-center gap-4">
-          Quotes
-        </h1>
-        <p className="font-body mt-4 text-[18px] text-ink-soft max-w-2xl leading-relaxed">
+    <div className="max-w-5xl mx-auto px-5 md:px-8 pt-8 pb-20">
+      <header className="rule-red pt-6 pb-7">
+        <div className="kicker kicker-accent mb-4">On the mind</div>
+        <h1 className="font-display text-[46px] sm:text-[58px] leading-[1] font-semibold tracking-tight text-ink">Quotes</h1>
+        <p className="standfirst mt-5 max-w-2xl">
           Lines worth keeping — from psychology, philosophy, leadership and the study of human nature.
         </p>
       </header>
 
-      <div className="flex flex-wrap gap-2 mb-10">
-        <button
-          onClick={() => setActive('all')}
-          className={`px-3.5 py-1.5 rounded-full text-[12px] font-semibold uppercase tracking-wider border transition-colors ${
-            active === 'all' ? 'bg-ink text-paper border-ink' : 'border-line text-muted hover:border-line-strong hover:text-ink'
-          }`}
-        >
-          All
-        </button>
+      <div className="flex flex-wrap gap-2 mb-8 mt-6">
+        <button onClick={() => setActive('all')} className={`chip ${active === 'all' ? 'chip-active' : ''}`}>All</button>
         {quoteCategories.map((c) => (
-          <button
-            key={c.id}
-            onClick={() => setActive(c.id)}
-            className={`px-3.5 py-1.5 rounded-full text-[12px] font-semibold uppercase tracking-wider border transition-colors ${
-              active === c.id ? 'bg-ink text-paper border-ink' : 'border-line text-muted hover:border-line-strong hover:text-ink'
-            }`}
-          >
-            {c.title}
-          </button>
+          <button key={c.id} onClick={() => setActive(c.id)} className={`chip ${active === c.id ? 'chip-active' : ''}`}>{c.title}</button>
         ))}
       </div>
 
-      <div className="columns-1 md:columns-2 gap-5">
+      <div className="grid md:grid-cols-2 gap-x-12">
         {list.map((q) => (
-          <figure key={q.id} className="card p-7 mb-5 break-inside-avoid">
-            <QuoteIcon className="w-5 h-5 text-gold/60 mb-3" />
-            <blockquote className="font-body text-[19px] leading-relaxed text-ink">{q.text}</blockquote>
-            <figcaption className="mt-5 pt-4 border-t hairline text-[11.5px] font-semibold uppercase tracking-[0.14em] text-muted">
+          <figure key={q.id} className="border-t hairline pt-5 pb-7 break-inside-avoid">
+            <blockquote className="font-body text-[20px] leading-[1.55] text-ink">{q.text}</blockquote>
+            <figcaption className="mt-4 font-mono text-[10.5px] tracking-[0.18em] uppercase text-accent">
               {q.author}
             </figcaption>
           </figure>

@@ -20,12 +20,12 @@ export const DisclaimerModal: React.FC<DisclaimerModalProps> = ({ onAccept, onDe
         initial={{ opacity: 0, scale: 0.97, y: 12 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         transition={{ duration: 0.3, ease: 'easeOut' }}
-        className="w-full max-w-2xl max-h-full bg-surface rounded-2xl shadow-2xl flex flex-col overflow-hidden border hairline"
+        className="w-full max-w-2xl max-h-full bg-surface shadow-2xl flex flex-col overflow-hidden border hairline border-t-2 border-t-accent"
       >
-        <div className="px-6 sm:px-8 py-5 border-b hairline shrink-0">
-          <div className="kicker mb-1">Please read before you begin</div>
-          <h2 className="font-display text-2xl font-semibold text-ink tracking-tight">
-            Mind<span className="text-accent">Trace</span> — Disclaimer &amp; Responsible Use
+        <div className="px-6 sm:px-8 py-6 border-b hairline shrink-0">
+          <div className="kicker kicker-accent mb-2">Please read before you begin</div>
+          <h2 className="font-display text-[26px] font-semibold text-ink tracking-tight leading-tight">
+            <span className="text-ink">Mind</span><span className="text-accent">Trace</span> — Disclaimer &amp; Responsible Use
           </h2>
         </div>
 

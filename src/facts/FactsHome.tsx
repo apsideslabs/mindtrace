@@ -1,13 +1,6 @@
 import React from 'react';
-import { ArrowLeft, ArrowRight, BrainCircuit, Link2, Network, Fingerprint } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { factsCategories, getCollectionsForCategory } from '../content/facts';
-
-const ICONS: Record<string, React.ReactNode> = {
-  psychology: <BrainCircuit className="w-5 h-5" />,
-  relationships: <Link2 className="w-5 h-5" />,
-  social: <Network className="w-5 h-5" />,
-  crime: <Fingerprint className="w-5 h-5" />,
-};
 
 export function FactsHome({ onBack, onOpenCategory }: { onBack: () => void; onOpenCategory: (id: string) => void }) {
   const totalFacts = factsCategories.reduce(
@@ -16,23 +9,20 @@ export function FactsHome({ onBack, onOpenCategory }: { onBack: () => void; onOp
   );
 
   return (
-    <div className="max-w-4xl mx-auto px-5 md:px-8 pt-12 pb-24">
-      <button onClick={onBack} className="flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.12em] text-muted hover:text-ink transition-colors mb-10">
-        <ArrowLeft className="w-4 h-4" /> Back
+    <div className="max-w-4xl mx-auto px-5 md:px-8 pt-8 pb-20">
+      <button onClick={onBack} className="flex items-center gap-2 font-mono text-[10.5px] tracking-[0.16em] uppercase text-muted hover:text-accent transition-colors mb-6">
+        <ArrowLeft className="w-3.5 h-3.5" /> Back
       </button>
 
-      <header className="border-b-2 border-ink/10 pb-8 mb-8">
-        <div className="kicker mb-3">MindTrace Facts</div>
-        <h1 className="font-display text-[40px] sm:text-[50px] leading-tight font-semibold text-ink">
-          Research notes
-        </h1>
-        <p className="font-body mt-4 text-[18px] text-ink-soft max-w-2xl leading-relaxed">
-          {totalFacts} sourced findings across {factsCategories.length} collections — each one a short, evidence-rated
-          note you can actually use.
+      <header className="rule-red pt-6 pb-7">
+        <div className="kicker kicker-accent mb-4">MindTrace Facts</div>
+        <h1 className="font-display text-[46px] sm:text-[58px] leading-[1] font-semibold tracking-tight text-ink">Research Notes</h1>
+        <p className="standfirst mt-5 max-w-2xl">
+          {totalFacts} sourced findings across {factsCategories.length} collections — each a short, evidence-rated note you can actually use.
         </p>
       </header>
 
-      <div className="border-t hairline">
+      <div className="rule">
         {factsCategories.map((c, i) => {
           const collections = getCollectionsForCategory(c.id);
           const count = collections.reduce((a, col) => a + col.facts.length, 0);
@@ -42,21 +32,12 @@ export function FactsHome({ onBack, onOpenCategory }: { onBack: () => void; onOp
               key={c.id}
               onClick={() => enabled && onOpenCategory(c.id)}
               disabled={!enabled}
-              className={`group w-full flex items-start gap-5 py-6 text-left border-b hairline transition-colors px-1 ${enabled ? 'hover:bg-surface/60' : 'opacity-50 cursor-default'}`}
+              className={`group w-full grid grid-cols-[2.5rem_1fr_auto] md:grid-cols-[3rem_14rem_1fr_auto] gap-x-4 items-baseline py-5 text-left border-b hairline transition-colors ${enabled ? 'hover:bg-surface/60' : 'opacity-50 cursor-default'}`}
             >
-              <span className="font-mono text-[13px] text-faint w-7 pt-1 shrink-0 tabular-nums">{String(i + 1).padStart(2, '0')}</span>
-              <span className="w-11 h-11 rounded-xl bg-accent-soft flex items-center justify-center text-accent shrink-0">
-                {ICONS[c.id] ?? <BrainCircuit className="w-5 h-5" />}
-              </span>
-              <span className="flex-1 min-w-0">
-                <span className="block font-display text-[21px] font-semibold text-ink group-hover:text-accent transition-colors">{c.title}</span>
-                <span className="block font-body text-[14.5px] text-muted leading-relaxed mt-1 max-w-2xl">{c.description}</span>
-              </span>
-              <span className="hidden sm:flex flex-col items-end shrink-0 pt-1">
-                <span className="font-display text-[20px] font-semibold text-ink tabular-nums">{count}</span>
-                <span className="text-[10px] uppercase tracking-wider text-faint">notes</span>
-              </span>
-              <ArrowRight className="w-4 h-4 text-faint group-hover:text-accent transition-colors shrink-0 mt-2" />
+              <span className="font-mono text-[13px] text-accent tnum">{String(i + 1).padStart(2, '0')}</span>
+              <span className="font-display text-[22px] font-medium text-ink group-hover:text-accent transition-colors leading-snug">{c.title}</span>
+              <span className="hidden md:block font-body text-[14.5px] text-muted leading-relaxed">{c.description}</span>
+              <span className="font-mono text-[11px] text-faint tnum whitespace-nowrap">{count} notes</span>
             </button>
           );
         })}

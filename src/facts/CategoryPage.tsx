@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, ArrowRight, Layers, Clock, BookOpen } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { getCategoryById, getCollectionsForCategory } from '../content/facts';
 
 export function CategoryPage({
@@ -19,31 +19,32 @@ export function CategoryPage({
   const totalTime = collections.reduce((a, c) => a + c.facts.reduce((f, x) => f + x.readingTimeMinutes, 0), 0);
 
   return (
-    <div className="max-w-4xl mx-auto px-5 md:px-8 pt-12 pb-24">
-      <button onClick={onBack} className="flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.12em] text-muted hover:text-ink transition-colors mb-10">
-        <ArrowLeft className="w-4 h-4" /> Research notes
+    <div className="max-w-4xl mx-auto px-5 md:px-8 pt-8 pb-20">
+      <button onClick={onBack} className="flex items-center gap-2 font-mono text-[10.5px] tracking-[0.16em] uppercase text-muted hover:text-accent transition-colors mb-6">
+        <ArrowLeft className="w-3.5 h-3.5" /> Research Notes
       </button>
 
-      <header className="border-b-2 border-ink/10 pb-8 mb-8">
-        <div className="kicker mb-3">Collection</div>
-        <h1 className="font-display text-[36px] sm:text-[44px] font-semibold text-ink">{category.title}</h1>
-        <p className="font-body mt-3 text-[17px] text-ink-soft max-w-2xl leading-relaxed">{category.description}</p>
-        <div className="mt-7 flex flex-wrap items-center gap-6 text-[12.5px] text-muted uppercase tracking-wider">
-          <span className="flex items-center gap-2"><Layers className="w-4 h-4" /> <strong className="text-ink font-semibold">{collections.length}</strong> collections</span>
-          <span className="flex items-center gap-2"><BookOpen className="w-4 h-4" /> <strong className="text-ink font-semibold">{totalFacts}</strong> notes</span>
-          <span className="flex items-center gap-2"><Clock className="w-4 h-4" /> <strong className="text-ink font-semibold">{totalTime}</strong> min</span>
+      <header className="rule-red pt-6 pb-7">
+        <div className="kicker mb-4">Collection</div>
+        <h1 className="font-display text-[42px] sm:text-[52px] leading-[1.02] font-semibold tracking-tight text-ink">{category.title}</h1>
+        <p className="standfirst mt-4 max-w-2xl">{category.description}</p>
+        <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 font-mono text-[11px] tracking-[0.14em] uppercase text-muted">
+          <span>{collections.length} collections</span>
+          <span className="text-line-strong">/</span>
+          <span>{totalFacts} notes</span>
+          <span className="text-line-strong">/</span>
+          <span>{totalTime} min</span>
         </div>
       </header>
 
-      <div className="border-t hairline">
+      <div className="rule mt-8">
         {collections.map((c) => (
-          <button key={c.id} onClick={() => onOpenCollection(c.id)} className="group w-full flex items-center gap-4 py-5 text-left border-b hairline">
+          <button key={c.id} onClick={() => onOpenCollection(c.id)} className="group w-full flex items-baseline gap-4 py-4 border-b hairline text-left">
             <span className="flex-1 min-w-0">
-              <span className="font-display text-[19px] font-semibold text-ink group-hover:text-accent transition-colors block">{c.title}</span>
-              <span className="block font-body text-[14px] text-muted line-clamp-1 mt-1">{c.description}</span>
+              <span className="font-display text-[21px] font-medium text-ink group-hover:text-accent transition-colors block">{c.title}</span>
+              <span className="block font-body text-[14.5px] text-muted line-clamp-1 mt-1">{c.description}</span>
             </span>
-            <span className="text-[11.5px] text-faint shrink-0 tabular-nums uppercase tracking-wider">{c.facts.length} notes</span>
-            <ArrowRight className="w-4 h-4 text-faint group-hover:text-accent transition-colors shrink-0" />
+            <span className="font-mono text-[11px] text-faint tnum shrink-0">{c.facts.length} notes</span>
           </button>
         ))}
       </div>
