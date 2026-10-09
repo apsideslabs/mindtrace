@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120" role="img" aria-label="MindTrace">
+  <title>MindTrace</title>
+  <g>
+    <circle cx="54" cy="60" r="30" fill="none" stroke="#14120f" stroke-opacity="0.18" stroke-width="2"/>
+    <circle cx="54" cy="60" r="13" fill="none" stroke="#b23a2a" stroke-width="2"/>
+    <circle cx="54" cy="60" r="3.5" fill="#14120f"/>
+  </g>
+  <text x="100" y="76" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="50" font-weight="600" letter-spacing="-1" fill="#14120f">Mind<tspan fill="#b23a2a">Trace</tspan></text>
+</svg>
