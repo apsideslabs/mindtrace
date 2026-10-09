@@ -1,0 +1,82 @@
+{
+  "id": "goal-gradient-effect",
+  "slug": "goal-gradient-effect",
+  "title": "The Goal Gradient Effect (Why We Speed Up Near The Finish)",
+  "category": "behavioral-economics",
+  "description": "People increase their effort and spending as they get closer to a goal. The closer we are to completing a loyalty card, a fundraising target, or a purchase threshold, the more motivated we become.",
+  "shortDescription": "People increase their effort and spending as they get closer to a goal. The closer we are to completing a loyalty card, a fundraising target, or a purchase threshold, the more motivated we become.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "behavioral economics",
+    "psychology",
+    "money"
+  ],
+  "relatedTopics": [],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "People increase their effort and spending as they get closer to a goal. The closer we are to completing a loyalty card, a fundraising target, or a purchase threshold, the more motivated we become."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A coffee shop gives you a loyalty card: buy 10 coffees, get one free. You buy more coffees in the final stretch than at the start.",
+        "A crowdfunding campaign sits at 80% of its goal; donations suddenly accelerate in the last hours.",
+        "A free‑shipping threshold of $50 makes you add a $5 item when your cart is at $46, even though you’d normally never buy that item."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Accelerating purchases or effort as a goal nears completion.",
+        "Checking progress frequently when close to the target.",
+        "Feeling a strong aversion to “wasting” the progress already made."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“Just one more to go.”",
+        "“I’m so close; might as well finish.”",
+        "“If I spend another $10, I get free shipping.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re buying things you don’t need to reach a threshold that “saves” you money.",
+        "The goal (free shipping, a free coffee) becomes disproportionately valuable compared to its actual dollar worth.",
+        "You’re pursuing a goal long after it stopped being meaningful, simply because you’re close."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Hull’s goal gradient hypothesis (1932) was originally about rats running faster near the food. Later applied to humans by Kivetz, Urminsky, and Zheng (2006). The illusion of progress (even artificial progress, like a “head start” on a loyalty card) amplifies the effect."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Before adding items to hit a threshold, calculate whether the freebie is worth the extra spending. Often the “saving” is negative.",
+        "Set a clear limit before starting the goal (e.g., “I will not spend more than $10 to get free shipping”).",
+        "Recognize that the urge is a psychological pull, not a rational calculation of value."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking that the goal gradient only applies to trivial purchases. It’s used in sales targets, exercise streaks, and project deadlines too.",
+        "Giving up entirely when you’re far from a goal; use the effect by breaking big goals into smaller milestones to feel the gradient more often."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A shopper’s online cart sits at $42. Free shipping kicks in at $50. She adds a $12 candle she doesn’t need. She “saved” $6.99 in shipping but spent $12 to do it. Net loss: $5.01. The goal gradient tricked her into paying for the privilege of “free.”"
+    },
+    {
+      "title": "Key Insight",
+      "content": "The finish line pulls harder than the starting gun. Before you sprint the last mile, check whether the prize is worth the extra steps."
+    }
+  ]
+}

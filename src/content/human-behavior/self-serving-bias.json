@@ -1,0 +1,78 @@
+{
+  "id": "self-serving-bias",
+  "slug": "self-serving-bias",
+  "title": "Self-Serving Bias",
+  "category": "human-behavior",
+  "description": "We take credit for positive outcomes (internal attribution) and blame negative outcomes on external factors—preserving self-esteem.",
+  "readTime": 2,
+  "relatedTopics": [
+    "fundamental-attribution-error",
+    "confirmation-bias",
+    "victim-playing"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "We take credit for positive outcomes (internal attribution) and blame negative outcomes on external factors—preserving self-esteem."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A salesperson who closes a big deal attributes it to skill. Next month, when targets are missed, it’s “the economy.”",
+        "Students who ace an exam credit their intelligence; those who fail blame the professor.",
+        "In a car accident, both drivers insist the other was at fault."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Selective memory of one’s own role in successes.",
+        "Using language that distances oneself from failure (“The project failed” vs. “I failed”).",
+        "Genuine belief in one’s own version, not intentional lying."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I nailed that presentation.”",
+        "“The market just wasn’t ready for it.”",
+        "“I did everything right; it was out of my hands.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "A pattern where every success has your name on it and every failure has an external cause.",
+        "You feel angry or defensive when someone suggests you contributed to a problem.",
+        "You rarely see yourself as lucky when things go well, only unlucky when they don’t."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Protecting self-image reduces anxiety and maintains motivation. Miller & Ross (1975) and many replications demonstrate the bias across cultures, though strength varies (it’s weaker in collectivist cultures)."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "After a success, ask: “What role did luck or external factors play?”",
+        "After a failure, ask: “What was within my control that I could change next time?”",
+        "Keep a decision journal to separate process from outcome, reducing bias over time."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming others are being dishonest when they self-serve. They often truly believe their distorted account.",
+        "Using knowledge of this bias to dismiss others’ genuine external obstacles."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "Two co-founders launch a startup. It fails. One blames “the funding environment”; the other blames “poor execution by the team.” Neither acknowledges the role their own product decisions played. Both walk away with intact egos but zero learning, destined to repeat the same mistakes."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Success has many parents, failure is an orphan—but the most useful lessons come from adopting your failures as your own."
+    }
+  ]
+}

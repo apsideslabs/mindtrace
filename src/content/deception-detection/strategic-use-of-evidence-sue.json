@@ -1,0 +1,85 @@
+{
+  "id": "strategic-use-of-evidence-sue",
+  "slug": "strategic-use-of-evidence-sue",
+  "title": "Strategic Use Of Evidence (Sue)",
+  "category": "deception-detection",
+  "description": "Instead of revealing all the evidence you have upfront, you ask open‑ended questions and listen. You introduce evidence piece by piece, only when the person contradicts it, to test their truthfulness.",
+  "shortDescription": "Instead of revealing all the evidence you have upfront, you ask open‑ended questions and listen. You introduce evidence piece by piece, only when the person contradicts it, to test their truthfulness.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "evidence",
+    "SUE",
+    "investigation",
+    "tactics"
+  ],
+  "relatedTopics": [
+    "the-unexpected-question",
+    "detecting-lies-of-omission"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Instead of revealing all the evidence you have upfront, you ask open‑ended questions and listen. You introduce evidence piece by piece, only when the person contradicts it, to test their truthfulness."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "An investigator knows the suspect’s phone was at the crime scene. She doesn’t mention it. She asks, “Where were you that night?” If the suspect says “at home,” she asks, “Did you leave at any point?” When he says no, she then asks, “Can you explain why your phone connected to the tower near the scene?” The lie is exposed by contradiction with the withheld evidence.",
+        "In a workplace dispute, a manager knows an email exists. She lets the employee give their version first, then produces the email to check consistency."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Truthful people provide information that aligns with the evidence you have.",
+        "Liars often contradict the evidence because they don’t know what you know.",
+        "Liars may adjust their story when you finally reveal the evidence, creating contradictions."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "(Interviewer) “Is there any reason your fingerprints might be there?”",
+        "(Suspect) “No, I’ve never been there.”",
+        "(Interviewer, later) “Our lab found your prints on the windowsill.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "The person changes their story dramatically after you reveal a piece of evidence.",
+        "They offer an explanation that exactly fits the evidence but was never mentioned before.",
+        "They ask, “What do you have on me?” instead of telling their account."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Research by Maria Hartwig and colleagues shows that holding evidence back until after the subject commits to a statement increases lie detection accuracy significantly. Liars are trapped by the evidence they didn’t anticipate."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "In any fact‑finding conversation, gather their story first before sharing what you know.",
+        "Do not show your cards early.",
+        "When you do present evidence, do it one piece at a time to observe reactions."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Revealing all evidence at once and then arguing. This teaches the liar what to explain away.",
+        "Using SUE in an aggressive, confrontational way that shuts down conversation."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A whistleblower investigation: the manager suspects an employee falsified an expense report. He asks, “Tell me about the client dinner on the 15th.” The employee describes a lavish meal. The manager then asks, “Were there any other guests?” The employee says “no.” The manager produces a receipt showing four meals. The employee’s story collapses."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Evidence is a trap only when the liar doesn’t see it coming. Show your hand after theirs is on the table, not before."
+    }
+  ]
+}

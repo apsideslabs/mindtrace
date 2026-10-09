@@ -1,0 +1,85 @@
+{
+  "id": "outcome-bias",
+  "slug": "outcome-bias",
+  "title": "Outcome Bias",
+  "category": "cognitive-biases",
+  "description": "We judge the quality of a decision based on how it turned out, rather than on the information and reasoning available at the time. A good outcome makes a bad decision look smart; a bad outcome makes a good decision look foolish.",
+  "shortDescription": "We judge the quality of a decision based on how it turned out, rather than on the information and reasoning available at the time. A good outcome makes a bad decision look smart; a bad outcome makes a good decision look foolish.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "hindsight-bias",
+    "survivorship-bias"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "We judge the quality of a decision based on how it turned out, rather than on the information and reasoning available at the time. A good outcome makes a bad decision look smart; a bad outcome makes a good decision look foolish."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A gambler who wins a bet on a horse is praised for his “insight,” even though he picked randomly.",
+        "A CEO’s reckless expansion that luckily succeeds is celebrated as “visionary.” A careful decision that fails due to an unforeseeable event gets the manager fired.",
+        "After a successful surgery despite poor technique, the surgeon is hailed as brilliant; the next patient dies from the same poor technique."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Evaluating past decisions solely by results.",
+        "Rewarding people for lucky wins and punishing them for unlucky losses.",
+        "Forgetting to examine the decision‑making process."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“Well, it worked, didn’t it?”",
+        "“Can’t argue with results.”",
+        "“He must know what he’s doing; look at his track record.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You feel a decision was obviously correct because things went well.",
+        "You can’t describe what the person knew at the time; you only know what happened later.",
+        "Success leads you to skip the post‑mortem."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "The outcome is vivid and tangible; the counterfactual is abstract. The brain prefers a simple story: good result = good decision."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "When evaluating a decision, reconstruct what was known at the time. Ask: “Given that information, was this a reasonable bet?”",
+        "In organizations, separate performance evaluation from decision quality reviews.",
+        "Use pre‑mortems: before the outcome is known, define what would make the decision a good or bad one."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Dismissing process because “results are all that matter.” A bad process will eventually produce bad results.",
+        "Judging your own past decisions too harshly because of bad luck rather than bad thinking."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A junior trader makes a huge, unauthorized bet and gets lucky. The bank promotes him. A year later, he repeats the same reckless behavior and loses billions. The earlier outcome bias created a hero, then a villain."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Outcomes lie. A good result can wear a stupid decision like a fancy suit. Examine the process, not just the profit."
+    }
+  ]
+}

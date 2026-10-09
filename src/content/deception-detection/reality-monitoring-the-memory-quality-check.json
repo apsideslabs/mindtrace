@@ -1,0 +1,84 @@
+{
+  "id": "reality-monitoring-the-memory-quality-check",
+  "slug": "reality-monitoring-the-memory-quality-check",
+  "title": "Reality Monitoring (The Memory Quality Check)",
+  "category": "deception-detection",
+  "description": "Real memories differ from imagined ones in predictable ways. Real memories contain sensory details, context (time, place), and imperfections. Fabricated stories are more schematic, vague, and lack sensory richness.",
+  "shortDescription": "Real memories differ from imagined ones in predictable ways. Real memories contain sensory details, context (time, place), and imperfections. Fabricated stories are more schematic, vague, and lack sensory richness.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "memory",
+    "sensory details",
+    "reality monitoring",
+    "fabrication"
+  ],
+  "relatedTopics": [
+    "reverse-order-recall",
+    "detecting-lies-of-omission"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Real memories differ from imagined ones in predictable ways. Real memories contain sensory details, context (time, place), and imperfections. Fabricated stories are more schematic, vague, and lack sensory richness."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "Truthful account: “I heard her heels clicking on the tile, and it smelled like coffee because someone had just brewed a pot. The light was dim.”",
+        "Fabricated: “We met, discussed things, then I left.” (No sensory data, no specific quotes, no spatial context.)"
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Truth‑tellers include irrelevant details and admit not remembering parts.",
+        "Liars provide a bare‑bones, logical‑sounding sequence.",
+        "Liars rarely include the exact words people said; truth‑tellers quote."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "Truth: “He said, ‘I’m leaving now,’ in this annoyed tone.”",
+        "Lie: “He wasn’t happy, so he left.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Lack of any sensory detail (sound, smell, visual specifics).",
+        "No mention of emotions or cognitive processes (“I was confused because…”).",
+        "The story is too clean, with no loose ends."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "The Reality Monitoring framework (Johnson & Raye, 1981) is widely used in credibility assessment, including the CBCA (Criteria‑Based Content Analysis). It’s not a lie detector; it’s a content analyzer."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "When listening to an account, mentally note the presence or absence of: sounds, smells, exact words, emotions, spatial details.",
+        "Ask for these elements if missing: “What did you hear at that moment?”",
+        "Compare accounts from the same person across time; lies often lose detail when retold."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking that a highly detailed story must be true. A well‑rehearsed liar can add false sensory details.",
+        "Assuming any hesitation means fabrication; real memories also have retrieval failures."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A whistleblower claims to have overheard a fraud conversation. Asked for details, he recalls the exact words, the squeak of the office door, and the bad coffee taste. Investigators confirm these specifics match the physical environment. The account is deemed credible. Another report, equally serious, contains only abstract summaries. It’s later found to be exaggerated."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Real memories are messy, sensory, and full of useless trivia. A clean, straight‑to‑the‑point story is often a polished script, not a memory."
+    }
+  ]
+}

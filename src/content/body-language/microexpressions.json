@@ -1,0 +1,91 @@
+{
+  "id": "microexpressions",
+  "slug": "microexpressions",
+  "title": "Microexpressions",
+  "category": "body-language",
+  "description": "Incredibly fast, involuntary facial twitches that reveal a concealed emotion.",
+  "readTime": 5,
+  "relatedTopics": [
+    "facial-expressions",
+    "deception-indicators"
+  ],
+  "sections": [
+    {
+      "title": "Quick Understanding",
+      "content": "A microexpression is a lightning-fast facial movement (lasting less than a fifth of a second) that unintentionally leaks a person's true emotion before their conscious brain can cover it up with a socially acceptable fake expression."
+    },
+    {
+      "title": "What It Looks Like",
+      "content": [
+        "A split-second flash of anger quickly replaced by a bright smile.",
+        "A sudden, tiny tightening of the lips before speaking nicely.",
+        "A momentary wrinkling of the nose in disgust.",
+        "A brief flash of fear in the eyes that vanishes instantly."
+      ]
+    },
+    {
+      "title": "What It May Indicate",
+      "content": [
+        "Concealed emotions they do not want you to see.",
+        "Suppressed anger, disgust, fear, sadness, contempt, surprise, or joy.",
+        "A subconscious, visceral reaction directly conflicting with their spoken words."
+      ]
+    },
+    {
+      "title": "What It Does NOT Mean",
+      "content": [
+        "A microexpression does NOT prove someone is lying. It only proves they are feeling an emotion they are actively trying to hide.",
+        "A twitch is NOT always a microexpression. Sometimes a facial twitch is literally just a muscle spasm."
+      ]
+    },
+    {
+      "title": "Real Life Examples",
+      "content": [
+        "Negotiation: You name your price, and the buyer flashes a microexpression of joy (a tiny smirk) before acting deeply disappointed. They love the price.",
+        "Workplace: Your boss smiles and congratulates you, but a split-second sneer of contempt flashes on their face first.",
+        "Argument: Someone claims they 'aren't mad', but their lips quickly thin and tighten into anger for a millisecond."
+      ]
+    },
+    {
+      "title": "Cluster Analysis",
+      "content": [
+        "Microexpression of fear + sudden freezing posture + throat clearing = High stress / Panic.",
+        "Fake smile + microexpression of disgust = Polite but strong internal rejection.",
+        "Microexpression of anger + clenched fists + leaning forward = Suppressed hostility."
+      ]
+    },
+    {
+      "title": "Common Situations",
+      "content": [
+        "High-stakes business negotiations.",
+        "Police interrogations.",
+        "Difficult relationship conversations.",
+        "Poker games."
+      ]
+    },
+    {
+      "title": "Observation Mistakes",
+      "content": "Mistake: Believing microexpressions are a magical, foolproof lie detector. Reality: They only tell you *what* someone is feeling, not *why* they are feeling it, or if they are explicitly lying about the facts."
+    },
+    {
+      "title": "Practical Observation Tips",
+      "content": [
+        "Do not stare exclusively at their face like a laser. Keep a soft, broad gaze on the entire person to catch movements.",
+        "Watch for asymmetry. Fake emotions are often slightly lopsided. Real microexpressions, especially contempt (a one-sided smirk), flash precisely.",
+        "Pay attention to the exact timing. If the facial expression is delayed a full second after the emotional event, it is likely faked."
+      ]
+    },
+    {
+      "title": "Red Flags",
+      "content": [
+        "Seeing an emotion completely opposite to what the person is claiming (e.g., claiming to be devastated, but flashing a microexpression of joy, known as 'duping delight').",
+        "A flash of 'contempt' built directly into a supposedly friendly interaction.",
+        "A face that quickly shifts through three different emotions in under a second."
+      ]
+    },
+    {
+      "title": "Reality Check",
+      "content": "Microexpressions are incredibly hard to catch in real-time. Even highly trained professionals miss them constantly. If you think you saw one, treat it solely as a hint to ask better questions, not as a final judgment of character or legal guilt."
+    }
+  ]
+}

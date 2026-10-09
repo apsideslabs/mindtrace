@@ -1,0 +1,86 @@
+{
+  "id": "reverse-order-recall",
+  "slug": "reverse-order-recall",
+  "title": "Reverse Order Recall",
+  "category": "deception-detection",
+  "description": "Asking someone to tell a sequence of events backwards—from the end to the beginning. Liars find this extremely difficult; truth‑tellers can do it with effort because they are replaying a real memory.",
+  "shortDescription": "Asking someone to tell a sequence of events backwards—from the end to the beginning. Liars find this extremely difficult; truth‑tellers can do it with effort because they are replaying a real memory.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "memory",
+    "recall",
+    "cognitive load",
+    "timeline"
+  ],
+  "relatedTopics": [
+    "cognitive-load-the-mental-effort-lens",
+    "reality-monitoring-the-memory-quality-check"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Asking someone to tell a sequence of events backwards—from the end to the beginning. Liars find this extremely difficult; truth‑tellers can do it with effort because they are replaying a real memory."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "“You said you arrived at the restaurant at 7. Walk me back from 7 p.m. to when you left home.”",
+        "In a theft investigation: “Start with when you locked up and work backwards to when you arrived.”",
+        "In a relationship: “You told me you were out with friends. Tell me everything that happened from when you got home to when you arrived at the bar.”"
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Truthful: slows down, uses gestures to reconstruct, may correct themselves.",
+        "Liar: rigid, says “I can’t remember exactly,” or tries to retell forward instead.",
+        "Liar may add new contradictions because the fabricated timeline isn’t anchored."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“Let me think… okay, so first I parked, then…”",
+        "“It’s hard to do it backwards, but I’ll try.” (truthful)",
+        "“Why do I need to tell it backwards?” (defensive)"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "They refuse or become angry at the request.",
+        "Their backward story doesn’t match the forward story in key details.",
+        "They skip large chunks or oversimplify."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "This is a cognitive load technique. Real memories are stored in a network that allows flexible retrieval. Fabricated stories are stored as linear scripts. Reversing them breaks the script."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Use this only when you need to verify a specific event, not as a general tool.",
+        "Be calm and curious, not accusatory: “I just want to understand the timeline clearly.”",
+        "If they struggle, don’t assume guilt—note it and look for other signs."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Using reverse recall on someone who is already highly stressed or intoxicated.",
+        "Expecting a perfect reverse account; even truth‑tellers make mistakes."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "Two neighbors dispute a property line incident. One is asked to describe the confrontation backwards. The truthful neighbor manages, with some pauses. The lying neighbor starts forward, gets corrected, tries again, and gives a completely different sequence. The inconsistency triggers a mediation that resolves the matter."
+    },
+    {
+      "title": "Key Insight",
+      "content": "A real journey is a path you can walk either direction. A fake journey is a one‑way street with no side turns."
+    }
+  ]
+}

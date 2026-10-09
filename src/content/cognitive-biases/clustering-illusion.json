@@ -1,0 +1,85 @@
+{
+  "id": "clustering-illusion",
+  "slug": "clustering-illusion",
+  "title": "Clustering Illusion",
+  "category": "cognitive-biases",
+  "description": "Seeing meaningful patterns in random noise because the human brain is hyper‑sensitive to clustering. We spot trends that don’t exist.",
+  "shortDescription": "Seeing meaningful patterns in random noise because the human brain is hyper‑sensitive to clustering. We spot trends that don’t exist.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "gamblers-fallacy",
+    "belief-bias"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Seeing meaningful patterns in random noise because the human brain is hyper‑sensitive to clustering. We spot trends that don’t exist."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "In financial markets, traders see “head and shoulders” patterns in random price fluctuations and make losing bets.",
+        "In a hospital, several nurses develop cancer in the same wing; workers assume a local environmental cause, but statistical cluster analysis shows it’s within expected random variation.",
+        "A gambler sees a pattern in slot machine outcomes and adjusts play, even though the machine’s output is algorithmically random."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Drawing trend lines through tiny amounts of data.",
+        "Believing in sports “momentum” when sequences are statistically indistinguishable from randomness.",
+        "Attributing causation to a cluster of similar events without base rate checks."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“That can’t be a coincidence.” (often, it can)",
+        "“There’s a clear pattern here.”",
+        "“Look at the chart—it’s obvious.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’ve identified a pattern in a small, noisy dataset.",
+        "You feel the pattern is so clear that it “proves” something.",
+        "You haven’t tested the pattern against a random model."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "The brain’s pattern‑detection system evolved to find real patterns (predators, food locations). It fires at the slightest hint of order, and the cost of a false positive was low ancestrally compared to missing a real threat."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Demand statistical testing before acting on a perceived pattern.",
+        "Ask: “How often would I see this pattern by chance alone?”",
+        "Run a thought experiment: generate random data and see if you can spot “patterns” in it—you’ll be surprised."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Dismissing all clusters as illusions; sometimes they are real. The key is to test, not just observe.",
+        "Using this bias to dismiss legitimate research that has found statistically significant clusters."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "An investor notices that a particular stock has risen every January for three years. She buys heavily, certain of a “January effect.” The stock drops. The three‑year pattern was a random cluster, not a rule."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Your brain is a pattern‑finding machine, not a truth‑finding machine. Patterns in noise are the mind’s way of keeping itself entertained—not a basis for bets."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "baseline-behavior",
+  "slug": "baseline-behavior",
+  "title": "Baseline Behavior",
+  "category": "body-language",
+  "description": "A person's normal, resting state of behavior when they are comfortable and unthreatened.",
+  "readTime": 5,
+  "relatedTopics": [
+    "stress-signals",
+    "observation-skills"
+  ],
+  "sections": [
+    {
+      "title": "Quick Understanding",
+      "content": "A baseline is strictly how someone acts when they are under fundamentally zero stress. You cannot accurately formally identify if a behavior is a 'stress signal' or a 'lie' unless you absolutely first establish what that exact person looks and sounds like when they are totally relaxed."
+    },
+    {
+      "title": "What It Looks Like",
+      "content": [
+        "Their completely normal rate of speech and speaking volume.",
+        "Their standard, comfortable amount of eye contact.",
+        "Their typical everyday use of hand gestures.",
+        "Their default resting posture and neutral facial expression."
+      ]
+    },
+    {
+      "title": "What It May Indicate",
+      "content": [
+        "Understanding the baseline is the essential calibration phase of observation. It tells you their true default setting.",
+        "Massive, sudden deviations from this baseline dynamically indicate a massive shift in emotion or an extreme spike in cognitive load."
+      ]
+    },
+    {
+      "title": "What It Does NOT Mean",
+      "content": [
+        "A rapidly nervous baseline does NOT mean they are always chronically lying. Some people are just totally naturally anxious.",
+        "A perfectly calm baseline does NOT magically guarantee honesty. Some people are naturally profoundly low-arousal or heavily practiced at deception."
+      ]
+    },
+    {
+      "title": "Real Life Examples",
+      "content": [
+        "Interrogation: Asking extremely basic background questions (name, address, hobbies) to intensely see how the suspect normally sits and speaks before suddenly asking about the crime.",
+        "Negotiation: Doing casual, easy small talk safely before the meeting starts to deeply gauge the other party's relaxed posture.",
+        "Relationships: Knowing that your partner normally taps their foot aggressively when watching TV, so foot-tapping isn't a sign of explosive anger for them specifically."
+      ]
+    },
+    {
+      "title": "Cluster Analysis",
+      "content": [
+        "Baseline (relaxed, lots of hand gestures) -> Sudden shift (rigid posture, hands totally frozen) = Severe spike in cognitive load or sheer fear.",
+        "Baseline (fast talker, low eye contact) -> Sudden shift (slow deliberate speech, highly intense staring) = Desperately overcompensating to actively sound truthful."
+      ]
+    },
+    {
+      "title": "Common Situations",
+      "content": [
+        "The absolute first five minutes of any interview or high-stakes negotiation.",
+        "Meeting someone intimately for the very first time.",
+        "Starting a highly difficult confrontational conversation with a partner."
+      ]
+    },
+    {
+      "title": "Observation Mistakes",
+      "content": "Mistake: Actively analyzing someone's nonverbal behavior without firmly baselining them first. Reality: If you incorrectly assume someone utterly avoiding eye contact is lying, but their actual baseline is just extreme, chronic social anxiety, you have failed the most basic fundamental rule of observation."
+    },
+    {
+      "title": "Practical Observation Tips",
+      "content": [
+        "Spend the exact first few minutes of a major interaction asking harmless, trivially easy questions ('How was your weekend?') solely to watch their body.",
+        "Carefully note how much they naturally naturally blink and wildly move their hands."
+      ]
+    },
+    {
+      "title": "Red Flags",
+      "content": [
+        "An immediate, totally drastic shift completely away from the baseline (e.g., normally very highly talkative, but going totally morbidly silent and rigid as soon as a topic is merely raised).",
+        "Absolutely refusing to safely establish a baseline (giving extremely hostile one-word answers to basic social pleasantries)."
+      ]
+    },
+    {
+      "title": "Reality Check",
+      "content": "Perfectly baselining takes time and immense situational awareness. It is not a magical 5-second TV process. Furthermore, environmental factors (like a literally cold room or a highly recent argument) can temporarily significantly alter a person's baseline."
+    }
+  ]
+}

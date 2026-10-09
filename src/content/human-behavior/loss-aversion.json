@@ -1,0 +1,78 @@
+{
+  "id": "loss-aversion",
+  "slug": "loss-aversion",
+  "title": "Loss Aversion in Everyday Decisions",
+  "category": "human-behavior",
+  "description": "Losing something feels about twice as painful as gaining the same thing feels good. People will take irrational risks to avoid a loss.",
+  "readTime": 2,
+  "relatedTopics": [
+    "endowment-effect",
+    "negativity-bias",
+    "anchoring-and-first-offers"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Losing something feels about twice as painful as gaining the same thing feels good. People will take irrational risks to avoid a loss."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "Refusing to sell a stock that’s dropped because you don’t want to “lock in” the loss.",
+        "Staying in a bad relationship longer because you’ve already invested so much.",
+        "A company hesitates to discontinue a failing product because of sunk costs, throwing good money after bad."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "“I can’t quit now” thinking.",
+        "Feeling more upset about losing $20 than happy about finding $20.",
+        "Taking bigger risks to recover losses (chasing losses in gambling)."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I’ve already put so much into this.”",
+        "“I’ll just wait until it gets back to even.”",
+        "“I can’t walk away now.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Your decisions are based on what you’ve already invested, not future prospects.",
+        "You refuse to consider alternatives because they feel like admitting defeat.",
+        "You feel physical discomfort at the thought of “losing” something you already have, even if you’d never buy it today."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Prospect theory (Kahneman & Tversky, 1979) demonstrated that losses loom larger than gains in the value function. The pain of loss is neurologically more intense, involving amygdala activation."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Reframe the situation: “If I were starting fresh today, would I choose this?”",
+        "Set pre-commitments: decide in advance the conditions under which you’ll walk away.",
+        "Separate past sunk costs from future decisions; they’re irrelevant."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking that loss aversion is always bad; in some situations (e.g., sticking with a gym routine), it can motivate consistency.",
+        "Over-applying the concept to others without considering their specific values."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A business owner has poured $50,000 into a struggling product line. A consultant advises cutting it to free resources for a promising new venture. The owner resists: “But I’ve already invested so much.” She keeps the failing line, loses another $30,000, and misses the opportunity window."
+    },
+    {
+      "title": "Key Insight",
+      "content": "What you’ve already lost is gone. Every decision should be about the future, not the past."
+    }
+  ]
+}

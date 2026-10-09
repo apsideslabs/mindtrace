@@ -1,0 +1,85 @@
+{
+  "id": "pseudocertainty-effect",
+  "slug": "pseudocertainty-effect",
+  "title": "Pseudocertainty Effect",
+  "category": "decision-making",
+  "description": "A reduction in probability from, say, 95% to 90% feels like a small step, but a reduction from 100% to 95% feels huge—even though the absolute change is identical. Certainty is psychologically special.",
+  "shortDescription": "A reduction in probability from, say, 95% to 90% feels like a small step, but a reduction from 100% to 95% feels huge—even though the absolute change is identical. Certainty is psychologically special.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "risk",
+    "certainty",
+    "probability"
+  ],
+  "relatedTopics": [
+    "zero-risk-bias",
+    "ambiguity-aversion"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "A reduction in probability from, say, 95% to 90% feels like a small step, but a reduction from 100% to 95% feels huge—even though the absolute change is identical. Certainty is psychologically special."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A medical treatment that guarantees saving 80 out of 100 lives (100% certainty for 80) is preferred over a treatment that saves all 100 with 80% probability, even though both save an expected 80 lives.",
+        "A gambler is more upset about a missed “sure thing” than about an equivalent probabilistic loss.",
+        "An insurance policy that covers “all” risks for a specific event feels far more valuable than one with 95% coverage, even if the uncovered 5% is tiny."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Paying a premium for “guaranteed” returns, even when the guarantee is largely psychological.",
+        "Picking an option that turns a gamble into a sure thing for a subset, rather than the option that maximizes overall probability.",
+        "Feeling extreme anxiety about a tiny risk remaining after mitigation, while tolerating a much larger risk that was never addressed."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“It’s 100% safe for X.” (ignoring the larger picture)",
+        "“At least it’s a sure thing for this part.”",
+        "“I don’t want any risk at all.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You prefer a plan that creates “pockets of certainty” even if it leaves other areas more exposed.",
+        "You reject a 99% solution because it’s not 100%, even if the 1% gap is trivial.",
+        "You overpay for warranties that eliminate minor, unlikely risks."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "The jump from 0% to 1% risk feels minor compared to the jump from 99% to 100% certainty. The brain processes the endpoints specially, giving certainty disproportionate weight. Prospect theory includes a “certainty effect” where certain outcomes are over‑weighted."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Translate statements about “100% safe” into absolute numbers and compare to alternative risks.",
+        "When choosing between options, always compute the expected value ignoring the “certainty” framing.",
+        "Recognize that “zero risk” is often a marketing illusion."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Paying far too much for certainty in a single aspect while ignoring overall risk.",
+        "Assuming a “guaranteed” outcome is better without checking the expected value."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A vaccine program offers a choice: Vaccine A guarantees preventing 200 cases, but 50 others remain vulnerable. Vaccine B has an 80% chance of preventing all 250 cases. Public health officials pick A because it feels like a “sure thing” for 200, even though B saves more lives on average. The pseudocertainty effect steers resources inefficiently."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Certainty is a feeling, not a mathematical fact. A guarantee of a slice is not the same as a guarantee of the whole—and it can cost you the rest of the pie."
+    }
+  ]
+}

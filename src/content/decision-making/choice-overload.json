@@ -1,0 +1,85 @@
+{
+  "id": "choice-overload",
+  "slug": "choice-overload",
+  "title": "Choice Overload",
+  "category": "decision-making",
+  "description": "When faced with too many options, people freeze, make worse choices, or walk away entirely. More is not always better.",
+  "shortDescription": "When faced with too many options, people freeze, make worse choices, or walk away entirely. More is not always better.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "decision making",
+    "paralysis",
+    "options"
+  ],
+  "relatedTopics": [
+    "decision-fatigue",
+    "regret-aversion"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "When faced with too many options, people freeze, make worse choices, or walk away entirely. More is not always better."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A supermarket has 47 types of pasta sauce. You stand there for two minutes, then grab the one you always get, or leave without any.",
+        "A streaming service catalogue is so large you scroll for 20 minutes, watch nothing, and turn off the TV.",
+        "An online store offers 200 dress options; you get decision fatigue and buy nothing, or later regret what you bought."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Scrolling endlessly without selecting.",
+        "Defaulting to a known brand even if it’s not the best.",
+        "Feeling relieved when someone narrows it down to three choices."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I can’t decide.”",
+        "“There are too many to choose from.”",
+        "“I’ll come back to it.” (and never does)"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re spending more time choosing than the decision is worth.",
+        "You’re feeling anxious or irritated by a menu or product list.",
+        "You keep putting off a small purchase because comparing is exhausting."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Humans have limited working memory and energy for comparison. Each additional option increases the cognitive load until it exceeds capacity. The fear of making a suboptimal choice (maximizing) amplifies the paralysis."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "For personal decisions, limit yourself to three to five options before comparing.",
+        "If you’re selling or presenting, offer no more than three choices.",
+        "Define your “must‑haves” first to filter options quickly."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking more choice always equals more freedom. It can equal more paralysis.",
+        "Blaming yourself for indecision rather than recognizing the environment is overloaded."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A jam‑tasting booth in a supermarket offered 24 flavors; many people stopped, but only 3% bought. When they offered 6 flavors, 30% bought (Iyengar & Lepper, 2000). The smaller set made deciding easy."
+    },
+    {
+      "title": "Key Insight",
+      "content": "A decision that doesn’t get made is often worse than a slightly imperfect one. Cut the list, then choose."
+    }
+  ]
+}

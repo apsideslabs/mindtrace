@@ -1,0 +1,87 @@
+{
+  "id": "decision-fatigue",
+  "slug": "decision-fatigue",
+  "title": "Decision Fatigue",
+  "category": "decision-making",
+  "description": "The more decisions you make, the worse your subsequent decisions become. Willpower is a limited resource; after a day of choices, you default to whatever is easiest.",
+  "shortDescription": "The more decisions you make, the worse your subsequent decisions become. Willpower is a limited resource; after a day of choices, you default to whatever is easiest.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "willpower",
+    "energy",
+    "choices"
+  ],
+  "relatedTopics": [
+    "present-bias-hyperbolic-discounting",
+    "choice-overload"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "The more decisions you make, the worse your subsequent decisions become. Willpower is a limited resource; after a day of choices, you default to whatever is easiest."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "Judges grant parole more often in the morning than in the afternoon; decision fatigue makes them default to the safe, status‑quo choice (deny) as the day wears on (Danziger et al., 2011).",
+        "After a long day of shopping, you buy an expensive, unnecessary item because you’re too tired to resist.",
+        "At the end of a long workday, you skip the gym and order takeaway because choosing a healthy meal feels like too much effort."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Simplifying choices by going with the default or doing nothing.",
+        "Impulse purchases late in the day.",
+        "Snapping at others because emotional regulation is drained along with decision energy.",
+        "Making rushed, low‑quality decisions to “just get it done.”"
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I can’t deal with this right now.”",
+        "“Just pick something.”",
+        "“I don’t care anymore, whatever’s easiest.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re putting off important decisions because you’re mentally exhausted.",
+        "Your choices later in the day are consistently worse or more indulgent.",
+        "You avoid making any decision after a certain point."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Decision‑making consumes glucose in the prefrontal cortex. As resources deplete, the brain shifts to lower‑effort strategies. (The exact metabolic mechanism is debated, but the behavioral effect is robust.)"
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Make important decisions early in the day.",
+        "Structure your day to minimize trivial decisions (e.g., meal prep, clothing choice simplified).",
+        "If you must decide later, first replenish with a break, a snack, or a walk to reset."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Scheduling critical meetings at 4 p.m. after a full day of decisions.",
+        "Assuming you can “power through” and maintain decision quality; you can’t.",
+        "Judging yourself harshly for “lazy” choices when you’re simply depleted."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A CEO stacks critical strategic decisions in the last hour of the day because “that’s when I have time.” The team notices that approvals in the morning are more thoughtful; in the late afternoon, the CEO rubber‑stamps or rejects quickly without analysis. The company’s direction is shaped by when the meeting happened more than by the content."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Your decision‑making is a battery, not a power cord. It drains with every choice. Recharge before you short‑circuit."
+    }
+  ]
+}

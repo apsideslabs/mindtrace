@@ -1,0 +1,83 @@
+{
+  "id": "microexpressions-the-brief-truth-leak",
+  "slug": "microexpressions-the-brief-truth-leak",
+  "title": "Microexpressions (The Brief Truth Leak)",
+  "category": "deception-detection",
+  "description": "Fleeting facial expressions—lasting less than half a second—that reveal concealed emotions. When someone tries to hide anger, fear, or disgust, the true feeling often flashes before the mask is put on.",
+  "shortDescription": "Fleeting facial expressions—lasting less than half a second—that reveal concealed emotions. When someone tries to hide anger, fear, or disgust, the true feeling often flashes before the mask is put on.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "microexpressions",
+    "emotion",
+    "facial expressions",
+    "leakage"
+  ],
+  "relatedTopics": [
+    "the-cluster-principle-no-single-sign",
+    "the-othello-error-mistaking-fear-for-guilt"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Fleeting facial expressions—lasting less than half a second—that reveal concealed emotions. When someone tries to hide anger, fear, or disgust, the true feeling often flashes before the mask is put on."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A person says “I’m happy for you” and a micro‑expression of contempt (one‑sided lip raise) flits across their face.",
+        "During a serious denial, a tiny smile (duper’s delight) appears and vanishes.",
+        "Someone claims not to be worried, but their eyebrows briefly pull together in fear before relaxing."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "The expression is incongruent with the words.",
+        "It’s so fast you might miss it, but you feel “something was off.”",
+        "The person quickly neutralizes the face after the leak."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": "(No phrases; this is nonverbal, but you might sense the mismatch.)"
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "A flash of disgust when discussing someone they claim to love.",
+        "A micro‑shrug (brief shoulder lift) accompanying a denial.",
+        "A split‑second tightening of the jaw when a name is mentioned."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Paul Ekman’s research showed that some emotional expressions are universal and involuntary. The brain’s initial emotional response can’t always be suppressed fast enough, leading to a micro‑expression leak."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Do not rely on microexpressions alone. They are rare, easy to miss, and hard to interpret. Use them as a prompt to ask more questions.",
+        "If you see an incongruent flash, note it and probe the topic further without accusing.",
+        "Training with tools (METT) can improve recognition, but it’s not a superpower."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming any fleeting expression is a lie indicator. Sometimes it’s just a random facial twitch.",
+        "Over‑diagnosing “duper’s delight” when someone is just nervously smiling.",
+        "Believing that reading microexpressions makes you a human lie detector. It’s one piece of the puzzle."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A politician is asked if he supports a colleague. He says “Absolutely,” but for a fraction of a second, his nose wrinkles and lip rises in disgust. The clip goes viral, and analysts note the micro‑expression as the real feeling. He later withdraws support."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The face is a quick truth‑teller. Before the brain edits the response, the emotion has already RSVP’d."
+    }
+  ]
+}

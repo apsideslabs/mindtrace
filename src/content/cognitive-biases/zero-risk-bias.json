@@ -1,0 +1,84 @@
+{
+  "id": "zero-risk-bias",
+  "slug": "zero-risk-bias",
+  "title": "Zero‑risk Bias",
+  "category": "cognitive-biases",
+  "description": "Preferring to eliminate a small risk entirely over reducing a much larger risk by the same or greater amount. Absolute safety feels disproportionately good.",
+  "shortDescription": "Preferring to eliminate a small risk entirely over reducing a much larger risk by the same or greater amount. Absolute safety feels disproportionately good.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "decision-fatigue"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Preferring to eliminate a small risk entirely over reducing a much larger risk by the same or greater amount. Absolute safety feels disproportionately good."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A parent buys an expensive air purifier to eliminate 0.001% cancer risk from pollution but ignores the child’s daily sugary drink habit that increases obesity risk 100‑fold.",
+        "A corporation spends millions to fix a tiny regulatory risk while ignoring a major market disruption on the horizon.",
+        "A government pours resources into eliminating a rare disease rather than broadly reducing common causes of mortality."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Over‑investing in “zero risk” products or policies.",
+        "Feeling relief when a tiny threat is neutralized, even if the overall risk profile is unchanged.",
+        "Ignoring risk‑benefit trade‑offs for the sake of “complete safety.”"
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I just want to be 100% safe.”",
+        "“Even a tiny chance is too much.”",
+        "“Better to eliminate it completely.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re spending significant resources on a minuscule risk while larger risks go unaddressed.",
+        "The word “eliminate” or “zero” feels emotionally appealing beyond logic.",
+        "You feel anxious if even a trivial risk remains."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Certainty provides psychological closure. Reducing a risk from 2% to 0% feels vastly better than reducing it from 50% to 20%, even though the latter saves far more lives. The brain values the certainty premium."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Compare risk reductions in absolute terms: how many lives or dollars saved per option?",
+        "Ask: “If I had limited money/time, what would save the most?”",
+        "Accept that zero risk is usually an illusion and that optimizing safety is a resource‑allocation problem, not a moral purity test."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Mocking others for fearing small risks when the same bias drives your own “zero tolerance” policies.",
+        "Equating zero risk with responsible behavior, ignoring opportunity costs."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "After 9/11, many Americans switched from flying to driving. Driving is far more dangerous per mile, but flying felt riskier because it’s more vivid and people wanted “zero” terrorist risk. The shift caused an estimated 1,500 additional road deaths."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Zero is a number that seduces the mind. But if you pay everything to make one danger disappear, you may be ignoring a dozen bigger ones."
+    }
+  ]
+}

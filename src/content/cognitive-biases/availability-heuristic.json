@@ -1,0 +1,84 @@
+{
+  "id": "availability-heuristic",
+  "slug": "availability-heuristic",
+  "title": "Availability Heuristic",
+  "category": "cognitive-biases",
+  "description": "We judge how common or likely something is by how easily examples come to mind. Vivid, recent, or emotional events hijack our frequency estimates.",
+  "shortDescription": "We judge how common or likely something is by how easily examples come to mind. Vivid, recent, or emotional events hijack our frequency estimates.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "decision-fatigue",
+    "risk-perception",
+    "negativity-bias",
+    "confirmation-bias",
+    "loss-aversion"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "We judge how common or likely something is by how easily examples come to mind. Vivid, recent, or emotional events hijack our frequency estimates."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "After seeing a plane crash on the news, you feel flying is dangerous, even though it’s statistically safer than driving.",
+        "A manager overestimates the number of employees slacking off because one dramatic firing stands out in memory.",
+        "You assume crime is rising because you can recall several local incidents, even if statistics show a decline."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Overestimating rare but dramatic risks.",
+        "Underestimating common but unremarkable risks.",
+        "Making decisions based on the most memorable anecdote, not data."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“You hear about it all the time.” (when it’s actually rare)",
+        "“I know someone who…” (as evidence for a trend)",
+        "“Better safe than sorry” (when sorry is a vivid but improbable disaster)."
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Your risk perception swings sharply after a single news story.",
+        "You can easily picture the bad outcome but struggle to recall the many uneventful cases.",
+        "You dismiss statistics in favor of “real stories.”"
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "The brain takes cognitive shortcuts. Easily recalled examples feel frequent, and emotionally charged memories (fear, shock) are stickier. This helped ancestors avoid rare but deadly threats."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": "When assessing likelihood, ask: “What does the base rate say?” and “How many uneventful cases am I ignoring?” Deliberately look up data rather than relying on memory."
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking you’re immune because you know statistics. The bias operates automatically; you must actively counter it.",
+        "Using availability to argue against valid precautions just because the bad thing is rare."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A parent refuses to let their child walk to school alone because they vividly remember a kidnapping case from ten years ago. They ignore that the real statistical danger—car accidents—is something they engage with daily without a thought."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The ease with which a fear comes to mind is not a measure of its likelihood. Your memory is a highlight reel, not an actuarial table."
+    }
+  ]
+}

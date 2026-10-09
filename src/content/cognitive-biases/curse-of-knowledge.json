@@ -1,0 +1,84 @@
+{
+  "id": "curse-of-knowledge",
+  "slug": "curse-of-knowledge",
+  "title": "Curse Of Knowledge",
+  "category": "cognitive-biases",
+  "description": "Once you know something, you cannot easily imagine what it’s like not to know it. This makes you a terrible communicator with novices and leads to frustration in teaching, selling, and relationships.",
+  "shortDescription": "Once you know something, you cannot easily imagine what it’s like not to know it. This makes you a terrible communicator with novices and leads to frustration in teaching, selling, and relationships.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "egocentric-bias"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Once you know something, you cannot easily imagine what it’s like not to know it. This makes you a terrible communicator with novices and leads to frustration in teaching, selling, and relationships."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A software engineer explains a product to customers using jargon and is baffled that they “don’t get it.”",
+        "A parent helps a child with homework and can’t understand why “it’s so hard; it’s obvious!”",
+        "A negotiator assumes the other party sees the deal’s logic as clearly as they do, and is shocked when they resist."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Overestimating what others understand.",
+        "Skipping foundational steps because “everyone knows that.”",
+        "Using technical terms without realizing they are technical."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“It’s intuitive.” (when it’s not)",
+        "“How can you not know this?”",
+        "“Just do X, Y, Z—it’s simple.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re frustrated that someone doesn’t follow your explanation.",
+        "You find yourself saying “Obviously…” repeatedly.",
+        "You’ve forgotten the last time you were confused about this topic."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Knowledge integrates into our mental model so thoroughly that the prior state of ignorance is overwritten. We can’t retrieve it, so we anchor on our own perspective."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "When explaining, ask: “What do they currently know, and what do they need to know first?”",
+        "Use the “explain it like I’m five” test.",
+        "Have a non‑expert review your communication and flag anything unclear."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming the curse of knowledge is a sign of intelligence; it’s a sign of poor perspective‑taking.",
+        "Blaming the listener for not understanding rather than adjusting your message."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A doctor explains a diagnosis using medical terminology. The patient nods, doesn’t understand a word, and fails to follow the treatment plan. The doctor is confused by the non‑compliance, attributing it to “carelessness” rather than her own opaque communication."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The clearer something is to you, the harder it may be to explain. What’s obvious to you is invisible to them until you build the bridge."
+    }
+  ]
+}

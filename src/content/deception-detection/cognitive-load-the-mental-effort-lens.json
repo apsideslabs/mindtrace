@@ -1,0 +1,88 @@
+{
+  "id": "cognitive-load-the-mental-effort-lens",
+  "slug": "cognitive-load-the-mental-effort-lens",
+  "title": "Cognitive Load (The Mental Effort Lens)",
+  "category": "deception-detection",
+  "description": "Lying takes more mental effort than telling the truth. The brain must invent a story, keep it consistent, monitor your reaction, and suppress the truth all at once. When you increase that mental load, the cracks start to show.",
+  "shortDescription": "Lying takes more mental effort than telling the truth. The brain must invent a story, keep it consistent, monitor your reaction, and suppress the truth all at once. When you increase that mental load, the cracks start to show.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "cognitive load",
+    "mental effort",
+    "deception",
+    "memory"
+  ],
+  "relatedTopics": [
+    "reverse-order-recall",
+    "the-unexpected-question",
+    "the-peace-model-interviewing-for-honesty"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Lying takes more mental effort than telling the truth. The brain must invent a story, keep it consistent, monitor your reaction, and suppress the truth all at once. When you increase that mental load, the cracks start to show."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A truthful person tells their story with ease. A liar may pause longer, use fillers, or seem stiff because they are constructing, not remembering.",
+        "If you ask someone to tell their story backwards, a truth‑teller can do it. A liar usually falls apart because a fabricated timeline isn’t stored in reverse.",
+        "Liars often stick to a tight, simple script. They don’t add spontaneous detail because detail increases the risk of contradiction."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Slower speech, longer pauses before answering.",
+        "Repeating your question verbatim to buy time.",
+        "Rigid, rehearsed body language instead of natural movement.",
+        "Failing to correct themselves or say “I forgot.”"
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“That’s a good question…” (stalling)",
+        "“To be honest…” / “Honestly…”",
+        "“As far as I remember…”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "The story lacks sensory details (smells, sounds, exact words spoken).",
+        "When you ask a follow‑up question they didn’t expect, the flow breaks.",
+        "They seem to be thinking hard about something that should be easy to recall."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Cognitive load theory (Vrij et al.) shows that lying demands more working memory than truth‑telling. By adding extra mental tasks—like asking for reverse recall or unexpected details—you can exceed the liar’s capacity, making the deception visible."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Do not interrupt. Let them talk; silence increases load.",
+        "Ask for the story in reverse order.",
+        "Ask questions that require additional detail: “Who else was there?” “What was the weather like?”"
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming nervousness means lying. Nervous truth‑tellers also show high load. Always compare to their calm baseline.",
+        "Believing that more questions make the load unsustainable; you may just look aggressive and get a false confession."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A suspect claims he was at a restaurant at the time of a crime. The interviewer asks, “Describe the exact route you took from your house to the restaurant, in reverse.” The suspect stumbles, changes the route twice, and finally admits he wasn’t there. The truth‑teller could do it easily because the memory was real."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Lies are constructed forward. Truth is stored in all directions. Reverse the road, and the fake map crumbles."
+    }
+  ]
+}

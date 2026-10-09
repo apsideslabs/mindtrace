@@ -1,0 +1,80 @@
+{
+  "id": "criminal-darvo",
+  "slug": "criminal-darvo",
+  "title": "DARVO",
+  "category": "criminology",
+  "description": "Deny, Attack, Reverse Victim and Offender. A defensive response pattern used by wrongdoers to deflect accountability.",
+  "readTime": 3,
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "A defensive response pattern used by wrongdoers to deflect accountability: first deny the behavior, then attack the accuser, and finally flip the roles so the actual victim appears to be the offender."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A partner caught cheating denies it (“I never did that”), then attacks you (“You’re paranoid and controlling”), then claims they’re the real victim (“You’re destroying this relationship with your accusations”).",
+        "A manager accused of discrimination denies it, attacks the employee’s performance, and then says the employee is creating a toxic environment.",
+        "An abuser confronted about physical violence says it never happened, attacks the victim’s credibility, and claims the victim provoked them."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "The accused responds with outrage rather than calm denial.",
+        "They launch a counter-attack about something unrelated.",
+        "They reframe the entire situation as the victim’s fault.",
+        "The conversation shifts from “What you did” to “How dare you accuse me.”"
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I never said that—you’re twisting things.”",
+        "“You’re crazy.”",
+        "“You’re the one who always does this to me.”",
+        "“After everything I’ve done for you, you accuse me of this?”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You find yourself apologizing when you were the one who raised a concern.",
+        "The argument leaves you feeling confused and guilty, unsure what just happened.",
+        "The original issue is forgotten entirely; you’re now defending yourself."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "DARVO exploits the brain’s confusion under stress. It shifts the burden of proof, drains the accuser’s emotional energy, and enlists the sympathy of onlookers."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "If you notice DARVO, do not follow the tangent. Return to the original point: “We can talk about your concerns later. Right now we’re discussing what you did.”",
+        "Document facts, not feelings, before the confrontation.",
+        "Bring a third party or record the conversation (where legal) to prevent the reversal."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming the intense emotional reaction means they must be innocent. DARVO often looks like righteous indignation.",
+        "Letting the conversation derail into a different argument, which is the goal."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A woman confronts her partner about missing money from their joint account. He immediately denies taking it, calls her “obsessed with money,” and then breaks down crying, saying she’s always accusing him and that she doesn’t trust him. She ends up comforting him and never finds out where the money went."
+    },
+    {
+      "title": "Key Insight",
+      "content": "When you raise a concern and suddenly you’re the one defending yourself, you’re not in a conversation anymore—you’re in a DARVO maneuver. Pause, step back, and hold the original line."
+    }
+  ],
+  "relatedTopics": [
+    "pathological-lying",
+    "cycle-of-abuse",
+    "criminal-triangulation"
+  ]
+}

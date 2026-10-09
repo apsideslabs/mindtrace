@@ -1,0 +1,44 @@
+{
+  "id": "preparation-and-planning",
+  "slug": "preparation-and-planning",
+  "title": "Preparation and Planning",
+  "category": "negotiation",
+  "description": "The single most controllable predictor of negotiation success. Preparation means clarifying interests, estimating their BATNA, setting aspiration and reservation points, and planning your opening.",
+  "readTime": 3,
+  "relatedTopics": [
+    "batna",
+    "zone-of-possible-agreement-zopa",
+    "baseline-behavior"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "The single most controllable predictor of negotiation success. Preparation means clarifying interests, estimating their BATNA, setting aspiration and reservation points, and planning your opening."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "The negotiator who walks in with a one-page sheet summarizing their numbers, interests, and possible trades.",
+        "The unprepared negotiator who opens with 'So, what are you thinking?' and then reacts all day."
+      ]
+    },
+    {
+      "title": "Practical Preparation Routine",
+      "content": [
+        "Write your aspiration (optimistic goal) and your reservation (walk-away).",
+        "List three interests beyond price.",
+        "Guess their interests and BATNA.",
+        "Plan your opening line and anchor.",
+        "Identify one objective standard (industry data, precedent, market rate) you can reference."
+      ]
+    },
+    {
+      "title": "Common Mistake",
+      "content": "Preparing only your own side. The most effective negotiators spend as much time imagining the other party's constraints, pressures, and alternatives as their own."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Preparation is the difference between a negotiator and someone who's just having a tense conversation."
+    }
+  ]
+}

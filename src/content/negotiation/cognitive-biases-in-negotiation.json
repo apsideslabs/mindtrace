@@ -1,0 +1,40 @@
+{
+  "id": "cognitive-biases-in-negotiation",
+  "slug": "cognitive-biases-in-negotiation",
+  "title": "Cognitive Biases in Negotiation",
+  "category": "negotiation",
+  "description": "Automatic mental shortcuts that cause negotiators to misjudge value, hold too firm, or miss opportunities.",
+  "readTime": 3,
+  "relatedTopics": [
+    "confirmation-bias",
+    "loss-aversion",
+    "anchoring-and-first-offers"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Automatic mental shortcuts that cause negotiators to misjudge value, hold too firm, or miss opportunities."
+    },
+    {
+      "title": "How Each Bias Actually Appears",
+      "content": [
+        "Fixed-Pie Bias: Assuming any gain for them is a loss for you. You miss a trade where they want a longer contract and you want a lower monthly price.",
+        "Overconfidence: You reject a reasonable offer because you're certain your BATNA is stronger than it is.",
+        "Reactive Devaluation: They offer a concession, and you instantly devalue it just because it came from them ('If they're offering it, it must be bad for us').",
+        "Anchoring: Already covered."
+      ]
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Ask yourself before closing: 'What if I'm wrong about one key assumption?'",
+        "Use a preparation checklist that forces you to identify potential integrative issues.",
+        "Actively consider the opposite: 'What if their offer is actually reasonable?'"
+      ]
+    },
+    {
+      "title": "Key Insight",
+      "content": "Your brain lies to you during negotiations. A checklist is your best defense."
+    }
+  ]
+}

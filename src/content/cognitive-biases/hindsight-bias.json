@@ -1,0 +1,81 @@
+{
+  "id": "hindsight-bias",
+  "slug": "hindsight-bias",
+  "title": "Hindsight Bias",
+  "category": "cognitive-biases",
+  "description": "After an event occurs, you become convinced you “knew it all along,” even when you didn’t. The outcome colors your memory of what you predicted.",
+  "shortDescription": "After an event occurs, you become convinced you “knew it all along,” even when you didn’t. The outcome colors your memory of what you predicted.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "outcome-bias",
+    "confirmation-bias"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "After an event occurs, you become convinced you “knew it all along,” even when you didn’t. The outcome colors your memory of what you predicted."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "After a stock crash, everyone says “it was obvious” the market was overvalued. Before the crash, they were buying.",
+        "A relationship ends, and friends say “I always thought they were wrong for you.” They never said it before.",
+        "After an election upset, pundits explain exactly why it was inevitable. Their pre‑election commentary said the opposite."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Rewriting past opinions to match outcomes.",
+        "Using phrases like “I knew that would happen” and genuinely believing it.",
+        "Forgetting that you were uncertain or held a different view."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I saw that coming a mile away.”",
+        "“It was bound to happen.”",
+        "“Anyone could have predicted that.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You feel no surprise at an unexpected event.",
+        "You cannot produce pre‑event evidence of your prediction.",
+        "You dismiss the actual uncertainty that existed."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "The brain reconstructs memories based on current knowledge. Once you know the outcome, it’s cognitively easy to fit it into a plausible narrative, and the memory of your prior ignorance gets overwritten."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": "Keep a decision journal. Write down your predictions and confidence levels before events unfold. Compare later. This is a debiasing gold standard."
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming others are lying when they say “I knew it.” They often truly believe their revised memory.",
+        "Using hindsight bias to unfairly criticize past decisions made with limited information."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A CEO launches a product that fails. Board members later say “The warning signs were obvious; we should have stopped it.” Meeting minutes from before launch show unanimous enthusiasm and no mention of those “obvious” signs."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The past always looks predictable once you know the ending. That doesn’t mean it was."
+    }
+  ]
+}

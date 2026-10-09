@@ -1,0 +1,78 @@
+{
+  "id": "false-consensus-effect",
+  "slug": "false-consensus-effect",
+  "title": "False Consensus Effect",
+  "category": "human-behavior",
+  "description": "People overestimate the degree to which others agree with their opinions, beliefs, and behaviors.",
+  "readTime": 2,
+  "relatedTopics": [
+    "projection-bias",
+    "confirmation-bias",
+    "spotlight-effect"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "People overestimate the degree to which others agree with their opinions, beliefs, and behaviors."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A person who loves horror movies assumes everyone does and plans a group outing without checking.",
+        "A manager believes his decision is “obviously” the right one and is stunned when the team resists.",
+        "A smoker overestimates the percentage of people who smoke, thinking it’s more normal than it is."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Saying “Everyone thinks this” when only a small subgroup does.",
+        "Assuming silence means agreement.",
+        "Believing that your values are universal."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I think most people would agree.”",
+        "“It’s common sense.”",
+        "“Who wouldn’t want that?”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You rarely encounter disagreement within your circle.",
+        "You feel genuine shock when poll results differ from your views.",
+        "You’ve never asked certain questions because you assumed the answer."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Our social environment is often filtered (we surround ourselves with similar people), and it’s easier to process the world as if others are like us. Ross, Greene, & House (1977) first demonstrated the effect, showing that people overestimate the percentage of others who share their choices."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Before assuming consensus, ask a simple question: “What do you think?”",
+        "Expose yourself to diverse viewpoints intentionally.",
+        "When you think “everyone knows this,” test it on someone outside your bubble."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Using the false consensus as an argument (“Everyone thinks so, so it must be right”).",
+        "Over-correcting and assuming you’re always an outlier."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A product team designs a feature based on the assumption that “users love dark mode.” They push it aggressively without research. Launch reveals only 30% of users use it, and others find it hard to read. The team had projected their own preference."
+    },
+    {
+      "title": "Key Insight",
+      "content": "“Everyone” is usually just the echo of your own voice. Check the room before you speak for the crowd."
+    }
+  ]
+}

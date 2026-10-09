@@ -1,0 +1,91 @@
+{
+  "id": "framing-effect",
+  "slug": "framing-effect",
+  "title": "Framing Effect",
+  "category": "persuasion",
+  "description": "Making decisions based entirely on how information is presented to us, rather than the raw facts themselves.",
+  "readTime": 5,
+  "relatedTopics": [
+    "anchoring",
+    "pre-suasion"
+  ],
+  "sections": [
+    {
+      "title": "Quick Understanding",
+      "content": "It's not what you say, it's how you say it. We react violently differently to the exact same information depending on whether it is presented as a 'gain' or a 'loss'."
+    },
+    {
+      "title": "Why It Works",
+      "content": "Loss aversion. The brain hates losing things far more than it likes gaining things. When a choice is framed as a 'gain', we feel safe. When the exact same choice is framed as a 'loss', we panic and take immediate risks to avoid it."
+    },
+    {
+      "title": "Real-Life Examples",
+      "content": [
+        "Business: Selling ground beef as '95% fat-free' instead of '5% fat'.",
+        "Sales: Calling a price increase a 'Late fee' versus calling a discount an 'Early bird special'.",
+        "Politics: Framing a tax explicitly as 'Government funding' versus a 'Tax burden'.",
+        "Health: A doctor explaining an operation has a '90% survival rate' instead of a '10% mortality rate'."
+      ]
+    },
+    {
+      "title": "What It Looks Like",
+      "content": [
+        "Scenario A (Loss Frame): 'If you don't buy this home insulation, you will lose $500 a year in energy costs.'",
+        "Scenario B (Gain Frame): 'If you buy this home insulation, you will save $500 a year.'",
+        "Result: Scenario A reliably sells vastly more insulation because humans are terrified of losing money."
+      ]
+    },
+    {
+      "title": "Pattern Recognition",
+      "content": [
+        "Focusing heavily on what you will lose if you don't act immediately.",
+        "Changing the names of negative things to sound positive (e.g., 'pre-owned' instead of 'used').",
+        "Using extreme percentages instead of raw, absolute numbers."
+      ]
+    },
+    {
+      "title": "Ethical Uses",
+      "content": "Presenting health choices or financial data with balanced frames (clearly showing both the risks and the benefits) so people can make fully informed decisions."
+    },
+    {
+      "title": "Manipulative Uses",
+      "content": "Deliberately spinning identical data to obscure massive, fatal risks. Using a terrifying 'loss frame' to panic vulnerable people into buying useless insurance."
+    },
+    {
+      "title": "Red Flags",
+      "content": [
+        "Emotional buzzwords that rapidly alter your perception without presenting any actual new hard data.",
+        "Hearing identical statistics presented with dramatically different connotations depending on which news channel you watch.",
+        "A heavy reliance on percentages without ever showing the absolute numbers."
+      ]
+    },
+    {
+      "title": "Defense Strategies",
+      "content": [
+        "Reframe the sentence in your own head to the exact opposite before deciding anything.",
+        "Translate specific ratios and percentages into hard, absolute numbers.",
+        "Ask: 'What is the base rate? Does a 100% increased risk just mean it went from 1 to 2?'"
+      ]
+    },
+    {
+      "title": "Mistakes People Make",
+      "content": [
+        "Assuming their decision was perfectly logical, when they were actually just emotionally reacting to the framing.",
+        "Letting words like 'loss', 'penalty', or 'danger' shut down their critical thinking."
+      ]
+    },
+    {
+      "title": "Case Study",
+      "content": "Researchers gave participants a hypothetical scenario: A deadly disease is about to strike a town of 600 people. You must choose a vaccine program. When framed as a gain ('Program A will save 200 people'), people safely chose A. When framed as a loss ('Program A means 400 people will die'), people overwhelmingly violently rejected A and chose a risky gamble instead. The math was completely identical. The words completely dictated the final choice."
+    },
+    {
+      "title": "Key Lessons",
+      "content": [
+        "1. It's not the facts; it's the frame.",
+        "2. Fear of loss drives action much harder than the promise of gain.",
+        "3. Always flip the frame in your head before committing.",
+        "4. Look at the raw numbers, ignore the adjectives."
+      ]
+    }
+  ]
+}

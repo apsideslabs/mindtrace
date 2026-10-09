@@ -1,0 +1,83 @@
+{
+  "id": "romance-scam-red-flags",
+  "slug": "romance-scam-red-flags",
+  "title": "Romance Scam Red Flags",
+  "category": "criminology",
+  "description": "A type of fraud where a criminal feigns romantic interest, builds an online relationship, and then exploits that emotional bond to extract money or valuable information.",
+  "readTime": 3,
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "A type of fraud where a criminal feigns romantic interest, builds an online relationship, and then exploits that emotional bond to extract money or valuable information."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "On a dating app or social media, someone strikingly attractive and foreign quickly declares deep love.",
+        "They always have a reason they can’t meet in person: deployed military, oil rig worker, international doctor.",
+        "A crisis emerges: they need money for a plane ticket, surgery, legal fees, or to unlock a frozen account. The amounts start small but escalate."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Rapid escalation to “soulmate” status.",
+        "Heavy use of endearments (“my king,” “my queen”).",
+        "Excuses for avoiding video calls or in-person meetings.",
+        "Requests for money via untraceable methods (gift cards, wire transfers, crypto).",
+        "Moving the conversation off the dating platform quickly (to WhatsApp, Hangouts)."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I’ve never felt this way before.”",
+        "“I can’t wait to start our life together.”",
+        "“I’m in trouble, and you’re the only one I can trust.”",
+        "“I promise I’ll pay you back as soon as I get there.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Photos look professional or stolen (reverse image search reveals stock photos or someone else’s profile).",
+        "The person’s story changes or has inconsistencies you overlook because of emotion.",
+        "You haven’t met them after months of intense communication.",
+        "You feel rushed or pressured to send money to “prove your love.”"
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Scammers exploit the same mechanisms as love bombing and idealization. Loneliness or recent life changes increase vulnerability. The request for money is framed as an emergency that only the victim can solve, triggering the hero instinct and reciprocity for the affection they’ve received."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Never send money or financial information to someone you’ve never met in person, no matter how urgent the story.",
+        "Use reverse image searches on their profile photos early.",
+        "Be suspicious of anyone who professes deep love within days or avoids live video calls.",
+        "Talk to a trusted friend about the relationship; an outside view can spot red flags the emotional brain misses."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking romance scams only target older or naive people. All ages and education levels are vulnerable.",
+        "Feeling too embarrassed to stop when you’ve already sent some money (sunk cost trap)."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A widower meets “Elena” online, a nurse working in Syria. She’s beautiful, attentive, and says everything he needs to hear. After two months, she needs $2,000 for emergency leave paperwork. He sends it. Then $5,000 for a flight. Then $10,000 for “visa issues.” By the time he suspects fraud, he’s sent his entire savings. Elena never existed; the photos were of a Brazilian model."
+    },
+    {
+      "title": "Key Insight",
+      "content": "If a stranger online loves you instantly and needs money to reach you, they love your wallet, not you. A real person can wait; a scammer can’t."
+    }
+  ],
+  "relatedTopics": [
+    "criminal-love-bombing",
+    "grooming-behavior",
+    "pathological-lying"
+  ]
+}

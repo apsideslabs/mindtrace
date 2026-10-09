@@ -1,0 +1,92 @@
+{
+  "id": "contrast-principle",
+  "slug": "contrast-principle",
+  "title": "Contrast Principle",
+  "category": "persuasion",
+  "description": "Making a choice look significantly better by comparing it to something much worse right before.",
+  "readTime": 5,
+  "relatedTopics": [
+    "anchoring",
+    "framing-effect"
+  ],
+  "sections": [
+    {
+      "title": "Quick Understanding",
+      "content": "The brain cannot judge absolute value. We make a choice look significantly better (or cheaper) by comparing it to something much worse (or vastly more expensive) right before you show it."
+    },
+    {
+      "title": "Why It Works",
+      "content": "The human brain is scientifically terrible at absolute valuation. It cannot tell you what exactly $100 is worth in a vacuum. We can only logically judge things relatively—by completely comparing them to the thing we saw right before it."
+    },
+    {
+      "title": "Real-Life Examples",
+      "content": [
+        "Retail: Showing a $3,000 suit to a buyer before casually pitching them a $100 tie to go with it.",
+        "Real Estate: An agent taking a buyer to a terrible, overpriced dump before showing them a decent home.",
+        "Pricing: Software tiers showing a $999/month 'Enterprise' plan primarily just to make the $49/month 'Pro' plan look cheap.",
+        "Workplace: Telling your boss a massive, catastrophic crisis happened, then revealing it was a joke and you actually just lost a stapler."
+      ]
+    },
+    {
+      "title": "What It Looks Like",
+      "content": [
+        "Car Dealer: 'So the total for the car is $45,000.'",
+        "Customer: 'Okay.'",
+        "Car Dealer: 'For just $200 more, you can get the premium leather floor mats. What do you think?'",
+        "Customer: (Thinks: $200 is literally nothing compared to $45,000) 'Sure, throw them in.'"
+      ]
+    },
+    {
+      "title": "Pattern Recognition",
+      "content": [
+        "Being deliberately shown the most expensive option first, even when they know you can't afford it.",
+        "The 'decoy effect': a totally useless pricing tier that exists only to make the middle tier look perfect.",
+        "Horrendous initial offers designed solely to make the real offer look like a massive compromise."
+      ]
+    },
+    {
+      "title": "Ethical Uses",
+      "content": "Providing genuine context (e.g., showing the industry average price vs. your actual price) so the customer understands the actual macro value of what they are buying."
+    },
+    {
+      "title": "Manipulative Uses",
+      "content": "Creating entirely fake 'original prices' just so they can cross them out and write a 'sale price'. Showing completely unviable, horrific options just to systematically railroad someone into the specific choice you want them to make."
+    },
+    {
+      "title": "Red Flags",
+      "content": [
+        "A sudden, massive drop in price ('It was $1000, but today for you, it's $49!').",
+        "Being explicitly shown something truly horrifying or terrible right before a pitch.",
+        "The classic 'But wait, there's more' infomercial structure."
+      ]
+    },
+    {
+      "title": "Defense Strategies",
+      "content": [
+        "Judge the price or value of the item in a complete and absolute vacuum. Ask: 'Would I pay $100 for this tie if I hadn't just bought a suit?'",
+        "Hide the original crossed-out price from your view with your hand and actively decide what the object is actively worth to you.",
+        "Force a 24-hour break between seeing the 'expensive' thing and buying the 'cheap' thing."
+      ]
+    },
+    {
+      "title": "Mistakes People Make",
+      "content": [
+        "Buying something they don't actually need just because it looked like a 'great deal' exclusively compared to the anchor.",
+        "Failing to realize that $200 is still $200, regardless of the $45,000 purchase made right before it."
+      ]
+    },
+    {
+      "title": "Case Study",
+      "content": "College students were asked to put one hand in a bucket of ice water, and the other hand in a bucket of hot water. Then, they were told to plunge both hands simultaneously into a middle bucket of room-temperature water. The hand that was in the ice felt the middle water as boiling hot. The hand that was in the hot water felt it as freezing cold. The exact same water felt completely different based purely on the contrast of what the body experienced right before it."
+    },
+    {
+      "title": "Key Lessons",
+      "content": [
+        "1. The brain cannot judge absolute value, only relative contrast.",
+        "2. Always show the most expensive thing first.",
+        "3. Beware the completely fake crossed-out price tag.",
+        "4. Judge every single item in a vacuum."
+      ]
+    }
+  ]
+}

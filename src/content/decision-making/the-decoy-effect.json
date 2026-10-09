@@ -1,0 +1,85 @@
+{
+  "id": "the-decoy-effect",
+  "slug": "the-decoy-effect",
+  "title": "The Decoy Effect",
+  "category": "decision-making",
+  "description": "Adding a clearly inferior third option makes one of the original two look much better. It’s a phantom option designed to push you.",
+  "shortDescription": "Adding a clearly inferior third option makes one of the original two look much better. It’s a phantom option designed to push you.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "pricing",
+    "marketing",
+    "contrast"
+  ],
+  "relatedTopics": [
+    "mental-accounting",
+    "present-bias-hyperbolic-discounting"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Adding a clearly inferior third option makes one of the original two look much better. It’s a phantom option designed to push you."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A cinema offers a small popcorn for $4, a medium for $7.50, and a large for $8. The medium seems like a rip‑off; most people buy the large because “it’s only 50 cents more.” The medium was never meant to sell.",
+        "A software subscription: Basic at $10, Pro at $25, and Premium at $30. Pro looks bad compared to Premium, so people jump to the expensive one.",
+        "A car dealer shows you a base model at $20k, a mid‑trim at $27k, and the high‑trim at $28k. You skip the base and mid, feeling smart for “only” paying $1k more for the top. The mid‑trim is the decoy."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Always choosing the option that seems like a “bargain” compared to a worse‑value alternative.",
+        "Feeling you got a great deal, though you spent more than intended.",
+        "Choosing an option you wouldn’t have selected if the decoy weren’t there."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“For just a little more, I might as well get the best one.”",
+        "“That middle one makes no sense.”",
+        "“It’s only X extra.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "One option seems clearly overpriced compared to its neighbors.",
+        "You’re comparing options relative to each other rather than to your actual needs.",
+        "You go in planning to spend less and end up spending more without much resistance."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "We make relative judgments, not absolute ones. The decoy provides a frame of reference that makes the target option (usually the most expensive) appear disproportionately valuable. This exploits the contrast principle."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Before choosing, ask: “If that middle option didn’t exist, what would I pick?”",
+        "Decide your budget and must‑have features before seeing the pricing table.",
+        "Treat each option as if it’s the only one available, and ask whether it’s worth the price."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking you’re immune because you “spotted” the decoy. You may still shift your preference, just less.",
+        "Assuming decoys are always obvious. Subtle decoys work best."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "An online magazine offers a digital subscription for $59 and a digital‑plus‑print combo for $60. You pick the combo because it seems a steal. The digital‑only was the decoy. Most readers never use the print, but they paid an extra dollar that, at scale, rakes in millions."
+    },
+    {
+      "title": "Key Insight",
+      "content": "If one option looks absurdly bad, it’s probably there on purpose—to make another option look absurdly good. Judge each on its own merit."
+    }
+  ]
+}

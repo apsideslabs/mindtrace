@@ -1,0 +1,85 @@
+{
+  "id": "the-affect-heuristic",
+  "slug": "the-affect-heuristic",
+  "title": "The Affect Heuristic",
+  "category": "decision-making",
+  "description": "Your current emotional feeling about something (like or dislike) instantly shapes your judgment of its risks and benefits. If you like it, you downplay its risk. If you dislike it, you magnify its risk.",
+  "shortDescription": "Your current emotional feeling about something (like or dislike) instantly shapes your judgment of its risks and benefits. If you like it, you downplay its risk. If you dislike it, you magnify its risk.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "emotion",
+    "risk",
+    "judgment"
+  ],
+  "relatedTopics": [
+    "ambiguity-aversion",
+    "empathy-gap-hot-cold"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Your current emotional feeling about something (like or dislike) instantly shapes your judgment of its risks and benefits. If you like it, you downplay its risk. If you dislike it, you magnify its risk."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "Someone loves skydiving and insists it’s “safer than driving,” dismissing injury statistics. Someone scared of flying panics despite knowing flight safety data.",
+        "A manager likes an employee personally and rates their risky idea as “bold” rather than “reckless.”",
+        "A new medication you’ve heard positive stories about feels safer than one you’ve heard scary anecdotes about, regardless of clinical trial results."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Defending a liked activity by cherry‑picking low‑risk data.",
+        "Over‑emphasizing a single negative story about a product or practice while ignoring overall safety records.",
+        "Feeling that “this just feels right” or “something feels off” as final judgment."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I just have a good feeling about this.”",
+        "“That seems dangerous” (based on a gut reaction, not stats).",
+        "“It can’t be that bad if so many people love it.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Your risk assessment flips depending on whether you’re in a good or bad mood.",
+        "You look up evidence only to confirm your emotional stance.",
+        "You feel strongly about something but can’t explain the actual probability of harm."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "The brain uses emotion as a shortcut. Instead of doing a thorough analysis, it substitutes “How risky is this?” with “How do I feel about this?” The feeling is immediate and compelling."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Separate the evaluation: first, record your gut feeling. Then, ask: “What does the data say, independent of my feelings?”",
+        "When someone tries to persuade you with an emotional story, ask for the base rate.",
+        "Wait until you’re in a neutral mood before making a major risk‑related decision."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Dismissing real risks because you “feel fine” about them.",
+        "Magnifying tiny risks because of one vivid horror story, then ignoring far larger common risks."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "After a single plane crash is covered heavily on the news, many people cancel flights and drive long distances instead. The emotional impact of the crash makes flying feel riskier, even though the per‑mile death rate for driving is far higher. The affect heuristic overrides the math."
+    },
+    {
+      "title": "Key Insight",
+      "content": "A good feeling is not evidence of safety, and a bad feeling is not evidence of danger. The world’s probabilities don’t care about your mood."
+    }
+  ]
+}

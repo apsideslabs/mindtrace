@@ -1,0 +1,85 @@
+{
+  "id": "belief-bias",
+  "slug": "belief-bias",
+  "title": "Belief Bias",
+  "category": "cognitive-biases",
+  "description": "Judging an argument’s logical strength not by its reasoning, but by whether its conclusion matches what you already believe. A good‑sounding conclusion makes a bad argument persuasive; a distasteful conclusion makes a good argument seem flawed.",
+  "shortDescription": "Judging an argument’s logical strength not by its reasoning, but by whether its conclusion matches what you already believe. A good‑sounding conclusion makes a bad argument persuasive; a distasteful conclusion makes a good argument seem flawed.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "confirmation-bias",
+    "choice-supportive-bias"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Judging an argument’s logical strength not by its reasoning, but by whether its conclusion matches what you already believe. A good‑sounding conclusion makes a bad argument persuasive; a distasteful conclusion makes a good argument seem flawed."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A weak syllogism: “All dogs are mammals. Some mammals can fly. Therefore, some dogs can fly.” You correctly reject it. But: “All things that are good for you taste bad. Broccoli tastes bad. Therefore, broccoli is good for you.” Many people accept this because the conclusion is true, even though the logic is equally invalid.",
+        "Political debates: partisans accept shoddy reasoning if it supports their side and reject airtight logic if it supports the opponent.",
+        "At work, a well‑presented flawed argument for a beloved project gets approved; a rigorous argument for a disliked project gets nitpicked to death."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Nodding along with arguments that end in a belief you hold.",
+        "Spending disproportionate effort finding flaws in arguments that contradict your views.",
+        "Saying “That can’t be right” based on the conclusion, without examining premises."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“That makes sense.” (when it doesn’t, but the conclusion is agreeable)",
+        "“That’s obviously wrong.” (when the logic is fine but the conclusion is uncomfortable)",
+        "“I don’t buy it.” (without specifying a logical flaw)"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You accept an argument’s validity before checking its reasoning, because you like the destination.",
+        "You reject an argument because “there must be something wrong with it,” but you can’t articulate what.",
+        "Your assessment of an argument’s strength is correlated with your agreement with its conclusion."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Evaluating logic is effortful (System 2). Beliefs are automatic. The brain substitutes an easy question (“Do I agree with this?”) for a hard one (“Is this logically valid?”)."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "When you hear a persuasive argument, separate the conclusion from the reasoning. Check if the premises actually support the conclusion, regardless of whether you like it.",
+        "For important decisions, have someone role‑play the opposite side and point out logical gaps.",
+        "Practice evaluating formal logic puzzles where the content is neutral, to train the skill."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking belief bias only affects “other people” (the politically opposite, the less educated). It’s universal.",
+        "Assuming that strong emotion attached to a conclusion makes the logic more sound; it does not."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A manager presents a plan: “Our competitor did X and succeeded, so we should do X.” The conclusion resonates because the team wants to act. No one checks whether the competitor’s context matches theirs. The plan fails. The belief in the conclusion made the weak analogy seem strong."
+    },
+    {
+      "title": "Key Insight",
+      "content": "When the ending feels right, your brain will forgive a broken path. Check every step, not just the destination."
+    }
+  ]
+}

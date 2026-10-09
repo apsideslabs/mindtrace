@@ -1,0 +1,69 @@
+{
+  "id": "fundamental-attribution-error",
+  "slug": "fundamental-attribution-error",
+  "title": "Fundamental Attribution Error",
+  "category": "human-behavior",
+  "description": "We over-attribute others’ negative behavior to their character, while excusing our own identical behavior due to circumstances.",
+  "readTime": 2,
+  "relatedTopics": [
+    "self-serving-bias",
+    "projection-bias",
+    "blame-shifting"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "We over-attribute others’ negative behavior to their character, while excusing our own identical behavior due to circumstances."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A colleague snaps at you: “They’re such a rude person.” The same morning, you snapped at someone because you slept badly—and you label your own behavior as “just having a rough day.”",
+        "A driver cuts you off: “Idiot.” When you cut someone off, it’s because you’re late and usually a safe driver."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Instant character judgments after single negative interactions.",
+        "Forgiving yourself quickly, holding grudges against others.",
+        "Using different vocabulary for the same action (“I was assertive; they were aggressive”)."
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You hear yourself thinking “That’s just how they are” after one incident.",
+        "You never ask “What might have caused that?” when it’s someone else’s mistake.",
+        "In relationships, you catalog their faults as permanent traits while seeing yours as situational."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Perceptually, the person is the focus of your attention, while their situation is background. For yourself, you’re acutely aware of your own context."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "When judging another’s behavior, deliberately ask: “What situational pressures could have caused this?”",
+        "Pretend you are their defense lawyer for 60 seconds before concluding.",
+        "Track your own attribution vocabulary: notice when you say “they are” vs “they did.”"
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking you’re immune because you know about it. The bias operates automatically; it needs active countering.",
+        "Over-correcting and making endless excuses for genuinely bad behavior."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A project manager misses a deadline. The team immediately grumbles about her being disorganized. Weeks later, they learn her parent was hospitalized that week. The judgment was instant; the context came far too late."
+    },
+    {
+      "title": "Key Insight",
+      "content": "When someone acts badly, assume their day is harder than yours—until proven otherwise."
+    }
+  ]
+}

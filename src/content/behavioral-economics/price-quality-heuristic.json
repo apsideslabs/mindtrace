@@ -1,0 +1,82 @@
+{
+  "id": "price-quality-heuristic",
+  "slug": "price-quality-heuristic",
+  "title": "Price-quality Heuristic (Why We Think Expensive = Better)",
+  "category": "behavioral-economics",
+  "description": "In the absence of other information, people use price as a shortcut to judge quality. A higher price often raises expectations and actually enhances perceived taste, effectiveness, or value—even when the product is identical.",
+  "shortDescription": "In the absence of other information, people use price as a shortcut to judge quality. A higher price often raises expectations and actually enhances perceived taste, effectiveness, or value—even when the product is identical.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "behavioral economics",
+    "psychology",
+    "money"
+  ],
+  "relatedTopics": [],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "In the absence of other information, people use price as a shortcut to judge quality. A higher price often raises expectations and actually enhances perceived taste, effectiveness, or value—even when the product is identical."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A $50 wine tastes better than the same wine in a $10 bottle.",
+        "A placebo painkiller at a higher price provides more relief than the same placebo at a lower price.",
+        "A consultant who charges $500/hour is assumed to be more competent than one who charges $100/hour, regardless of outcomes."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Choosing the more expensive option in a product category to “be safe.”",
+        "Bragging about the cost of a purchase as a proxy for quality.",
+        "Dismissing low‑priced competitors as “cheap” without evaluating the product."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“You get what you pay for.”",
+        "“It’s expensive, so it must be good.”",
+        "“I don’t trust anything that cheap.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You automatically filter products by price, looking only at the high end.",
+        "You’ve never actually compared the expensive version with the cheaper version in a blind test.",
+        "You justify a purchase by its price, not its performance."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "The price‑quality heuristic is a mental shortcut for when direct quality information is absent or hard to obtain. Rao and Monroe (1989) showed that price has a positive effect on perceived quality, especially for unfamiliar products. Placebo pricing effects are well‑documented."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "When possible, do a blind comparison or read independent reviews that isolate quality from price.",
+        "Ask: “If this product were 50% cheaper, would I still believe it’s good?”",
+        "Recognize that in some categories (commodities, generic drugs), price is completely disconnected from quality."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Dismissing the heuristic entirely; sometimes price does correlate with quality (e.g., ingredients, materials). The error is using price as the only signal.",
+        "Over‑adjusting and always buying the cheapest option, missing genuine quality."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A marketing agency pitches a branding package at $50,000. The client hesitates. The agency rep says, “We can do it for $15,000 if you want something basic.” The client suddenly feels the $50,000 option is the “real” one and signs. The $15,000 anchor made the higher price seem like a quality signal, not just a cost."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Price is a price tag, not a report card. The number doesn’t tell you how good something is—it tells you how much you’re willing to believe."
+    }
+  ]
+}

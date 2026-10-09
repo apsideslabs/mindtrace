@@ -1,0 +1,78 @@
+{
+  "id": "confirmation-bias",
+  "slug": "confirmation-bias",
+  "title": "Confirmation Bias (Everyday Form)",
+  "category": "human-behavior",
+  "description": "We seek, interpret, and remember information that fits our pre-existing beliefs, and ignore or dismiss contrary evidence.",
+  "readTime": 2,
+  "relatedTopics": [
+    "false-consensus-effect",
+    "cognitive-biases-in-negotiation",
+    "projection-bias"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "We seek, interpret, and remember information that fits our pre-existing beliefs, and ignore or dismiss contrary evidence."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "Reading news that aligns with your political leaning and feeling it’s “accurate,” while instantly spotting bias in opposing outlets.",
+        "A manager who believes an employee is lazy notices every time the employee takes a break, but overlooks the extra hours they stayed late.",
+        "After a first date, you remember only the moments that confirm your initial impression, whether positive or negative."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Asking leading questions (“You didn’t like that, did you?”).",
+        "Stopping research as soon as you find something that agrees with you.",
+        "Sharing articles based on headlines that match your view without reading them fully."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I knew it.”",
+        "“See, this proves my point.”",
+        "“That source is biased” (only applied to opposing sources)."
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You feel a flash of annoyance when someone presents a counter-argument.",
+        "You can’t explain the other side’s strongest argument.",
+        "Your social circle is homogeneous and reinforces shared views."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "It reduces cognitive effort and protects ego. The brain prefers validation over accuracy. Wason (1960) demonstrated it experimentally with the 2-4-6 task: participants sought only confirmatory examples."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Actively seek disconfirming evidence: “What would prove me wrong?”",
+        "Play devil’s advocate with yourself for two minutes before deciding.",
+        "Consume media from sources you usually distrust, purely to understand their reasoning."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking this is a problem for “other people.”",
+        "Over-correcting into false equivalence (giving equal weight to all sides when evidence is overwhelmingly on one side)."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A hiring manager believes remote employees are less productive. She scrutinizes one remote worker’s deliverables, finding every minor delay, while ignoring the same delays from in-office staff. Her belief solidifies, and she eventually argues against remote work based on her “observations.”"
+    },
+    {
+      "title": "Key Insight",
+      "content": "What you look for is what you’ll find. Change the question, not just the search."
+    }
+  ]
+}

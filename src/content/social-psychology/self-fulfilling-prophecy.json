@@ -1,0 +1,85 @@
+{
+  "id": "self-fulfilling-prophecy",
+  "slug": "self-fulfilling-prophecy",
+  "title": "Self-fulfilling Prophecy",
+  "category": "social-psychology",
+  "description": "A belief or expectation, even if false, leads to behavior that makes the belief come true. You predict something, then act in ways that cause it to happen.",
+  "shortDescription": "A belief or expectation, even if false, leads to behavior that makes the belief come true. You predict something, then act in ways that cause it to happen.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "expectations",
+    "relationships",
+    "communication"
+  ],
+  "relatedTopics": [
+    "stereotype-threat",
+    "social-roles-stanford-prison-experiment"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "A belief or expectation, even if false, leads to behavior that makes the belief come true. You predict something, then act in ways that cause it to happen."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A teacher is told certain students are “bloomers” (high potential). The teacher treats them subtly differently, and they actually improve more. The “bloomers” were chosen at random.",
+        "A manager expects a new hire to be incompetent, so she gives them only trivial tasks. The employee gets bored, disengages, and performs poorly, confirming the manager’s original belief.",
+        "In a relationship, you’re sure your partner will leave you, so you act distant and suspicious. They eventually leave because of your behavior, not their original intent."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Treating someone according to your expectations.",
+        "Seeking evidence that confirms your prediction and ignoring counter‑evidence.",
+        "The target of the expectation gradually aligns their behavior with what you expect."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I knew they’d fail.”",
+        "“They just don’t have what it takes.”",
+        "“See? I was right about them.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Your actions toward someone are shaped more by your label of them than by their actual behavior.",
+        "You notice you’re giving less support, eye contact, or patience to certain people.",
+        "A pattern keeps repeating across different relationships, and you’re the common factor."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Robert Rosenthal and Lenore Jacobson (1968) demonstrated the “Pygmalion effect” in schools. Expectations alter subtle behaviors (tone of voice, time spent, warmth), which in turn shape the other person’s performance and self‑concept. The cycle is self‑reinforcing."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Check your expectations before interacting with someone. Ask: “What if I’m wrong about them?”",
+        "Give people the benefit of a clean slate.",
+        "If you’re a leader, consciously invest equally in all team members; the “special” ones aren’t the only ones who can bloom."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming that if a prophecy fulfills itself, your original prediction was accurate. It was accurate because you made it so.",
+        "Thinking this only applies to positive prophecies. Negative ones (the “Golem effect”) are equally powerful."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A drill sergeant is told a new recruit comes from a troubled background and “won’t make it.” He treats the recruit harshly, ignores his efforts, and isolates him. The recruit, deprived of support, fails the final test. The sergeant says, “I told you so.” The recruit’s failure was the sergeant’s creation."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Expectations are invisible architects. What you believe about someone will build the room they have to live in."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "planning-fallacy",
+  "slug": "planning-fallacy",
+  "title": "Planning Fallacy",
+  "category": "cognitive-biases",
+  "description": "People consistently underestimate the time, costs, and risks of a project they are directly involved in, while believing their current plan is realistic.",
+  "shortDescription": "People consistently underestimate the time, costs, and risks of a project they are directly involved in, while believing their current plan is realistic.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "egocentric-bias",
+    "zero-risk-bias"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "People consistently underestimate the time, costs, and risks of a project they are directly involved in, while believing their current plan is realistic."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A renovation that you estimate will take 2 weeks takes 2 months.",
+        "A work project is promised for Friday; it’s actually done next Wednesday.",
+        "A wedding budget that starts at $10,000 balloons to $18,000, and the couple insists “we didn’t see it coming.”"
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Optimistic time lines despite past failures.",
+        "Focusing on the best‑case scenario.",
+        "Dismissing outside‑view data (“This time is different”)."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“This time I’ll be realistic.” (then isn’t)",
+        "“If nothing goes wrong, we’ll finish by…”",
+        "“That’s a worst‑case number; we’ll come in lower.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You haven’t looked at how long similar projects actually took others.",
+        "You assume no unforeseen obstacles.",
+        "You respond to warnings with “Yeah, but this is simpler.”"
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "When planning, we naturally focus on the unique features of our specific situation (inside view) and neglect base rates of similar past efforts (outside view). The optimism also feels motivating."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Use the “outside view”: find a reference class of similar projects and take the average completion time or cost as your baseline.",
+        "Add a 30–50% buffer to your initial estimate, even if it feels excessive.",
+        "Track your actuals vs. estimates over time; the data is humbling."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Doubling down after the first delay instead of recalibrating.",
+        "Treating the planning fallacy as a sign of incompetence rather than a universal cognitive trait."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A software team estimates a feature will take 3 weeks. Their manager asks, “How long did the last three features of similar size take?” Average: 7 weeks. The team insists this one is simpler. It ships in 8 weeks."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Your plan is a fantasy until you’ve checked it against what actually happened the last ten times. Use yesterday’s results, not today’s optimism."
+    }
+  ]
+}

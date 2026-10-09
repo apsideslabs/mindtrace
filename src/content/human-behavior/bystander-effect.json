@@ -1,0 +1,69 @@
+{
+  "id": "bystander-effect",
+  "slug": "bystander-effect",
+  "title": "Bystander Effect (Diffusion of Responsibility)",
+  "category": "human-behavior",
+  "description": "The more people who are present, the less likely any single person is to help or intervene. Everyone assumes someone else will act.",
+  "readTime": 2,
+  "relatedTopics": [
+    "social-loafing",
+    "social-proof"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "The more people who are present, the less likely any single person is to help or intervene. Everyone assumes someone else will act."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A person collapses on a busy street; dozens walk by.",
+        "During a meeting, a junior employee makes a huge error and no one speaks up until it’s too late.",
+        "A group chat sees a bullying message and it’s met with silence, not support."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "People glance at others for cues before acting.",
+        "They hesitate or freeze.",
+        "Once one person helps, others often follow instantly."
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You assume “someone else will call for help” in a crowded area.",
+        "Multiple bystanders exchange looks but no one moves.",
+        "The thought “I don’t want to overreact” crosses your mind."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Two psychological mechanisms: diffusion of responsibility (others could act, so my duty is diluted) and social proof (if no one else is acting, it must not be an emergency)."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "If you need help, single out one person: “You in the blue jacket, call 911.” Removes diffusion.",
+        "As a bystander, remind yourself: “If I don’t act, maybe no one will.”",
+        "In workplaces, assign specific roles during emergencies ahead of time."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming crowds are indifferent. Most people are just frozen.",
+        "Thinking this only applies to emergencies; it happens in everyday ethical lapses too."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "An intern makes a calculation error in a client report. The whole team sees it during review. No one mentions it until the client flags it, costing credibility. Afterward, each team member admits they thought someone else would point it out."
+    },
+    {
+      "title": "Key Insight",
+      "content": "In a group, responsibility evaporates unless it’s explicitly handed to a specific person."
+    }
+  ]
+}

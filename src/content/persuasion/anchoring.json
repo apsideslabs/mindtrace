@@ -1,0 +1,92 @@
+{
+  "id": "anchoring",
+  "slug": "anchoring",
+  "title": "Anchoring",
+  "category": "persuasion",
+  "description": "The brain latches onto the first piece of information it sees and uses it to judge everything else.",
+  "readTime": 5,
+  "relatedTopics": [
+    "contrast-principle",
+    "door-in-the-face"
+  ],
+  "sections": [
+    {
+      "title": "Quick Understanding",
+      "content": "The human brain latches onto the very first piece of numerical information it sees (the anchor) and falsely uses it to judge the value of everything that follows."
+    },
+    {
+      "title": "Why It Works",
+      "content": "Insufficient adjustment. We start our mental calculation directly at the absolute anchor, and we fail to adjust far enough away from it when calculating the real, objective value. The anchor gravity pulls our perception of reality directly toward it."
+    },
+    {
+      "title": "Real-Life Examples",
+      "content": [
+        "Sales: A vastly inflated $1000 crossed-out fake price sitting next to a $500 'sale' price.",
+        "Negotiation: Intentionally saying $150k first in a salary negotiation solely to mechanically pull the final number up.",
+        "Retail: Supermarkets putting signs that explicitly say 'Limit 5 per customer' to make people desperately buy more.",
+        "Daily Life: A restaurant putting a $100 ridiculous steak on the top of the menu just to make the $40 chicken look perfectly reasonable."
+      ]
+    },
+    {
+      "title": "What It Looks Like",
+      "content": [
+        "Manager: 'What is your salary expectation for this role?'",
+        "Candidate: 'Well, my deep research shows roles like this can pay up to $120,000, but I am looking for $95,000.'",
+        "Manager: (Entirely fixated on the $120k anchor) 'We can't do $120k, but we can offer you $105,000.' (The candidate won by anchoring)."
+      ]
+    },
+    {
+      "title": "Pattern Recognition",
+      "content": [
+        "Throwing out aggressively high or aggressively low numbers instantly early in a conversation.",
+        "Completely fake, crossed-out 'MSRP' prices on generic retail goods.",
+        "Arbitrary numerical limits placed on purchases."
+      ]
+    },
+    {
+      "title": "Ethical Uses",
+      "content": "Providing genuine, well-researched market context directly so people understand the actual macro value of a completely unknown product or service."
+    },
+    {
+      "title": "Manipulative Uses",
+      "content": "Creating completely fake 'original prices' to simulate massive, entirely illegal discounts. Throwing out completely insulting low-ball offers strictly to break a seller's confidence."
+    },
+    {
+      "title": "Red Flags",
+      "content": [
+        "The absolute first number mentioned seems completely, hilariously disconnected from reality.",
+        "A constant 'sale' that supposedly represents a 90% discount every day of the week.",
+        "Arbitrary purchase limits when there is clearly zero actual supply shortage."
+      ]
+    },
+    {
+      "title": "Defense Strategies",
+      "content": [
+        "Ignore the very first number entirely. Do absolute independent research to find the actual market value.",
+        "Relentlessly set your own counter-anchor before the negotiation even genuinely begins.",
+        "If their absolute anchor is completely ridiculous, explicitly refuse to counter it. Tell them boldly to come back with a mathematically serious number."
+      ]
+    },
+    {
+      "title": "Mistakes People Make",
+      "content": [
+        "Arrogantly believing that they are entirely immune to the anchor once they hear it.",
+        "Making a terrible offer strictly based on adjusting the anchor, rather than relying on independent data.",
+        "Thinking they got a 'great deal' purely because the price dropped significantly from the fake original price."
+      ]
+    },
+    {
+      "title": "Case Study",
+      "content": "Real estate experts were asked to estimate the true market value of a specific house. Half were given a listing packet overtly showing a very high asking price; half were given a packet showing a very low asking price. Both groups physically walked through the exact same house. Despite being seasoned career experts, the group given the radically high asking price appraised the house significantly higher than the other group. The anchor beat professional expertise."
+    },
+    {
+      "title": "Key Lessons",
+      "content": [
+        "1. The very first number spoken dictates the entire rest of the game.",
+        "2. Absolutely no one is immune to anchors, even seasoned experts.",
+        "3. Set your own massive anchor.",
+        "4. Ignore the entirely fake crossed-out prices completely."
+      ]
+    }
+  ]
+}

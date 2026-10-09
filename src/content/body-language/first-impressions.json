@@ -1,0 +1,87 @@
+{
+  "id": "first-impressions",
+  "slug": "first-impressions",
+  "title": "First Impressions",
+  "category": "body-language",
+  "description": "How the brain makes snap judgments about trustworthiness and competence in seconds.",
+  "readTime": 5,
+  "relatedTopics": [
+    "confidence-signals",
+    "observation-skills"
+  ],
+  "sections": [
+    {
+      "title": "Quick Understanding",
+      "content": "The human brain makes a near-instantaneous judgment about a stranger's trustworthiness, competence, and threat level within the first seven seconds of meeting them. These snap judgments are notoriously difficult to undo."
+    },
+    {
+      "title": "What It Looks Like",
+      "content": [
+        "A firm, dry handshake with good eye contact.",
+        "Standing up smoothly to greet someone entering a room.",
+        "Wearing situationally appropriate, highly polished clothing.",
+        "A weak, limp handshake accompanied by looking at the floor."
+      ]
+    },
+    {
+      "title": "What It May Indicate",
+      "content": [
+        "An immediate assessment of dominance vs. submission.",
+        "An assessment of social awareness and respect for the environment.",
+        "High or low baseline confidence."
+      ]
+    },
+    {
+      "title": "What It Does NOT Mean",
+      "content": [
+        "A bad first impression does NOT mean the person is fundamentally bad or incompetent; they may just be having an awful day.",
+        "A flawless first impression does NOT guarantee they are trustworthy; sociopaths often heavily optimize for the first 10 seconds."
+      ]
+    },
+    {
+      "title": "Real Life Examples",
+      "content": [
+        "Interview: The candidate who walks in tall, smiles immediately, and shakes hands confidently sets a halo effect for the rest of the interview.",
+        "Sales: A salesperson who approaches too fast, stands too close, and speaks too loudly immediately triggers a defensive threat response in the buyer.",
+        "Dating: Showing up unkempt and avoiding eye contact signals low effort and low confidence instantly."
+      ]
+    },
+    {
+      "title": "Cluster Analysis",
+      "content": [
+        "Clean appearance + warm smile + open posture = Trustworthy and competent.",
+        "Shifty eyes + physical blocking (holding a bag in front) + weak voice = Untrustworthy or highly anxious."
+      ]
+    },
+    {
+      "title": "Common Situations",
+      "content": [
+        "Job interviews.",
+        "First dates.",
+        "Meeting the in-laws.",
+        "Giving a pitch to new investors."
+      ]
+    },
+    {
+      "title": "Observation Mistakes",
+      "content": "Mistake: Believing your 'gut instinct' first impression is always 100% correct. Reality: The 'Halo Effect' causes us to assume beautiful, well-dressed people are also highly moral and intelligent, which is a dangerous cognitive bias."
+    },
+    {
+      "title": "Practical Observation Tips",
+      "content": [
+        "Control your own first impression: Dress slightly better than the baseline of the room, keep your hands out of your pockets, and be the first one to smile.",
+        "When evaluating others, consciously separate their initial physical attractiveness from their actual behavioral baseline."
+      ]
+    },
+    {
+      "title": "Red Flags",
+      "content": [
+        "Someone who comes on incredibly strong, incredibly fast (excessive touching, overwhelming flattery, instant deep mirroring). This is often a manipulative tactic to force false intimacy."
+      ]
+    },
+    {
+      "title": "Reality Check",
+      "content": "First impressions are biological shortcuts our brains use to save time. While powerful, they are heavily influenced by our own subjective biases. Always be prepared to update your mental model as you gather more behavioral data."
+    }
+  ]
+}

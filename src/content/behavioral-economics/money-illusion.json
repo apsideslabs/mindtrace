@@ -1,0 +1,82 @@
+{
+  "id": "money-illusion",
+  "slug": "money-illusion",
+  "title": "Money Illusion (Why We Focus On Nominal Dollars)",
+  "category": "behavioral-economics",
+  "description": "People tend to think about money in nominal terms (the face value) rather than real terms (adjusted for inflation). This illusion affects wage negotiations, investment perceptions, and spending decisions.",
+  "shortDescription": "People tend to think about money in nominal terms (the face value) rather than real terms (adjusted for inflation). This illusion affects wage negotiations, investment perceptions, and spending decisions.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "behavioral economics",
+    "psychology",
+    "money"
+  ],
+  "relatedTopics": [],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "People tend to think about money in nominal terms (the face value) rather than real terms (adjusted for inflation). This illusion affects wage negotiations, investment perceptions, and spending decisions."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A 2% raise during 3% inflation feels like progress, but purchasing power actually decreased.",
+        "A bond yielding 5% when inflation is 6% feels like earning, but it’s a net loss in real terms.",
+        "Selling a house for $300,000 ten years after buying for $200,000 feels like a $100,000 gain, ignoring that the purchasing power of $300,000 may be lower than the original $200,000."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Celebrating nominal gains while ignoring inflation.",
+        "Resisting a nominal pay cut more than a real pay cut via inflation.",
+        "Focusing on the number of dollars, not what they buy."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I got a raise!” (when it’s below inflation)",
+        "“The stock market is at an all‑time high.” (in nominal terms, ignoring that dollars are worth less)",
+        "“Back in my day, a movie cost a nickel.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You compare your salary to last year’s without adjusting for inflation.",
+        "You think an investment is doing well because the balance is higher, but you haven’t calculated real return.",
+        "You’re excited by a “record high” index value without noting inflation or population growth."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Money illusion arises because nominal values are salient and easy to compare, while inflation is abstract. Shafir, Diamond, and Tversky (1997) documented it extensively. Even experts can be affected when making intuitive judgments."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Always calculate real returns: nominal return minus inflation rate.",
+        "When negotiating salary, research the inflation rate and build it into your ask.",
+        "Use inflation‑adjusted charts for long‑term financial decisions, not nominal ones."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming that a “safe” nominal return is protecting your wealth. Cash under the mattress loses value every year.",
+        "Believing that because you understand inflation intellectually, you’re immune to the illusion."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A retiree invests his nest egg in a fixed deposit earning 4% nominal. Inflation is 5%. He feels secure because his balance goes up each year. In real terms, his purchasing power is shrinking annually, and he doesn’t notice until he can’t afford his lifestyle."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Dollars are a measuring tape that inflation keeps stretching. If you only look at the number on the tape, you won’t notice the board is getting shorter."
+    }
+  ]
+}

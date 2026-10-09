@@ -1,0 +1,86 @@
+{
+  "id": "illusion-of-control",
+  "slug": "illusion-of-control",
+  "title": "Illusion Of Control",
+  "category": "decision-making",
+  "description": "People overestimate their ability to influence events that are purely chance or heavily determined by external factors. They believe skill applies where it doesn’t.",
+  "shortDescription": "People overestimate their ability to influence events that are purely chance or heavily determined by external factors. They believe skill applies where it doesn’t.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "luck",
+    "skill",
+    "chance"
+  ],
+  "relatedTopics": [
+    "gamblers-fallacy",
+    "outcome-bias"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "People overestimate their ability to influence events that are purely chance or heavily determined by external factors. They believe skill applies where it doesn’t."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A gambler throws dice harder for a high number, blows on cards for luck, or selects “lucky” slot machines.",
+        "An investor believes picking stocks is skill when most active managers underperform the market index.",
+        "A job candidate believes that a certain ritual (lucky tie) got them the offer, not their qualifications and fit.",
+        "A driver leans into a curve as if body movement helps the car turn."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Engaging in superstitious behavior related to outcomes.",
+        "Trading frequently in the stock market, generating fees, because they “have a system.”",
+        "Taking credit for random positive outcomes but blaming external factors for negative ones."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I’ve got a good feeling about this hand.”",
+        "“I can time the market.”",
+        "“It’s all about the way you throw.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You attribute luck to skill.",
+        "You’re performing actions that logically cannot influence the outcome.",
+        "You feel more confident when you “participate” in the random process (rolling dice yourself vs. someone else rolling for you)."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "The desire for control is fundamental. In uncertain situations, we create narratives that give us agency. Also, if an event has elements of skill, we overgeneralize that skill to the entire outcome. Early wins can cement the illusion."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Separate what you can control from what you cannot. Write two lists.",
+        "When evaluating performance, ask: “How much of this was chance?” Use statistical benchmarks.",
+        "Accept that in many areas (investing, gambling), luck dominates the short term."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Dismissing the illusion as something only gamblers have. It’s present in investing, management, and relationships.",
+        "Refusing to hedge risks because you believe you can “manage” them."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A startup founder insists on making every decision personally, believing her judgment is what will make the company succeed. She ignores market data, dismisses advice, and credits good quarters to her “gut.” A competitor does the opposite, tracking data and admitting uncertainty. The illusion of control at the first company leads to a massive, avoidable failure."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The more certain you feel about controlling an unpredictable outcome, the less you’re actually controlling. The dice land how they land, no matter how hard you wish."
+    }
+  ]
+}

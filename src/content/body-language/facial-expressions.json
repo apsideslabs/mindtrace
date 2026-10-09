@@ -1,0 +1,86 @@
+{
+  "id": "facial-expressions",
+  "slug": "facial-expressions",
+  "title": "Facial Expressions",
+  "category": "body-language",
+  "description": "How the face broadcasts emotion, and the difference between genuine and fake expressions.",
+  "readTime": 5,
+  "relatedTopics": [
+    "microexpressions",
+    "deception-indicators"
+  ],
+  "sections": [
+    {
+      "title": "Quick Understanding",
+      "content": "The human face is equipped with over 40 distinct muscles capable of producing thousands of expressions. It is the primary billboard for broadcasting human emotion, but it is also the easiest part of the body to fake."
+    },
+    {
+      "title": "What It Looks Like",
+      "content": [
+        "A genuine 'Duchenne' smile that crinkles the corners of the eyes.",
+        "A furrowed brow and tightened lips indicating anger.",
+        "Widened eyes and a slightly open mouth indicating surprise.",
+        "A slight curling of one side of the upper lip indicating contempt."
+      ]
+    },
+    {
+      "title": "What It May Indicate",
+      "content": [
+        "Universal baseline emotions (Happiness, Sadness, Fear, Disgust, Anger, Surprise, Contempt).",
+        "Conscious attempts to perform a socially acceptable emotion (the polite smile)."
+      ]
+    },
+    {
+      "title": "What It Does NOT Mean",
+      "content": [
+        "A smile does NOT always mean happiness. It is often used as a mask to cover fear, submission, or deception.",
+        "A neutral face does NOT mean they aren't feeling anything; they may just be heavily masking."
+      ]
+    },
+    {
+      "title": "Real Life Examples",
+      "content": [
+        "Social: The 'customer service smile' used by retail workers — polite, but not involving the eye muscles.",
+        "Workplace: Attempting to look pleasantly surprised when winning an award you already knew you were going to win.",
+        "Argument: Flashing a look of disgust when a partner brings up a past mistake."
+      ]
+    },
+    {
+      "title": "Cluster Analysis",
+      "content": [
+        "Fake smile + tense jaw + crossed arms = Suppressed annoyance masked as politeness.",
+        "Genuine smile + relaxed brow + eye contact = Actual happiness and rapport."
+      ]
+    },
+    {
+      "title": "Common Situations",
+      "content": [
+        "Evaluating a stranger's mood before approaching them.",
+        "Assessing if a joke landed well or offended someone.",
+        "Reading the 'temperature' of a room during a speech."
+      ]
+    },
+    {
+      "title": "Observation Mistakes",
+      "content": "Mistake: Believing that you can accurately read all complex emotions just from the face. Reality: Without seeing the body's posture, a face reacting to extreme grief can look identical to a face reacting to extreme joy."
+    },
+    {
+      "title": "Practical Observation Tips",
+      "content": [
+        "Look for the 'Duchenne' marker. A genuine smile always engages the orbicularis oculi muscle, causing 'crow's feet' wrinkles at the corners of the eyes. Fake smiles only use the mouth.",
+        "Watch for macro-expressions versus micro-expressions. Macro-expressions last between half a second and 4 seconds and match the spoken words."
+      ]
+    },
+    {
+      "title": "Red Flags",
+      "content": [
+        "Expressions that last too long. A genuine expression of surprise lasts less than a second. If someone holds a surprised 'gasp' face for five seconds, they are faking it.",
+        "Asymmetrical expressions (except for contempt, which is naturally one-sided)."
+      ]
+    },
+    {
+      "title": "Reality Check",
+      "content": "Because humans grow up being told to 'smile for the camera' or 'look happy,' the face is the most highly trained tool for lying. Always verify the face against the feet, posture, and voice."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "functional-fixedness",
+  "slug": "functional-fixedness",
+  "title": "Functional Fixedness",
+  "category": "cognitive-biases",
+  "description": "Getting stuck seeing objects or ideas only in their usual function, which blocks creative problem‑solving. You can’t see that a paperclip could also be a lock‑pick.",
+  "shortDescription": "Getting stuck seeing objects or ideas only in their usual function, which blocks creative problem‑solving. You can’t see that a paperclip could also be a lock‑pick.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "restraint-bias"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Getting stuck seeing objects or ideas only in their usual function, which blocks creative problem‑solving. You can’t see that a paperclip could also be a lock‑pick."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A mechanic trying to open a stuck part doesn’t think to use a coin, only a wrench.",
+        "In a brainstorming session, the team only imagines the product in its current market, missing adjacent opportunities.",
+        "In a survival situation, people fail to use their phone’s screen as a signal mirror because they see it as “just a phone.”"
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Repeating the same tool‑use patterns even when ineffective.",
+        "Rejecting unconventional solutions because “that’s not what it’s for.”",
+        "Staring at a problem with all the necessary items nearby but failing to combine them."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“That’s not what that’s made for.”",
+        "“We can’t use that here.”",
+        "“This needs the proper tool.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re stuck and you’ve stopped scanning your environment for alternative resources.",
+        "You dismiss ideas because they break convention.",
+        "You think you need to buy or acquire something new when the solution is already in front of you."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "The brain organizes knowledge into schemas with fixed associations. This cognitive efficiency comes at the cost of flexibility: the primary association blinds you to secondary uses."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "When stuck, list every object around you and ask, “What else could this do?”",
+        "Deliberately consider “wrong” or absurd uses; one might spark the right idea.",
+        "In team settings, ask someone from a completely different domain to look at the problem."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Believing that creativity is a fixed trait rather than a skill of breaking functional fixedness.",
+        "Confusing “best practice” with “only possible practice.”"
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A hiker’s water bottle breaks. He panics about dehydration for hours before realizing his plastic bag from lunch can hold water. The bag was classified as “trash,” not “container,” in his mind."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The only difference between junk and a tool is the function your brain assigns. Break the label, and the world fills with new solutions."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "halo-effect",
+  "slug": "halo-effect",
+  "title": "Halo Effect",
+  "category": "human-behavior",
+  "description": "One positive trait unconsciously makes you assume they have many other positive traits—intelligence, kindness, competence.",
+  "readTime": 2,
+  "relatedTopics": [
+    "the-pratfall-effect",
+    "cheerleader-effect",
+    "first-impressions"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "One positive trait (attractiveness, confidence, a prestigious alma mater) unconsciously makes you assume they have many other positive traits—intelligence, kindness, competence."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A well-dressed candidate is rated as more capable before speaking.",
+        "A charismatic speaker says something mediocre but gets applause; the same words from a dull speaker would be ignored.",
+        "You automatically trust a doctor more because their office is clean and they wear a white coat, even before they demonstrate medical skill."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Interviewers making up their mind in the first 10 seconds based on appearance and demeanor.",
+        "People paying more for products with beautiful packaging, assuming quality.",
+        "Overlooking flaws in attractive or confident individuals."
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re impressed by someone’s confidence and instantly assume they’re right.",
+        "You dismiss contrary data because “they seem so competent.”",
+        "You assume good-looking people are more honest (physical attractiveness stereotype)."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Brains conserve energy by using shortcuts. A strong positive signal becomes a central trait that colors everything else."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Separate domains: Ask “Is this person’s appearance relevant to their advice?”",
+        "Objectively sample performance data, not just impressions.",
+        "When you notice strong positive or negative feelings toward someone, list their traits independently, as if rating a stranger."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Believing you’re not susceptible because you’re a critical thinker. Halo effects are largely unconscious.",
+        "Rejecting a candidate entirely due to one negative trait (reverse halo / devil effect)."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "Two consultants pitch the same idea. One is impeccably dressed, speaks with a British accent, and uses elegant slides. The other, in casual clothes, presents the same data nervously. The board approves the first without scrutinizing the second’s equally solid proposal."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Likeability is a tinted lens. Before deciding, wipe the lens clean and look at the evidence in black and white."
+    }
+  ]
+}

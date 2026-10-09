@@ -1,0 +1,85 @@
+{
+  "id": "representativeness-heuristic",
+  "slug": "representativeness-heuristic",
+  "title": "Representativeness Heuristic",
+  "category": "cognitive-biases",
+  "description": "We judge the probability of something by how much it resembles a stereotype or a known category, ignoring base rates and logic.",
+  "shortDescription": "We judge the probability of something by how much it resembles a stereotype or a known category, ignoring base rates and logic.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "gamblers-fallacy",
+    "clustering-illusion"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "We judge the probability of something by how much it resembles a stereotype or a known category, ignoring base rates and logic."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A quiet, bookish person is assumed more likely to be a librarian than a salesperson, even though there are far more salespeople than librarians.",
+        "A startup founder who “looks like Steve Jobs” gets funded, despite a weaker business plan, because they fit the prototype.",
+        "A coin flip comes up T‑T‑T‑H‑T and people say it’s more random than T‑T‑T‑T‑T, even though all sequences are equally likely."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Judging people’s professions, trustworthiness, or intelligence by appearance.",
+        "Believing small sample results represent the whole (“The first three users loved it, so it’s a hit”).",
+        "Seeing patterns in randomness because they “look right.”"
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“He just looks like a doctor.”",
+        "“That seems about right.” (based on fit, not data)",
+        "“I got a read on them immediately.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re surprised when a stereotype doesn’t hold.",
+        "You assume that an anecdote or a small sample is representative.",
+        "You ignore base rates entirely because the “story” makes sense."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Categorization is efficient. The brain automatically matches new information to stored prototypes; this speeds up judgment but systematically misses statistical truths."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Explicitly ask: “What is the base rate?” before making probability judgments.",
+        "Seek out counter‑stereotypical examples.",
+        "In personnel decisions, use structured interviews and blind evaluation where possible."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Believing that “you can tell” by looking.",
+        "Defending stereotypes because they “contain a grain of truth” without checking how large that grain actually is."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A hiring manager interviews a candidate who is articulate, well‑dressed, and confident. The candidate fits the mental image of a “top performer,” so the manager ignores lukewarm references. The candidate is hired and fails badly. The base rate of actual top performers is low, but the representativeness shortcut overrode it."
+    },
+    {
+      "title": "Key Insight",
+      "content": "“Looks the part” is the brain being lazy. The part is a set of behaviors, not a costume."
+    }
+  ]
+}

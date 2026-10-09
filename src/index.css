@@ -1,0 +1,143 @@
+@import "tailwindcss";
+
+@theme {
+  /* Paper & ink — editorial light theme */
+  --color-paper: #fbfaf7;
+  --color-paper-2: #f4f1ea;
+  --color-surface: #ffffff;
+  --color-ink: #14120f;
+  --color-ink-soft: #403b34;
+  --color-muted: #8a8378;
+  --color-faint: #b7b0a3;
+  --color-line: #e7e1d6;
+  --color-line-strong: #d6cec0;
+
+  /* Accent — oxblood */
+  --color-accent: #b23a2a;
+  --color-accent-deep: #8f2c1f;
+  --color-accent-soft: #f5e6e1;
+
+  /* Semantic */
+  --color-good: #2f7d5f;
+  --color-warn: #b07a2a;
+  --color-bad: #b23a2a;
+
+  --font-display: "Fraunces", ui-serif, Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "Menlo", monospace;
+
+  --radius-card: 14px;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #f2d9d2;
+  color: var(--color-ink);
+}
+
+/* Headings lean on the display serif */
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  letter-spacing: -0.01em;
+}
+
+/* Fine hairline rule used across the layout */
+.hairline { border-color: var(--color-line); }
+
+/* Editorial eyebrow / kicker */
+.kicker {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-muted);
+}
+
+/* Card */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+  transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+.card:hover {
+  border-color: var(--color-line-strong);
+  box-shadow: 0 8px 24px -18px rgba(20, 18, 15, .35);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .8125rem;
+  font-weight: 600;
+  padding: .55rem .95rem;
+  border-radius: 999px;
+  transition: all .16s ease;
+  cursor: pointer;
+}
+.btn-primary { background: var(--color-ink); color: var(--color-paper); }
+.btn-primary:hover { background: #000; }
+.btn-accent { background: var(--color-accent); color: #fff; }
+.btn-accent:hover { background: var(--color-accent-deep); }
+.btn-ghost { color: var(--color-ink-soft); border: 1px solid var(--color-line); background: var(--color-surface); }
+.btn-ghost:hover { border-color: var(--color-line-strong); color: var(--color-ink); }
+
+/* Reading body for topic + fact long-form */
+.reading p { margin-bottom: 1.15rem; }
+.reading p:last-child { margin-bottom: 0; }
+
+/* Drop cap for the opening paragraph of an article */
+.dropcap::first-letter {
+  font-family: var(--font-display);
+  font-weight: 600;
+  float: left;
+  font-size: 3.5rem;
+  line-height: .82;
+  padding: .35rem .6rem 0 0;
+  color: var(--color-accent);
+}
+
+/* Thin custom scrollbar */
+* { scrollbar-width: thin; scrollbar-color: var(--color-line-strong) transparent; }
+*::-webkit-scrollbar { width: 9px; height: 9px; }
+*::-webkit-scrollbar-thumb { background: var(--color-line-strong); border-radius: 999px; border: 2px solid var(--color-paper); }
+*::-webkit-scrollbar-track { background: transparent; }
+
+/* Hide scrollbar for horizontal rails */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Safe area for mobile bottom nav */
+.pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); }
+
+/* React Flow light-theme tweaks */
+.react-flow__attribution { display: none; }
+.react-flow__controls-button {
+  background: var(--color-surface) !important;
+  border-bottom: 1px solid var(--color-line) !important;
+  color: var(--color-ink) !important;
+}
+.react-flow__controls-button svg { fill: var(--color-ink) !important; }
+
+@keyframes mt-fade-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.mt-fade { animation: mt-fade-up .35s ease both; }

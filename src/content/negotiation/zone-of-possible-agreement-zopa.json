@@ -1,0 +1,46 @@
+{
+  "id": "zone-of-possible-agreement-zopa",
+  "slug": "zone-of-possible-agreement-zopa",
+  "title": "Zone of Possible Agreement (ZOPA)",
+  "category": "negotiation",
+  "description": "The invisible range between the seller's walk-away minimum and the buyer's walk-away maximum. Outside this zone, no deal is possible.",
+  "readTime": 3,
+  "relatedTopics": [
+    "batna",
+    "preparation-and-planning",
+    "anchoring-and-first-offers"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "The invisible range between the seller's walk-away minimum and the buyer's walk-away maximum. Outside this zone, no deal is possible."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A vendor's absolute minimum is $40,000. Your maximum budget is $45,000. The ZOPA is $40,000–$45,000. Any settlement inside that range is better than no deal for both.",
+        "If your max is $38,000, there is no ZOPA. Pushing further wastes time and goodwill."
+      ]
+    },
+    {
+      "title": "Warning Signs of No ZOPA",
+      "content": [
+        "Repeated offers that barely move.",
+        "One party's concessions are tiny fractions.",
+        "Phrases like 'That's just not feasible for us' repeated three times with no alternative solutions."
+      ]
+    },
+    {
+      "title": "Protection Strategy",
+      "content": "Before negotiating, estimate the other side's walk-away point by asking indirect questions: 'What other options would you consider?' or 'What does your fallback look like?'"
+    },
+    {
+      "title": "Common Mistake",
+      "content": "Assuming that because you want a deal badly, a ZOPA must exist. Wishing does not create one."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Know the boundaries of possible agreement before you fight over the space inside them."
+    }
+  ]
+}

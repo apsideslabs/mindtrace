@@ -1,0 +1,82 @@
+{
+  "id": "partitioning-effect",
+  "slug": "partitioning-effect",
+  "title": "Partitioning Effect (Why Separating Costs Changes Perception)",
+  "category": "behavioral-economics",
+  "description": "How a total price is divided into parts—shipping, handling, taxes, surcharges—changes how expensive it feels. Partitioning can make a purchase seem cheaper (by separating fees) or more expensive (by adding many small charges).",
+  "shortDescription": "How a total price is divided into parts—shipping, handling, taxes, surcharges—changes how expensive it feels. Partitioning can make a purchase seem cheaper (by separating fees) or more expensive (by adding many small charges).",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "behavioral economics",
+    "psychology",
+    "money"
+  ],
+  "relatedTopics": [],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "How a total price is divided into parts—shipping, handling, taxes, surcharges—changes how expensive it feels. Partitioning can make a purchase seem cheaper (by separating fees) or more expensive (by adding many small charges)."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A $100 product with “free shipping” feels cheaper than $90 + $10 shipping, even though the total is the same.",
+        "Airlines that unbundle: base fare looks low, but seat selection, baggage, and meals add up to far more.",
+        "A restaurant that includes service charge in the menu price vs. one that adds it at the end. The latter feels pricier because the tip is a separate, painful add‑on."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Preferring all‑inclusive pricing even if it’s slightly higher, to avoid the death‑by‑a‑thousand‑cuts feeling.",
+        "Budgeting only for the base price and ignoring mandatory extras.",
+        "Feeling “nickel‑and‑dimed” when many small fees appear, even if the total is reasonable."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“The base price is great, but then all these fees show up.”",
+        "“Just give me one number.”",
+        "“Free shipping!” (the most powerful partition removal)"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re comparing prices across vendors but not including the mandatory extras.",
+        "A low base price entices you, and you don’t check the final total.",
+        "You feel disproportionately angry about a small surcharge, even though the overall price is still good."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Morwitz, Greenleaf, and Johnson (1998) found that partitioning reduces the perceived pain by making the components less salient individually. However, the effect can reverse if the fees are perceived as unfair or excessive. The key is the consumer’s attention to the base vs. the total."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Always compare total, out‑the‑door prices, not base prices.",
+        "When you see a partitioned price, mentally add everything up immediately before evaluating the offer.",
+        "As a seller, consider all‑inclusive pricing or “no hidden fees” to build trust and reduce cognitive load."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming that partitioned pricing is always deceptive; sometimes it helps consumers see what they’re paying for.",
+        "Focusing so much on avoiding fees that you pick a worse overall deal."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A hotel booking site shows a room at $89/night. A competitor shows the same room at $99/night, all taxes and fees included. The first site, after adding $25 in fees, totals $114. Consumers still prefer the first because the $89 base price anchored them, and the fees didn’t register until checkout."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The price you see is rarely the price you pay. The real number hides in the fine print and the “plus taxes and fees” whisper."
+    }
+  ]
+}

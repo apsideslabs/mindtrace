@@ -1,0 +1,86 @@
+{
+  "id": "glass-cliff",
+  "slug": "glass-cliff",
+  "title": "The Glass Cliff",
+  "category": "power-dynamics",
+  "description": "Women and members of minority groups are more likely to be placed in leadership roles during times of crisis, when the risk of failure is highest. The cliff is made of glass because you can see the opportunity but not the precipice beneath.",
+  "shortDescription": "Women and members of minority groups are more likely to be placed in leadership roles during times of crisis, when the risk of failure is highest. The cliff is made of glass because you can see the opportunity but not the precipice beneath.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "glass cliff",
+    "leadership",
+    "crisis",
+    "diversity"
+  ],
+  "relatedTopics": [
+    "peter-principle",
+    "office-politics"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Women and members of minority groups are more likely to be placed in leadership roles during times of crisis, when the risk of failure is highest. The cliff is made of glass because you can see the opportunity but not the precipice beneath."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A company facing bankruptcy appoints its first female CEO. If she fails, she becomes proof that “women can’t lead.” If she succeeds, she is the exception who “survived” the impossible.",
+        "A political party in a mess nominates a woman or minority candidate for an unwinnable election.",
+        "A struggling department is handed to a newly promoted manager from an underrepresented group, with minimal support."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "The role is framed as “a great opportunity,” but the resources and support are inadequate.",
+        "The predecessor left a disaster, and the timeline to fix it is unrealistic.",
+        "The appointment is publicized heavily as a diversity win, distracting from the setup."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“We need a fresh perspective to turn this around.” (when “fresh” means “expendable”)",
+        "“If anyone can fix this, it’s you.” (flattery masking the trap)",
+        "“It’s a high‑risk role, but high reward.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re offered a leadership role in a crisis with no safety net.",
+        "The organization has a history of short‑tenured leaders from your demographic.",
+        "The previous person was pushed out, and the same board is still in place."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Research by Michelle Ryan and Alex Haslam first identified the glass cliff. It’s a combination of bias: in good times, leadership is seen as requiring “traditional” (stereotypically male) traits; in bad times, “communal” traits (listening, empathy) are suddenly valued, and women are handed the mop."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Before accepting a crisis role, ask for specific resources, autonomy, and a realistic timeline in writing.",
+        "Negotiate a clear definition of success for the first 12 months.",
+        "If you’re on a board, notice when you’re offering a “poisoned chalice” to a diverse candidate and stop yourself."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Declining the opportunity entirely, when with proper support, it could be a genuine breakthrough.",
+        "Assuming it only applies to gender. Any underrepresented group can be given the glass cliff."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A tech startup with a toxic culture hires its first female CTO after a major product failure. She’s given a tiny budget and an impossible deadline. When the next product also fails, the board fires her and says, “We tried a woman leader, and it didn’t work.” The setup was invisible to everyone but her."
+    },
+    {
+      "title": "Key Insight",
+      "content": "When you’re handed the wheel in a storm, ask yourself: “Am I being trusted, or am I being sacrificed?”"
+    }
+  ]
+}

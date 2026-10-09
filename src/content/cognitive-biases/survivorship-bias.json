@@ -1,0 +1,85 @@
+{
+  "id": "survivorship-bias",
+  "slug": "survivorship-bias",
+  "title": "Survivorship Bias",
+  "category": "cognitive-biases",
+  "description": "We focus on the people or things that made it past a selection process and overlook those that didn’t, leading to overly optimistic beliefs about success.",
+  "shortDescription": "We focus on the people or things that made it past a selection process and overlook those that didn’t, leading to overly optimistic beliefs about success.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "availability-heuristic",
+    "outcome-bias"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "We focus on the people or things that made it past a selection process and overlook those that didn’t, leading to overly optimistic beliefs about success."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "“Entrepreneurs who dropped out of college become billionaires. Therefore, dropping out is a good path to success.” The failures are invisible.",
+        "A gym advertises members who got amazing results; the hundreds who quit without progress are not shown.",
+        "You study the habits of successful companies and ignore the thousands of companies with the same habits that went bankrupt."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Following advice from survivors without checking if non‑survivors followed the same advice.",
+        "Thinking that because one strategy worked for a winner, it will work for you.",
+        "Ignoring the hidden failures that make the success rate lower than it appears."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“If they can do it, so can I.”",
+        "“Look at all the people who made it.”",
+        "“The evidence is right there.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You only hear about winners.",
+        "There’s no mention of the denominator (how many tried and failed).",
+        "You’re drawing life lessons from biographies rather than from population‑level statistics."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Success stories are salient, celebrated, and easy to recall. Failures disappear quietly. The brain then draws conclusions from the visible sample, not the full data set."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Always ask: “How many people tried this and failed?”",
+        "When evaluating a strategy, study the failures as carefully as the successes.",
+        "Seek out “shut‑up‑and‑multiply” data: find the actual base rate of success."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Using survivorship bias as an excuse for inaction. It doesn’t mean success is impossible, only that the odds are often worse than they look.",
+        "Believing you can “outsmart” the bias by just being aware of it; you must actively hunt for the invisible failures."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A budding investor reads books by the top 5 hedge fund managers, who all recommend deep value investing. He adopts the strategy and loses money for years. He later learns that hundreds of other deep value funds failed silently, and the 5 he read about are the extreme tail, not the norm."
+    },
+    {
+      "title": "Key Insight",
+      "content": "For every winner you admire, there’s a graveyard of people who did the exact same thing and lost. The graveyard is quiet, but it’s the real teacher."
+    }
+  ]
+}

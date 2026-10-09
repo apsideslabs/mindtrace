@@ -1,0 +1,85 @@
+{
+  "id": "group-polarization",
+  "slug": "group-polarization",
+  "title": "Group Polarization",
+  "category": "social-psychology",
+  "description": "When like‑minded people discuss an issue, their views become more extreme in the direction they already leaned. A group of cautious people becomes more cautious; a group of risk‑takers becomes more reckless.",
+  "shortDescription": "When like‑minded people discuss an issue, their views become more extreme in the direction they already leaned. A group of cautious people becomes more cautious; a group of risk‑takers becomes more reckless.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "extremism",
+    "echo chambers",
+    "beliefs"
+  ],
+  "relatedTopics": [
+    "groupthink",
+    "deindividuation"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "When like‑minded people discuss an issue, their views become more extreme in the direction they already leaned. A group of cautious people becomes more cautious; a group of risk‑takers becomes more reckless."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A jury with mild inclinations to convict becomes strongly convinced after deliberation.",
+        "A group of friends with shared political views becomes more radical after chatting online.",
+        "An investment committee that’s already bullish becomes wildly over‑optimistic after a discussion."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "People leaving a discussion feeling “confirmed” in their starting view.",
+        "The group’s final stance is more extreme than any individual’s initial position.",
+        "Members compete to show they’re just as committed as the most extreme person."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“Now I’m even more convinced.”",
+        "“If they feel that strongly, maybe I should too.”",
+        "“We all agreed, so we must be right.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "The group’s decision feels bolder than what you’d have decided alone.",
+        "Moderate voices get drowned out.",
+        "The discussion is mostly people repeating the same arguments, just louder."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Two mechanisms: persuasive arguments (people hear new arguments that support their view) and social comparison (people adjust to the group norm to appear more committed). This was first demonstrated in the “risky shift” studies (Stoner, 1961)."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Before discussing, have everyone write down their initial stance. Compare after.",
+        "Intentionally bring in a moderate or opposing perspective.",
+        "If you sense the group is moving to an extreme, pause and ask: “What’s the strongest argument against this?”"
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming group discussion makes decisions more balanced. It often makes them more lopsided.",
+        "Thinking that because a group of smart people agrees, they must be right."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A group of activists starts with moderate concerns about a local policy. After an evening of talking in a closed group chat, they decide to stage a highly confrontational protest. Individually, most members would have chosen a calmer approach, but the group dynamic pushed them further."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Conversation doesn’t always bring balance; it can amplify the bias already in the room. A chorus makes a whisper into a shout."
+    }
+  ]
+}

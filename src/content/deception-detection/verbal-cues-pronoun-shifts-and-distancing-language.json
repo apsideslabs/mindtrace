@@ -1,0 +1,87 @@
+{
+  "id": "verbal-cues-pronoun-shifts-and-distancing-language",
+  "slug": "verbal-cues-pronoun-shifts-and-distancing-language",
+  "title": "Verbal Cues: Pronoun Shifts And Distancing Language",
+  "category": "deception-detection",
+  "description": "Liars often unconsciously reduce their personal ownership of a statement. They drop “I” and “my,” use passive voice, or refer to themselves in the third person to psychologically distance themselves from the lie.",
+  "shortDescription": "Liars often unconsciously reduce their personal ownership of a statement. They drop “I” and “my,” use passive voice, or refer to themselves in the third person to psychologically distance themselves from the lie.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "verbal cues",
+    "pronouns",
+    "distancing",
+    "language"
+  ],
+  "relatedTopics": [
+    "detecting-lies-of-omission",
+    "reality-monitoring-the-memory-quality-check"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Liars often unconsciously reduce their personal ownership of a statement. They drop “I” and “my,” use passive voice, or refer to themselves in the third person to psychologically distance themselves from the lie."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "Truth: “I signed the check and gave it to her.”",
+        "Lie: “The check was signed and then it was handed over.”",
+        "Truth: “I made a mistake.”",
+        "Lie: “Mistakes were made.”"
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Reduced use of first‑person singular pronouns.",
+        "Increased use of generalizations: “everyone,” “people,” “they.”",
+        "Sentences become impersonal and bureaucratic."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“Things got out of hand.”",
+        "“That’s not how I operate.” (instead of “I didn’t do it”)",
+        "“It ended up happening.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "A noticeable drop in “I” words when the critical topic is discussed, compared to the person’s normal speech.",
+        "The answer sounds like a report, not a personal story.",
+        "Vague references to “the situation” or “the incident” without saying what exactly."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Statement analysis, developed by experts like Avinoam Sapir (SCAN), suggests that language reveals psychological distance. The liar subconsciously removes themselves from the act. Research supports that deceptive statements contain fewer first‑person pronouns."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Listen for pronoun shifts. After a story where they were central, if they switch to passive or “we” when the difficult part comes, probe there.",
+        "Ask: “Can you be more specific about who did what?”",
+        "Note the amount of “I” in their baseline; a later drop is a red flag."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Not everyone uses many “I” words naturally. Culture and personality matter.",
+        "Treating a single passive sentence as proof of deception."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A manager asks an employee about missing inventory. The employee says, “The cabinet was unlocked, and items were taken.” Notice: no “I saw” or “I checked.” When asked “Did you lock it?” he says, “It should have been locked.” He never says “I locked it.” The language distance reveals that he knows he’s responsible."
+    },
+    {
+      "title": "Key Insight",
+      "content": "When people own their story, they own their words. When they disown their actions, the “I” disappears like a ghost from the sentence."
+    }
+  ]
+}

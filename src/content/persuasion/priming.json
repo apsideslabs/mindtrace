@@ -1,0 +1,88 @@
+{
+  "id": "priming",
+  "slug": "priming",
+  "title": "Priming",
+  "category": "persuasion",
+  "description": "Exposing someone to a subtle cue that secretly influences how they react to the next thing they encounter.",
+  "readTime": 5,
+  "relatedTopics": [
+    "pre-suasion",
+    "framing-effect"
+  ],
+  "sections": [
+    {
+      "title": "Quick Understanding",
+      "content": "Exposing someone to a subtle, seemingly irrelevant cue (like a word, smell, or image) subtly hacks their brain, dictating how they will react to the very next thing they encounter."
+    },
+    {
+      "title": "Why It Works",
+      "content": "The brain connects ideas in massive associative networks. Waking up one concept (like 'money') subtly wakes up related concepts (like 'selfishness' or 'independence'), which then leak directly into your behavior without your conscious awareness."
+    },
+    {
+      "title": "Real-Life Examples",
+      "content": [
+        "Business: Playing French music in a wine store makes consumers statistically far more likely to buy French wine.",
+        "Workplace: Having people read words related to 'achievement' right before a boring task makes them work longer.",
+        "Daily Life: Smelling faint cleaning products makes people unconsciously keep their eating area significantly cleaner.",
+        "Marketing: Using subtle patriotic imagery in an ad to prime conservative values."
+      ]
+    },
+    {
+      "title": "What It Looks Like",
+      "content": [
+        "A retail store deliberately pipes in extremely slow, relaxed tempo music overhead. As a direct result, shoppers unconsciously slow their walking pace, spend more time browsing the aisles, and end up spending 30% more money than when fast music is played."
+      ]
+    },
+    {
+      "title": "Pattern Recognition",
+      "content": [
+        "Atmospheric manipulations (sudden shifts in background music, lighting, or smell).",
+        "Being asked to vividly visualize a specific emotional scenario right before being given a choice.",
+        "Leading questions explicitly designed to get a single, specific concept into your head."
+      ]
+    },
+    {
+      "title": "Ethical Uses",
+      "content": "Designing environments that naturally encourage positive, healthy behavior, such as placing subtle visual cues for handwashing in a hospital ward."
+    },
+    {
+      "title": "Manipulative Uses",
+      "content": "Attempting covert influence to squeeze more money out of consumers through precise environmental design. Embedding unconscious cues to alter behavior without informed consent."
+    },
+    {
+      "title": "Red Flags",
+      "content": [
+        "An environment uniquely engineered to bombard your senses in a highly specific way (like a casino).",
+        "Marketers or 'gurus' aggressively claiming they can use 'embedded commands' to bypass your free will."
+      ]
+    },
+    {
+      "title": "Defense Strategies",
+      "content": [
+        "Maintain deep, intentional awareness of your environment and notice exactly how it makes you feel.",
+        "Rely on structured, deliberative decision processes (like a physical, written checklist) that easily override ambient primes.",
+        "If you feel your mood shift suddenly without reason, step outside into a neutral environment."
+      ]
+    },
+    {
+      "title": "Mistakes People Make",
+      "content": [
+        "Arrogantly believing their choices are 100% rational and completely uninfluenced by the room they are sitting in.",
+        "Buying into the complete myth that 'subliminal advertising' can magically force you to do things against your will."
+      ]
+    },
+    {
+      "title": "Case Study",
+      "content": "Researchers had participants unscramble sentences. One group unscrambled words related to the elderly (Florida, gray, bingo, wrinkles). The other group unscrambled neutral words. Afterward, the researchers secretly timed the participants walking down the hallway. The group primed with 'elderly' words walked significantly slower than the control group. (Note: Behavioral priming like this has faced severe replication issues in recent years, though semantic priming remains robust)."
+    },
+    {
+      "title": "Key Lessons",
+      "content": [
+        "1. Your environment dictates your behavior.",
+        "2. Ideas are linked; waking up one wakes up others.",
+        "3. Priming is subtle manipulation, not mind control.",
+        "4. Concrete checklists beat subtle primes every time."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "social-loafing",
+  "slug": "social-loafing",
+  "title": "Social Loafing",
+  "category": "human-behavior",
+  "description": "People exert less effort when working in a group than when working alone, relying on others to carry the load.",
+  "readTime": 2,
+  "relatedTopics": [
+    "bystander-effect",
+    "scarcity"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "People exert less effort when working in a group than when working alone, relying on others to carry the load."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "In a group project, one or two members do the bulk of the work while others coast.",
+        "A committee votes to “leave it to the chair.”",
+        "In a large meeting, many attendees never contribute but take credit for being present."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Avoiding tasks unless specifically assigned.",
+        "Silence during planning but criticism afterward.",
+        "Doing the bare minimum because “someone else will pick it up.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Contribution is voluntary and anonymous.",
+        "Lack of individual accountability.",
+        "The group is large, so individual effort feels invisible."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Social impact theory (Latané, 1981) says that as group size increases, personal responsibility diffuses and motivation drops, especially when individual output isn’t measured. Meta-analyses confirm the effect is robust across tasks."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "If you’re leading, assign specific tasks to specific people with clear deadlines.",
+        "Make individual contributions visible.",
+        "If you’re a team member and see loafing, gently call it out: “I’d love to hear your input on this section.”"
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming loafers are lazy by nature; often they are unconsciously reacting to structure.",
+        "Letting resentment build silently instead of addressing it early."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A marketing team of eight brainstorms a campaign. No one is assigned ownership. Three people throw out ideas; the rest nod. The final product is mediocre. The next time, the manager assigns each person one component with their name attached. Suddenly, all eight deliver."
+    },
+    {
+      "title": "Key Insight",
+      "content": "If you want everyone to row, make sure everyone knows the boat moves only when they pull their own oar."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "disposition-effect",
+  "slug": "disposition-effect",
+  "title": "The Disposition Effect (Why Investors Hold Losers And Sell Winners)",
+  "category": "behavioral-economics",
+  "description": "Investors tend to sell assets that have gained value too early and hold onto assets that have lost value too long. This is driven by the desire to lock in wins and avoid crystallizing losses.",
+  "shortDescription": "Investors tend to sell assets that have gained value too early and hold onto assets that have lost value too long. This is driven by the desire to lock in wins and avoid crystallizing losses.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "behavioral economics",
+    "psychology",
+    "money"
+  ],
+  "relatedTopics": [],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Investors tend to sell assets that have gained value too early and hold onto assets that have lost value too long. This is driven by the desire to lock in wins and avoid crystallizing losses."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "An investor sells a stock after a 10% gain, celebrating the win, while sitting on another stock that’s down 40% because “it’ll come back.”",
+        "A homeowner refuses to sell a house for less than they paid, even if the market has permanently dropped.",
+        "A trader closes winning positions quickly and lets losing positions run, exactly opposite to what rational risk management dictates."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Checking portfolio frequently; selling green positions for a quick dopamine hit.",
+        "Avoiding looking at the losing positions; they become “long‑term holds” by default.",
+        "Feeling regret when a sold winner keeps rising, and regret when a held loser falls further."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I’ll sell when it gets back to what I paid.”",
+        "“At least I locked in that profit.”",
+        "“It’s only a paper loss.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Your portfolio has many small gains and a few huge losses.",
+        "You spend more time researching when to sell a winner than when to cut a loser.",
+        "You use the phrase “long‑term investor” to justify a bad investment that you’re too afraid to sell."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Shefrin and Statman (1985) formalized the disposition effect. It’s fueled by prospect theory (realizing a loss is painful, realizing a gain feels good) and mental accounting (each investment is a separate mental account). The brain’s reward system reinforces selling winners prematurely."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Set predefined rules: sell any stock that drops 10% from purchase, no matter what.",
+        "Reframe: “If I wouldn’t buy this today at the current price, I should sell it.”",
+        "Use tax‑loss harvesting to make realizing a loss feel like a strategic win."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking that holding a loser until it recovers is a neutral act. It’s an active choice with an opportunity cost.",
+        "Assuming that selling a winner is always wrong; sometimes it’s the right move, but it’s driven by the same bias."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "An amateur investor buys two stocks. Stock A goes up 20% in a month; he sells it. Stock B goes down 30%; he holds. Over the next year, Stock A doubles from where he sold, and Stock B goes to zero. He locked in a small gain and a total loss. The disposition effect destroyed his returns."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The market doesn’t know what you paid. Your pride wants to sell the winners to prove you’re smart, but your wealth needs you to prune the losers."
+    }
+  ]
+}

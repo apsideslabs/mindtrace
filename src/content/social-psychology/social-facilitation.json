@@ -1,0 +1,85 @@
+{
+  "id": "social-facilitation",
+  "slug": "social-facilitation",
+  "title": "Social Facilitation",
+  "category": "social-psychology",
+  "description": "The mere presence of other people improves your performance on easy or well‑practiced tasks but hurts your performance on hard or unfamiliar ones.",
+  "shortDescription": "The mere presence of other people improves your performance on easy or well‑practiced tasks but hurts your performance on hard or unfamiliar ones.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "performance",
+    "stress",
+    "attention"
+  ],
+  "relatedTopics": [
+    "social-comparison",
+    "stereotype-threat"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "The mere presence of other people improves your performance on easy or well‑practiced tasks but hurts your performance on hard or unfamiliar ones."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A musician plays a simple piece flawlessly in front of an audience but fumbles a complex new piece.",
+        "An experienced salesperson closes better in a team meeting than alone, but a new hire freezes.",
+        "You type faster when a colleague is watching, but you struggle to solve a tricky math problem."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Performing simple routines automatically in front of others.",
+        "Choking under pressure on difficult tasks when observed.",
+        "Preferring to practice alone, then demonstrate publicly."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I do better under pressure.” (for easy tasks)",
+        "“I got stage fright.” (for hard tasks)",
+        "“I can’t think when people are watching.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Your heart rate increases when someone watches you do something complex.",
+        "You feel your mind go blank during a presentation, even though you know the material.",
+        "You seek an audience for a well‑rehearsed skill but avoid it for anything new."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "The presence of others increases arousal, which enhances the dominant response. For easy tasks, the dominant response is usually correct; for hard tasks, it’s often incorrect. Robert Zajonc (1965) proposed this explanation, and it has held up well."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Over‑practice difficult tasks until they become easy, then perform publicly.",
+        "When learning something new, do it in private until you’ve built the skill.",
+        "If you’re a manager, let new hires practice in low‑stakes settings before presenting to leadership."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Forcing a team member to “just present” when they’re not ready, thinking pressure will help. It will hurt.",
+        "Assuming you’ll rise to the occasion for something you haven’t practiced."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A junior developer is asked to demo a new feature to a large audience. She’s still shaky on the code. Under the spotlight, her mind goes blank, and she can’t answer basic questions. Later, alone with a colleague, she explains the same feature clearly. The audience amplified her uncertainty."
+    },
+    {
+      "title": "Key Insight",
+      "content": "An audience is a magnifying glass: it enlarges what’s already there. If you’ve practiced, it makes you better; if you haven’t, it makes you panic."
+    }
+  ]
+}

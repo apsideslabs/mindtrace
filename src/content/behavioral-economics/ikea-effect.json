@@ -1,0 +1,82 @@
+{
+  "id": "ikea-effect",
+  "slug": "ikea-effect",
+  "title": "The Ikea Effect (Why We Love What We Build)",
+  "category": "behavioral-economics",
+  "description": "When people put effort into creating, assembling, or customizing something, they value it more highly than an identical, pre‑made version. The labor itself creates affection.",
+  "shortDescription": "When people put effort into creating, assembling, or customizing something, they value it more highly than an identical, pre‑made version. The labor itself creates affection.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "behavioral economics",
+    "psychology",
+    "money"
+  ],
+  "relatedTopics": [],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "When people put effort into creating, assembling, or customizing something, they value it more highly than an identical, pre‑made version. The labor itself creates affection."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "You build a bookshelf from IKEA and feel a disproportionate pride in it, even though it’s slightly crooked.",
+        "A baker values their own cake more than a store‑bought one, even if the store‑bought tastes objectively better.",
+        "A manager who built a process from scratch resists replacing it, even when a clearly superior alternative exists."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Refusing to discard a DIY project even when it’s flawed.",
+        "Overvaluing one’s own work in team settings.",
+        "Parents valuing their child’s crude drawing far beyond its aesthetic worth."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I built that.” (with pride)",
+        "“It may not be perfect, but I made it.”",
+        "“We should do this ourselves; it’ll be more meaningful.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re spending far more time and money on a DIY project than buying a finished version would cost, and you’re justifying it as “better.”",
+        "You can’t see the flaws in your own creation.",
+        "You dismiss feedback that suggests improvement, because the thing feels like an extension of yourself."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Norton, Mochon, and Ariely (2012) showed that labor enhances valuation. The effect is strongest when the task is successful (even if imperfect) and when the person feels ownership. It taps into the need for competence and self‑expression."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Before starting a DIY project, compare the total cost (time, materials, frustration) to the cost of buying a finished alternative.",
+        "Solicit objective external evaluation of your own work.",
+        "Recognize when you’re defending something because of your investment in it, not because it’s actually good."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming that the IKEA effect always leads to poor decisions; it can bring genuine satisfaction and learning.",
+        "Forcing others to value your creation as highly as you do."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A founder spends two years building software from scratch. A competing product exists that’s better and cheaper. The founder refuses to switch, citing the “love and sweat” poured into his version. His business stagnates while competitors move ahead. The labor blinded him."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Effort creates love, but love doesn’t create quality. The crooked shelf you built may be precious to you, but it’s still crooked."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "the-default-effect",
+  "slug": "the-default-effect",
+  "title": "The Default Effect",
+  "category": "decision-making",
+  "description": "When given a pre‑checked option, most people stick with it—even when it costs them more or goes against their interests. The path of least resistance is almost always taken.",
+  "shortDescription": "When given a pre‑checked option, most people stick with it—even when it costs them more or goes against their interests. The path of least resistance is almost always taken.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "behavioral economics",
+    "nudging",
+    "choice architecture"
+  ],
+  "relatedTopics": [
+    "status-quo-bias",
+    "omission-bias",
+    "decision-fatigue"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "When given a pre‑checked option, most people stick with it—even when it costs them more or goes against their interests. The path of least resistance is almost always taken."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A website’s newsletter box is pre‑ticked. You sign up without meaning to.",
+        "Your pension plan auto‑enrols you at a low contribution rate, and you never change it for decades.",
+        "A software installer suggests “Standard Install.” You click Next without reading."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Leaving settings as they are.",
+        "Never switching energy providers, phone plans, or bank accounts despite better deals.",
+        "Saying “I’ll sort it later” and never doing it."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“It was already set up that way.”",
+        "“I never thought to change it.”",
+        "“The default must be what most people use.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’ve been with the same provider for years without comparing.",
+        "You can’t remember actively choosing the option you’re currently on.",
+        "You feel mild anxiety at the idea of switching, even though switching is beneficial."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Changing takes effort (cognitive and physical). The default signals “normal” or “recommended.” Loss aversion makes us fear the unknown of a different option."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Treat every default as a question: “If I had to actively pick, would I choose this?”",
+        "Set a calendar reminder to review subscriptions, insurance, and settings annually.",
+        "When offering choices, set the default to what benefits the person, not yourself—unless you intend to manipulate."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming the default was chosen by experts for your benefit. Often, it’s chosen by a company to maximize profit.",
+        "Believing you’re immune because you’re “careful.” Defaults still affect even aware individuals."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A ride‑share app automatically opts users into surge pricing notifications. Most users never turn it off, which means they accept higher prices without comparing other apps. The company profits from the default effect."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The easiest option is rarely the best—it’s just the one that requires zero thought. Decisions you don’t make are still decisions, just made for you."
+    }
+  ]
+}

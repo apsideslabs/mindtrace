@@ -1,0 +1,104 @@
+{
+  "id": "chronotype-morningness-vs-eveningness",
+  "slug": "chronotype-morningness-vs-eveningness",
+  "title": "Chronotype (Morningness vs. Eveningness)",
+  "category": "personality",
+  "description": "Your biologically programmed preference for sleeping and being active at certain times. Morning larks wake early, peak in the morning. Night owls wake late, peak in the evening.",
+  "shortDescription": "Your biologically programmed preference for sleeping and being active at certain times. Morning larks wake early, peak in the morning. Night owls wake late, peak in the evening.",
+  "readTime": 5,
+  "estimatedReadTime": 5,
+  "difficulty": "Intermediate",
+  "tags": [
+    "sleep",
+    "energy",
+    "productivity",
+    "circadian"
+  ],
+  "relatedTopics": [
+    "temperament",
+    "decision-fatigue"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Your biologically programmed preference for sleeping and being active at certain times. Morning larks wake early, peak in the morning. Night owls wake late, peak in the evening."
+    },
+    {
+      "title": "Core Characteristics",
+      "content": [
+        "Morningness: alert early, tired by evening, more productive in the a.m.",
+        "Eveningness: groggy in the morning, energy rises later, most creative at night."
+      ]
+    },
+    {
+      "title": "Behavioral Patterns",
+      "content": [
+        "Larks: go to bed by 10, wake without alarm at 6, exercise in the morning, schedule important tasks before noon.",
+        "Owls: midnight bedtime, struggle with alarms, rely on caffeine, do their best work after 6 p.m."
+      ]
+    },
+    {
+      "title": "Communication Style",
+      "content": [
+        "Larks: crisp and efficient in morning meetings; sluggish if kept late.",
+        "Owls: grumpy and monosyllabic early; witty and engaged later."
+      ]
+    },
+    {
+      "title": "Strengths",
+      "content": [
+        "Larks: consistent performance in traditional work schedules.",
+        "Owls: creativity spikes at night, often better at handling long‑duration alertness (but not early morning)."
+      ]
+    },
+    {
+      "title": "Weaknesses",
+      "content": [
+        "Larks: fade early, miss evening opportunities.",
+        "Owls: penalized by society’s early‑bird structure; chronic sleep debt."
+      ]
+    },
+    {
+      "title": "Decision-Making Style",
+      "content": "Larks make better decisions in the morning; owls later in the day. Forcing either outside their peak increases errors."
+    },
+    {
+      "title": "Relationship Patterns",
+      "content": "Mismatched chronotypes can cause friction: a lark resents a partner who sleeps in; an owl resents being rushed in the morning."
+    },
+    {
+      "title": "Workplace Behavior",
+      "content": "Larks thrive in 9‑to‑5; owls suffer. Flexible schedules close the gap."
+    },
+    {
+      "title": "Leadership Style",
+      "content": "Chronotype influences meeting scheduling; wise leaders accommodate."
+    },
+    {
+      "title": "Stress Response",
+      "content": "Misalignment between chronotype and schedule causes chronic stress, irritability, and health issues."
+    },
+    {
+      "title": "How to Identify It",
+      "content": [
+        "Ask: “If you had no obligations, what time would you sleep and wake?”",
+        "Observe energy levels across the day."
+      ]
+    },
+    {
+      "title": "Common Misconceptions",
+      "content": [
+        "Owls aren’t lazy; they’re biologically shifted.",
+        "You can’t permanently change your chronotype; you can only manage it."
+      ]
+    },
+    {
+      "title": "Real-World Scenario",
+      "content": "A night‑owl programmer is forced to attend 8 a.m. meetings. She performs poorly, labeled as low‑performer. Her boss allows a 10 a.m. start; her productivity and morale soar. The problem wasn’t her ability—it was timing."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Your brain has a clock. You can fight it, but you’ll lose every morning (or every evening). Work with your rhythm, not against it."
+    }
+  ]
+}

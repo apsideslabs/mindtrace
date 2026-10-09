@@ -1,0 +1,85 @@
+{
+  "id": "stereotype-threat",
+  "slug": "stereotype-threat",
+  "title": "Stereotype Threat",
+  "category": "social-psychology",
+  "description": "When people fear confirming a negative stereotype about their group, their performance on relevant tasks drops. The anxiety itself causes the failure, not ability.",
+  "shortDescription": "When people fear confirming a negative stereotype about their group, their performance on relevant tasks drops. The anxiety itself causes the failure, not ability.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "performance",
+    "anxiety",
+    "expectations"
+  ],
+  "relatedTopics": [
+    "self-fulfilling-prophecy",
+    "social-facilitation"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "When people fear confirming a negative stereotype about their group, their performance on relevant tasks drops. The anxiety itself causes the failure, not ability."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A girl taking a math test, aware of the “girls aren’t good at math” stereotype, performs worse than her ability predicts.",
+        "An older employee learning new software, worried about the “old people can’t learn tech” stereotype, struggles more than they would without that pressure.",
+        "A Black student taking an exam described as “diagnostic of intelligence” underperforms compared to when the same test is described as “just a puzzle.”"
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Increased anxiety and self‑monitoring during the task.",
+        "Mind going blank.",
+        "Avoiding the situation entirely to escape the threat."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I don’t want to mess this up for everyone.”",
+        "“I have to prove them wrong.” (but this pressure backfires)",
+        "“Maybe they’re right about me.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You feel extra pressure because you’re the only one of your group in the room.",
+        "The task is described as measuring some deep ability related to the stereotype.",
+        "You’re thinking about the stereotype while trying to perform."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Claude Steele and Joshua Aronson (1995) first demonstrated this. The fear of confirming a negative stereotype consumes working memory and increases physiological stress, impairing performance exactly on the stereotyped dimension."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Reframe the task as not measuring the stereotyped ability (“This is just a learning exercise”).",
+        "Provide role models from the stereotyped group who have succeeded.",
+        "Encourage a growth mindset: ability is developed, not fixed. This reduces the threat."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming that if stereotype threat exists, the group differences in performance are entirely due to it. They are not; other factors play a role, but stereotype threat is a significant contributor.",
+        "Thinking you’re immune because you don’t believe the stereotype. The threat can operate even if you reject it consciously."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A female engineering student takes an exam in a class where she’s the only woman. She’s top of her class in practice, but during the exam, the thought “I can’t mess this up or they’ll think women don’t belong” floods her mind. She underperforms. The same exam, taken in a room with other women, yields her usual top score."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The weight of other people’s expectations can crush even the strongest talent. A test isn’t just a test when you feel you’re representing millions."
+    }
+  ]
+}

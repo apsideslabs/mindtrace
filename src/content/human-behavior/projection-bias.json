@@ -1,0 +1,78 @@
+{
+  "id": "projection-bias",
+  "slug": "projection-bias",
+  "title": "Projection Bias",
+  "category": "human-behavior",
+  "description": "People assume others think, feel, and value the same things they do, projecting their own mental states onto others.",
+  "readTime": 2,
+  "relatedTopics": [
+    "false-consensus-effect",
+    "illusion-of-transparency",
+    "fundamental-attribution-error"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "People assume others think, feel, and value the same things they do, projecting their own mental states onto others."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A detail-oriented boss assumes everyone cares about tiny formatting errors as much as they do.",
+        "A person who would never lie assumes others are equally honest, making them vulnerable to manipulation.",
+        "You buy a gift that you would love, convinced the recipient will too, and are surprised when they’re indifferent."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "“Everyone thinks this way” statements.",
+        "Assuming consensus without checking.",
+        "Surprise when others make different choices with the same information."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“Obviously, anyone would want that.”",
+        "“I can’t understand why they did that.”",
+        "“It’s just common sense.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re shocked when someone disagrees with a position you hold deeply.",
+        "You feel that your reasoning is universally self-evident.",
+        "You rarely ask others for their perspective; you assume you already know it."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Using one’s own mental state as a reference point is cognitively efficient. The false consensus effect (Ross, Greene, & House, 1977) shows we overestimate how many share our views. Epley et al. (2004) detail how anchoring on one’s own perspective shapes judgments of others."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Before attributing motives, explicitly ask: “What’s your take on this?”",
+        "Deliberately list three ways a reasonable person could see the opposite.",
+        "In negotiations, avoid assuming the other party’s priorities are the same as yours."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking you’re good at “reading people” and therefore don’t need to ask. Projection is more common than accurate intuition.",
+        "Over-correcting and assuming everyone is completely different from you, leading to stereotyping."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A product designer loves minimalist interfaces. She spends months crafting a sleek app, confident users will appreciate the clean design. Upon launch, users complain that essential features are hidden. She projected her own preference for minimalism onto a general audience who values discoverability."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The map you’re holding is your own. Before guiding others, ask to see theirs."
+    }
+  ]
+}

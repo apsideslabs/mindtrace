@@ -1,0 +1,85 @@
+{
+  "id": "ambiguity-aversion",
+  "slug": "ambiguity-aversion",
+  "title": "Ambiguity Aversion",
+  "category": "decision-making",
+  "description": "People prefer known probabilities over unknown probabilities, even when the expected outcome is worse. An uncertain risk feels scarier than a certain risk of equal expected value.",
+  "shortDescription": "People prefer known probabilities over unknown probabilities, even when the expected outcome is worse. An uncertain risk feels scarier than a certain risk of equal expected value.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "uncertainty",
+    "risk",
+    "unknown"
+  ],
+  "relatedTopics": [
+    "pseudocertainty-effect",
+    "regret-aversion"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "People prefer known probabilities over unknown probabilities, even when the expected outcome is worse. An uncertain risk feels scarier than a certain risk of equal expected value."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "You choose a bet with a known 50% chance of winning over a bet with an unknown chance, even when the unknown might be better.",
+        "Investors avoid emerging markets because the data feels fuzzy, preferring familiar domestic stocks with known (but not necessarily better) profiles.",
+        "A patient picks a treatment with a clearly stated success rate over an experimental one, even if the experimental one might be superior but has a wider uncertainty range."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Sticking to “what I know” even when evidence suggests new opportunities are promising.",
+        "Paying extra for insurance that covers specific known risks while ignoring ambiguous but larger threats.",
+        "Rejecting innovation because it’s “untested,” despite data from pilots."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I’d rather go with what I know.”",
+        "“I don’t like the uncertainty.”",
+        "“At least I know where I stand with this.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You feel uneasy when a probability isn’t neatly spelled out, even if the alternative’s risk is actually lower.",
+        "You avoid opportunities with hard‑to‑quantify downsides but clear upside.",
+        "You prefer a bad known over an uncertain unknown that could be good."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Ambiguity triggers the amygdala and increases anxiety. The brain prefers the familiar—even if it’s a familiar risk—because it gives a sense of preparedness."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "When facing an ambiguous choice, break down what you do know and estimate ranges (best case, worst case).",
+        "Focus on expected value, not just the comfort of certainty.",
+        "Gather more information; ambiguity reduces with data."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Equating ambiguity with high risk. A poorly understood risk can be smaller than a well‑understood one.",
+        "Avoiding any situation with unknown parameters, missing huge opportunities."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "An entrepreneur passes on a partnership because the revenue share is not guaranteed, while a competitor accepts and succeeds. The ambiguity of “maybe 20% to 40%” felt worse than a safe “10% guaranteed,” but the expected value of the ambiguous deal was triple. The aversion cost millions."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Not knowing the odds doesn’t mean the odds are against you. Uncertainty is not the enemy; refusing to investigate it is."
+    }
+  ]
+}

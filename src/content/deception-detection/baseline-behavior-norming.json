@@ -1,0 +1,86 @@
+{
+  "id": "baseline-behavior-norming",
+  "slug": "baseline-behavior-norming",
+  "title": "Baseline Behavior (Norming)",
+  "category": "deception-detection",
+  "description": "You can’t spot deception unless you know how the person acts when they’re relaxed and truthful. Baseline behavior is their normal way of speaking, moving, and reacting when there’s no pressure.",
+  "shortDescription": "You can’t spot deception unless you know how the person acts when they’re relaxed and truthful. Baseline behavior is their normal way of speaking, moving, and reacting when there’s no pressure.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "baseline",
+    "behavior",
+    "norming",
+    "observation"
+  ],
+  "relatedTopics": [
+    "the-cluster-principle-no-single-sign",
+    "the-othello-error-mistaking-fear-for-guilt",
+    "the-bottleneck-of-emotion-vocal-cues"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "You can’t spot deception unless you know how the person acts when they’re relaxed and truthful. Baseline behavior is their normal way of speaking, moving, and reacting when there’s no pressure."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "In the first few minutes of a conversation, ask simple, low‑stakes questions: “How was your weekend?” “What’s your favorite coffee?”",
+        "Watch their eye contact, blink rate, fidgeting, speech pace, and posture during these neutral topics.",
+        "Later, when the high‑stakes topic arrives, you compare. A change from baseline is a red flag—not proof, but a signal to probe."
+      ]
+    },
+    {
+      "title": "Common Behaviors (during baseline)",
+      "content": [
+        "Natural gestures, relaxed eye contact, normal vocal pitch.",
+        "They mention small flaws or unimportant details without hesitation.",
+        "Easy laughter or conversational flow."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“Just the usual, nothing exciting.”",
+        "“Oh, I forgot to mention…”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re trying to read deception without knowing the person’s normal.",
+        "Assuming a common “lie tell” (looking away, touching nose) applies to everyone.",
+        "Ignoring that someone may deviate from baseline due to anxiety, not guilt."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Behavioral cues are individual. A shift from personal norm is more informative than comparing to a population stereotype. This is a core principle of the PEACE model of interviewing."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Always spend the first few minutes on neutral topics.",
+        "Ask the same question again later; truthful answers stay consistent, but liars may show a changed delivery.",
+        "If the person’s behavior shifts exactly when the critical topic is raised, note it—but don’t confront immediately."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming a single session is enough to capture baseline. A second meeting can reveal normal patterns better.",
+        "Over‑interpreting a one‑off gesture. Look for clusters of change, not isolated twitches."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "An HR manager interviews a theft suspect. In the first five minutes, the employee is chatty, gestures freely, and makes eye contact. When asked “What time did you leave the office on Friday?” he freezes, looks down, and his voice goes flat. That shift from baseline prompts a deeper, careful probe—not an accusation."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Everyone has a “normal.” When they leave it at the exact moment the hard question lands, pay attention—but don’t arrest on a hunch. Investigate, don’t assume."
+    }
+  ]
+}

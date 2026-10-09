@@ -1,0 +1,78 @@
+{
+  "id": "endowment-effect",
+  "slug": "endowment-effect",
+  "title": "Endowment Effect",
+  "category": "human-behavior",
+  "description": "We assign more value to things simply because we own them, even if we acquired them moments ago and for free.",
+  "readTime": 2,
+  "relatedTopics": [
+    "loss-aversion",
+    "anchoring-and-first-offers",
+    "scarcity"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "We assign more value to things simply because we own them, even if we acquired them moments ago and for free."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "Selling a used car: you list it for $5,000 because it’s yours and has memories, while buyers see a $3,500 vehicle.",
+        "A mug experiment: people given a mug demand twice as much to sell it as those who don’t own it are willing to pay.",
+        "You keep clothes you never wear because parting with them feels like losing value."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Inflated asking prices for personal items.",
+        "Reluctance to trade items of equal market value.",
+        "Over-insuring possessions."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I know what I’ve got.”",
+        "“It’s worth more to me.”",
+        "“I can’t let it go for that little.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re emotionally attached to an object’s price tag because it’s yours.",
+        "You expect buyers to care about your personal history with the item.",
+        "You refuse a fair offer simply because parting hurts."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Loss aversion makes giving something up feel like a loss. Ownership integrates the item into the self-concept (Thaler, 1980; Kahneman, Knetsch, & Thaler, 1990). Once it’s “mine,” it’s special."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Before selling or trading, ask: “What would I pay for this if I didn’t own it?”",
+        "Get an objective third-party valuation for high-value items.",
+        "Recognize that the sentimental premium only exists in your head."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming others will pay more because you value it more.",
+        "Letting the endowment effect block beneficial upgrades or decluttering."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A designer upgrades her laptop. She tries to sell the old one for $800, citing “it’s still great.” Market price is $500. She insists for weeks, eventually selling for $520 after missing better offers. The delay cost her time and a faster sale."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Ownership is a lens that magnifies value in your eyes but not in the buyer’s. Take the lens off before pricing."
+    }
+  ]
+}

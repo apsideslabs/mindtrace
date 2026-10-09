@@ -1,0 +1,85 @@
+{
+  "id": "gamblers-fallacy",
+  "slug": "gamblers-fallacy",
+  "title": "Gambler’s Fallacy",
+  "category": "cognitive-biases",
+  "description": "The belief that past independent random events affect the probability of future random events. After a streak, we think the opposite outcome is “due.”",
+  "shortDescription": "The belief that past independent random events affect the probability of future random events. After a streak, we think the opposite outcome is “due.”",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "clustering-illusion",
+    "representativeness-heuristic"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "The belief that past independent random events affect the probability of future random events. After a streak, we think the opposite outcome is “due.”"
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A roulette player sees red come up six times and bets heavily on black because “it has to hit black soon.”",
+        "A hiring manager has rejected five candidates and thinks “the next one is bound to be good,” as if rejections increase future quality.",
+        "In a sales team, after a string of lost deals, the manager says “our luck is about to turn.” The coin has no memory."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Doubling bets after losses.",
+        "Believing in “hot hands” and “cold streaks” in purely random events.",
+        "Making predictions based on perceived balance rather than base rates."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“We’re due for a win.”",
+        "“It can’t keep going like this.”",
+        "“The odds have to even out.” (they will, over thousands of events, not tonight)"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re expecting a change because a streak “feels long.”",
+        "You confuse long‑run frequency with short‑run probability.",
+        "You think the universe owes you a favorable outcome after an unfavorable run."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Humans are pattern‑seeking machines. We misapply the law of large numbers to small samples, expecting local representativeness. The brain also confuses causal “balancing” forces with true randomness."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Explicitly remind yourself: “Each event is independent. The coin/stocks/next client doesn’t know what happened before.”",
+        "When gambling, set fixed limits and never chase losses.",
+        "In business, evaluate each opportunity on its own merits, not as part of a streak."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking the fallacy means streaks can’t happen; they can and do in random sequences.",
+        "Treating genuinely dependent events (like a player’s morale affecting performance) as independent when they aren’t."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A lottery player uses the same numbers for years. After they don’t appear, she switches, convinced the old numbers are “cursed.” The probability of any set of numbers is identical; the past draws don’t affect the future."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Chance has no memory and no sense of fairness. The dice don’t know you’ve been losing, and they don’t care."
+    }
+  ]
+}

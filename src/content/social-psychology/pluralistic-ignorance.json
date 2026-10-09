@@ -1,0 +1,85 @@
+{
+  "id": "pluralistic-ignorance",
+  "slug": "pluralistic-ignorance",
+  "title": "Pluralistic Ignorance",
+  "category": "social-psychology",
+  "description": "A situation where most people privately reject a norm or a belief but assume everyone else accepts it, so they go along with it. Everyone is pretending, and everyone thinks they’re the only one pretending.",
+  "shortDescription": "A situation where most people privately reject a norm or a belief but assume everyone else accepts it, so they go along with it. Everyone is pretending, and everyone thinks they’re the only one pretending.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "bystander effect",
+    "norms",
+    "groups"
+  ],
+  "relatedTopics": [
+    "conformity-the-asch-effect",
+    "groupthink"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "A situation where most people privately reject a norm or a belief but assume everyone else accepts it, so they go along with it. Everyone is pretending, and everyone thinks they’re the only one pretending."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "In a lecture, nobody understands the concept, but no one asks a question because they think everyone else gets it.",
+        "A group of friends all secretly dislike a certain activity, but everyone keeps doing it because they think the others enjoy it.",
+        "In a workplace with a toxic culture, most employees privately hate it but stay silent, assuming they’re the odd one out."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Looking around to see how others are reacting.",
+        "Staying silent about a concern because “everyone else seems fine.”",
+        "Continuing a tradition or habit nobody actually wants."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I thought I was the only one who felt that way.”",
+        "“Everyone else seemed okay with it.”",
+        "“I didn’t want to be the one to speak up.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re uncomfortable but see no one else complaining.",
+        "The behavior persists even though people grumble privately.",
+        "When one person finally speaks up, others immediately agree."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "People judge others’ private thoughts by their public actions. If nobody objects, we assume they agree. This creates a spiral of silence where everyone reinforces the false norm."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Ask a private, direct question: “How are you really feeling about this?”",
+        "Be the one to break the silence. Often, the moment you do, others will follow.",
+        "In teaching or management, use anonymous surveys to surface true opinions."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming that public compliance means private approval.",
+        "Blaming yourself for being “the weird one” when everyone else is probably thinking the same thing."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A startup team works late every Friday because the founder seems to expect it. Every member thinks the others are happy with it, but privately, they all resent it. One day, a new hire says, “Do we really have to do this?” The room exhales. The policy changes instantly."
+    },
+    {
+      "title": "Key Insight",
+      "content": "When nobody speaks, it’s not agreement—it’s a room full of people all thinking they’re the only one who disagrees."
+    }
+  ]
+}

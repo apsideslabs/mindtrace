@@ -1,0 +1,87 @@
+{
+  "id": "groupthink",
+  "slug": "groupthink",
+  "title": "Groupthink",
+  "category": "social-psychology",
+  "description": "A cohesive group values harmony and consensus so much that it suppresses dissent, ignores alternatives, and rushes into poor decisions. Loyalty to the group overrides critical thinking.",
+  "shortDescription": "A cohesive group values harmony and consensus so much that it suppresses dissent, ignores alternatives, and rushes into poor decisions. Loyalty to the group overrides critical thinking.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "decision making",
+    "leadership",
+    "consensus"
+  ],
+  "relatedTopics": [
+    "conformity-the-asch-effect",
+    "group-polarization"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "A cohesive group values harmony and consensus so much that it suppresses dissent, ignores alternatives, and rushes into poor decisions. Loyalty to the group overrides critical thinking."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A board of directors unanimously approves a disastrous merger because no one wanted to upset the enthusiastic CEO.",
+        "A political team launches a campaign message everyone internally thinks is risky, but no one speaks up during the strategy meeting.",
+        "A family decides to ignore a relative’s addiction because discussing it would spoil the holiday gathering."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Suppressing doubts to maintain group cohesion.",
+        "Stereotyping outsiders or critics as “negative” or “not team players.”",
+        "Illusion of invulnerability: “We’re too smart to fail.”",
+        "Self‑appointed “mindguards” who protect the group from contrary information."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“We’re all on the same page here.”",
+        "“Let’s not rock the boat.”",
+        "“Outsiders just don’t understand.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Nobody plays devil’s advocate.",
+        "The group has a “we vs. them” mentality toward anyone who questions them.",
+        "Rationalization is immediate for any red flag.",
+        "Pressure on doubters to fall in line is subtle but real."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Irving Janis (1972) identified groupthink in major historical failures (Bay of Pigs, Challenger disaster). People want social approval, and cohesive groups punish dissent—not always overtly, but by making dissenters feel disloyal."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Designate a formal “devil’s advocate” whose job is to find flaws.",
+        "Leaders should speak last and encourage objections.",
+        "Get an outside perspective before finalizing."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking groupthink only happens in high‑stakes government. It happens in startups, families, and parent‑teacher associations.",
+        "Mistaking consensus for correctness."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A tech startup’s leadership team decides to launch a product early despite glaring bugs. Everyone in the room has doubts, but the CEO is passionate, and no one wants to kill the momentum. The product flops, reviews are brutal, and the company folds. Post‑mortem: every single member had privately worried but stayed silent."
+    },
+    {
+      "title": "Key Insight",
+      "content": "When everyone in the room agrees too quickly, someone is hiding their real thoughts. Agreement isn’t always harmony—it can be fear wearing a smile."
+    }
+  ]
+}

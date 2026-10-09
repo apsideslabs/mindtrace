@@ -1,0 +1,86 @@
+{
+  "id": "detecting-lies-of-omission",
+  "slug": "detecting-lies-of-omission",
+  "title": "Detecting Lies Of Omission",
+  "category": "deception-detection",
+  "description": "Sometimes the lie isn’t in what they say, but in what they don’t say. Omission liars leave out crucial facts while technically telling a true story.",
+  "shortDescription": "Sometimes the lie isn’t in what they say, but in what they don’t say. Omission liars leave out crucial facts while technically telling a true story.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "omission",
+    "half-truth",
+    "narrative",
+    "missing details"
+  ],
+  "relatedTopics": [
+    "verbal-cues-pronoun-shifts-and-distancing-language",
+    "strategic-use-of-evidence-sue"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Sometimes the lie isn’t in what they say, but in what they don’t say. Omission liars leave out crucial facts while technically telling a true story."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A partner says, “I went to dinner with Alex.” (True. They omit that they also kissed Alex after dinner.)",
+        "An employee reports, “I finished the project.” (True. They omit that a colleague did 90% of the work and they took credit.)",
+        "A witness says, “I saw him leave the building at 6.” (True, but omits that she saw him return at 6:30 with a weapon.)"
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "The story is technically true but feels too simple.",
+        "Key details that a full storyteller would include are missing: who else, what happened next.",
+        "When pressed for more, they become defensive: “I told you what happened!”"
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“That’s the whole story.” (too quickly)",
+        "“I wasn’t asked that.”",
+        "“You didn’t ask.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "The story jumps from A to D with no B or C.",
+        "The timeline has suspicious gaps.",
+        "When you ask “What happened next?” they summarize broadly."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Lies of omission are easier to maintain because the core statement is true. The liar doesn’t experience the same cognitive load as full fabrication. However, gaps and thinness in the narrative can betray the omission."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Ask expansive questions: “Walk me through every single thing that happened from start to finish.”",
+        "Then ask, “What else?” and stay silent.",
+        "Compare the level of detail in different parts of the story; if one part is strangely sparse, probe it."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Accepting a true‑but‑incomplete statement as full honesty.",
+        "Treating all omissions as deliberate. Some people forget details."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A contractor tells a client, “I fixed the leak.” The client asks, “Is there anything else I should know?” The contractor says no. Later, the client discovers the fix was temporary and the contractor omitted that the pipe needs replacement. The omission was the real lie."
+    },
+    {
+      "title": "Key Insight",
+      "content": "A half‑truth is a whole lie wearing a mask. Ask “What are you not telling me?” with the silence that demands an answer."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "mindtrace",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MindTrace — a reading library for psychology, relationships and human behaviour.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@xyflow/react": "^12.11.0",
+    "clsx": "^2.1.1",
+    "dagre": "^0.8.5",
+    "html-to-image": "^1.11.13",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "tailwind-merge": "^3.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/dagre": "^0.7.54",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "tailwindcss": "^4.1.14",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}

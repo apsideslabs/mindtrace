@@ -1,0 +1,88 @@
+{
+  "id": "overcoming-your-own-bias-the-truth-detectors-blind-spot",
+  "slug": "overcoming-your-own-bias-the-truth-detectors-blind-spot",
+  "title": "Overcoming Your Own Bias (The Truth Detector’s Blind Spot)",
+  "category": "deception-detection",
+  "description": "Even trained professionals are bad at detecting lies—often performing at chance levels. The biggest obstacle is the lie detector’s own biases: believing they’re good at it, relying on stereotypes, and failing to seek objective evidence.",
+  "shortDescription": "Even trained professionals are bad at detecting lies—often performing at chance levels. The biggest obstacle is the lie detector’s own biases: believing they’re good at it, relying on stereotypes, and failing to seek objective evidence.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "bias",
+    "overconfidence",
+    "blind spot",
+    "accuracy"
+  ],
+  "relatedTopics": [
+    "the-othello-error-mistaking-fear-for-guilt",
+    "the-cluster-principle-no-single-sign"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Even trained professionals are bad at detecting lies—often performing at chance levels. The biggest obstacle is the lie detector’s own biases: believing they’re good at it, relying on stereotypes, and failing to seek objective evidence."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A manager “has a gut feeling” and never checks the data.",
+        "A partner is convinced of cheating because the other “acts guilty,” but it’s actually projection or insecurity.",
+        "A police officer focuses on body language cues she learned in a one‑day seminar, ignoring contradictory evidence.",
+        "You think you can spot a liar because you “read people well,” but in blind tests, you score 52% accuracy (barely above chance)."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Overconfidence in one’s own lie‑detection ability.",
+        "Confirmation bias: searching for signs that support your suspicion.",
+        "Ignoring base rates (most people tell the truth most of the time)."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I can just tell when someone’s lying.”",
+        "“Trust me, something’s off about them.”",
+        "“I’ve got a sixth sense for this.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You never change your mind after the initial suspicion.",
+        "You seek out “tell” lists online and apply them like a checklist.",
+        "You have never been proven wrong in your own mind."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Meta‑analyses show that unaided human lie detection accuracy is about 54% (Bond & DePaulo, 2006). Professionals are not significantly better, yet they are more confident. This “detection illusion” is itself a dangerous bias."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Actively doubt your first impression.",
+        "Use structured methods (SUE, cognitive load) instead of intuition.",
+        "Calibrate: if you suspect someone, write down your reasons and later compare with hard evidence.",
+        "Accept that some lies you will miss, and some truths you will wrongly doubt."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Putting too much weight on “microexpressions training” without realizing its limitations.",
+        "Assuming that because you caught a liar once, you’re an expert."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A jury member is convinced a defendant is lying because “he looked shifty.” The other jurors point to alibi evidence. The holdout eventually realizes his “shifty” judgment was based on the defendant’s social anxiety, not deception. The defendant is acquitted. The bias almost convicted an innocent person."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The most dangerous liar in the room is often the one living in your own head—the voice that says “I just know.” True detection requires humility, not certainty."
+    }
+  ]
+}

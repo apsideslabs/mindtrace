@@ -1,0 +1,85 @@
+{
+  "id": "regret-aversion",
+  "slug": "regret-aversion",
+  "title": "Regret Aversion",
+  "category": "decision-making",
+  "description": "We avoid making a decision because we fear feeling regret if it turns out badly—even when the rational choice is to act.",
+  "shortDescription": "We avoid making a decision because we fear feeling regret if it turns out badly—even when the rational choice is to act.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "fear",
+    "inaction",
+    "loss"
+  ],
+  "relatedTopics": [
+    "status-quo-bias",
+    "omission-bias"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "We avoid making a decision because we fear feeling regret if it turns out badly—even when the rational choice is to act."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "You don’t sell a losing stock because you can’t bear to lock in the loss and then watch it possibly recover. So you hold it as it drops further.",
+        "You don’t ask someone out because the imagined rejection feels worse than never knowing.",
+        "A manager doesn’t fire an underperforming employee because she imagines the awkward conversation and potential guilt."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Holding onto losers (stocks, relationships, jobs) to avoid the pain of “realizing” the loss.",
+        "Keeping options open unnecessarily, even at a cost, to avoid future “what if” thoughts.",
+        "Doing the safer, less optimal thing to minimize potential bad feelings later."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I’d hate myself if I sold and then it went up.”",
+        "“What if I make the wrong call?”",
+        "“I’d rather not know.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Your decision is driven by imagining how you’ll feel after, not by expected value.",
+        "You’re not just risk‑averse; you’re specifically afraid of self‑blame.",
+        "You take a suboptimal option because it provides “emotional insurance.”"
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Regret is a powerful negative emotion. The brain anticipates it and steers away from actions that could produce it, even if those actions are statistically superior. Omission (doing nothing) feels less regrettable than a commission that fails."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Recognize that regret from inaction can be as strong or stronger in the long run.",
+        "Use decision rules agreed upon in a “cold” state to override fear of regret.",
+        "Ask: “Looking back from 10 years, will I regret not acting?” The answer often shifts."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Over‑valuing “no regrets” as a life philosophy, leading to missed opportunities.",
+        "Thinking regret aversion is rational caution; it’s emotional caution that can be irrational."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "An investor buys shares at $50. They drop to $20. He refuses to sell, even though the company is failing, because selling would make him feel like a fool if they somehow rebound. The shares go to zero, and he loses everything. The fear of regret caused a total loss."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The decision you’re proud of later is often the one that felt scary at the time. Regret‑proof your future by acting now, not by hiding from the chance of a bad outcome."
+    }
+  ]
+}

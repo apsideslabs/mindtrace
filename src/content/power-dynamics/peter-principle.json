@@ -1,0 +1,86 @@
+{
+  "id": "peter-principle",
+  "slug": "peter-principle",
+  "title": "The Peter Principle (Rising To Your Level Of Incompetence)",
+  "category": "power-dynamics",
+  "description": "In a hierarchy, people are promoted based on their performance in their current role. They keep getting promoted until they reach a role where they are no longer competent—and there they stay. The organization fills with people who are one level above their ability.",
+  "shortDescription": "In a hierarchy, people are promoted based on their performance in their current role. They keep getting promoted until they reach a role where they are no longer competent—and there they stay. The organization fills with people who are one level above their ability.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "peter principle",
+    "promotion",
+    "incompetence",
+    "management"
+  ],
+  "relatedTopics": [
+    "glass-cliff",
+    "matthew-effect"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "In a hierarchy, people are promoted based on their performance in their current role. They keep getting promoted until they reach a role where they are no longer competent—and there they stay. The organization fills with people who are one level above their ability."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "The brilliant engineer who becomes a terrible manager.",
+        "The top salesperson who, as sales director, destroys the team.",
+        "The teacher who becomes a principal and is miserable and ineffective because the skills don’t transfer."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "The promoted person clings to their old skills (the engineer who micromanages code instead of leading people).",
+        "They are stressed, overwhelmed, and blame external factors.",
+        "They stop learning because they feel they should already know everything."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I was great in my last role; this new role just isn’t set up for success.”",
+        "“I don’t have time for strategy; I’m too busy doing the real work.”",
+        "“They’re not performing because they don’t work as hard as I did.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "A manager was promoted because they were the best individual contributor, not because they showed leadership potential.",
+        "The person’s new responsibilities are a mismatch for their core skills.",
+        "They’ve stopped growing and become a bottleneck."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Laurence J. Peter observed this in 1969. Organizations reward competence with promotion into a different kind of work, assuming that skill at one level implies skill at the next. It’s a structural flaw, not a personal one."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "For yourself: before accepting a promotion, shadow someone in that role and honestly assess whether the skills match.",
+        "For organizations: create expert tracks (promotion without management) so people aren’t forced into roles they’ll fail at.",
+        "If you’re above your level of competence, be honest and seek a lateral move back to where you thrived."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming that someone who is bad at their job is lazy. They may be in the wrong job entirely.",
+        "Promoting your best people into management as a default reward, without checking whether they want it or can do it."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A brilliant software developer is promoted to team lead. She hates meetings, struggles with giving feedback, and misses coding. Her team’s morale drops, and she becomes depressed. The company loses a great developer and gains a terrible manager. A dual‑track promotion system would have kept her coding and made her a technical fellow, not a people manager."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Promotion is not a reward; it’s a different job. The staircase to success sometimes leads to a room you don’t belong in."
+    }
+  ]
+}

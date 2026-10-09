@@ -1,0 +1,82 @@
+{
+  "id": "reference-price",
+  "slug": "reference-price",
+  "title": "Reference Price (The Invisible Yardstick)",
+  "category": "behavioral-economics",
+  "description": "Every purchase is evaluated relative to an internal reference price—what we expect to pay. This reference is shaped by past prices, competitors’ prices, and the way the offer is framed. A price above the reference feels like a loss; below, like a gain.",
+  "shortDescription": "Every purchase is evaluated relative to an internal reference price—what we expect to pay. This reference is shaped by past prices, competitors’ prices, and the way the offer is framed. A price above the reference feels like a loss; below, like a gain.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "behavioral economics",
+    "psychology",
+    "money"
+  ],
+  "relatedTopics": [],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Every purchase is evaluated relative to an internal reference price—what we expect to pay. This reference is shaped by past prices, competitors’ prices, and the way the offer is framed. A price above the reference feels like a loss; below, like a gain."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "You expect a coffee to cost $3. When a new café charges $4.50, you feel ripped off, even if their coffee is better.",
+        "A clothing store always has “50% off” sales, so the sale price becomes your reference. You never buy full price because that now feels like overpaying.",
+        "Gas stations across the street must keep prices within a few cents; drivers reference the visible competitor price constantly."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Comparing the current price to what you “used to pay.”",
+        "Feeling a sense of loss when a familiar product’s price increases.",
+        "Anchoring on the first price you see for a product, then judging all subsequent prices against it."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I remember when these were $2.”",
+        "“I’m not paying that much for a burger.”",
+        "“That’s a steal compared to what they charge downtown.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Your reference price is outdated, but you still feel upset about “inflation.”",
+        "You refuse a good deal because it’s not as good as a once‑in‑a‑lifetime deal you got years ago.",
+        "You overpay for something because the “original” price is inflated, making the sale price seem good."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Reference prices are a cornerstone of transaction utility and prospect theory. The brain evaluates outcomes as gains or losses relative to a reference point. Marketers manipulate this by setting high anchor prices to make actual prices seem like bargains."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Update your reference prices by occasionally researching current market rates.",
+        "When evaluating a price, ignore “was” pricing and look at the absolute value relative to your budget.",
+        "Use price tracking tools for big purchases to see historical trends, so your reference is based on data, not memory."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Clinging to a reference price from years ago and missing that the world has changed.",
+        "Letting a single low price from a sale become your new permanent reference."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A traveler books a hotel room for $200/night. She later sees an ad for the same hotel at $150 on a different site. She feels cheated, even though $200 was acceptable when she booked. The new, lower reference price instantly reduced her satisfaction with a previously fair deal."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Your satisfaction with a price is not about the price itself, but about the ghost price you carry in your head. Exorcise the ghost, or it will haunt your wallet."
+    }
+  ]
+}

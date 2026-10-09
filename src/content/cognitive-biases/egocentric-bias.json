@@ -1,0 +1,85 @@
+{
+  "id": "egocentric-bias",
+  "slug": "egocentric-bias",
+  "title": "Egocentric Bias",
+  "category": "cognitive-biases",
+  "description": "Overestimating your own contribution, importance, or visibility relative to others. You think you did more work, your opinion matters more, and others notice you more than they do.",
+  "shortDescription": "Overestimating your own contribution, importance, or visibility relative to others. You think you did more work, your opinion matters more, and others notice you more than they do.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "curse-of-knowledge",
+    "choice-supportive-bias"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Overestimating your own contribution, importance, or visibility relative to others. You think you did more work, your opinion matters more, and others notice you more than they do."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "In a group project, if you ask each member what percentage they contributed, the sum always exceeds 100%.",
+        "You remember your comments in a meeting as more insightful than others do.",
+        "You think your emotional state is obvious to everyone, while it’s actually invisible."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Claiming disproportionate credit.",
+        "Over‑sharing personal details assuming high interest.",
+        "Feeling under‑appreciated because you see your own effort more clearly than others’ effort."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I basically did the whole thing myself.”",
+        "“Everyone was staring at me.” (when they weren’t)",
+        "“I’m the one who made this happen.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re surprised when others don’t know what you’re feeling.",
+        "You feel resentment because you think you’re doing more than your share—but you haven’t actually measured.",
+        "You assume your perspective is the default."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "We have direct access to our own thoughts, efforts, and emotions; others’ internal states are invisible. This asymmetry creates a natural over‑weighting of the self."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "When assessing contributions, list everyone’s specific tasks and compare objectively.",
+        "Ask for feedback: “What percentage of the work do you think I did?” The answer may be jarring but useful.",
+        "Assume others are not noticing your internal state unless you communicate it."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Interpreting this bias as proof that others are lazy or ungrateful.",
+        "Over‑correcting by downplaying your own contributions, leading to resentment."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A married couple each believes they do 70% of the housework. They argue, certain the other is exaggerating. They log actual time for a week and discover it’s nearly 50/50. Both were genuinely astonished."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Your effort feels heavier because you’re lifting it. Everyone else’s burden is invisible. Measure, don’t assume."
+    }
+  ]
+}

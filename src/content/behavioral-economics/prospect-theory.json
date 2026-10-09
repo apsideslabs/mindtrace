@@ -1,0 +1,82 @@
+{
+  "id": "prospect-theory",
+  "slug": "prospect-theory",
+  "title": "Prospect Theory (Why Losing Feels Worse Than Winning)",
+  "category": "behavioral-economics",
+  "description": "We don’t evaluate money or outcomes in absolute terms. We judge gains and losses relative to a reference point, and losses hurt about twice as much as equivalent gains feel good. This asymmetry shapes every financial decision.",
+  "shortDescription": "We don’t evaluate money or outcomes in absolute terms. We judge gains and losses relative to a reference point, and losses hurt about twice as much as equivalent gains feel good. This asymmetry shapes every financial decision.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "behavioral economics",
+    "psychology",
+    "money"
+  ],
+  "relatedTopics": [],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "We don’t evaluate money or outcomes in absolute terms. We judge gains and losses relative to a reference point, and losses hurt about twice as much as equivalent gains feel good. This asymmetry shapes every financial decision."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A $50 parking fine ruins your day far more than finding $50 lifts it.",
+        "You drive across town to save $10 on a $50 item, but not on a $500 item—the loss feels the same, but the reference point shifts.",
+        "Investors refuse to sell a stock that’s down because realizing the loss is too painful, even if the money could be better used elsewhere."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Risk‑seeking when facing a loss: gambling to break even.",
+        "Risk‑averse when facing a gain: taking the sure $100 rather than a 50% chance at $200.",
+        "Emotional distress from losses that far outweighs the pleasure from gains."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I just want to get back to even.”",
+        "“I can’t sell now; I’ve lost too much already.”",
+        "“Better safe than sorry.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re holding a losing investment, waiting for it to return to the price you paid.",
+        "You feel physically uncomfortable at the thought of locking in a loss.",
+        "You take risks you wouldn’t normally take because you’re “in the hole.”"
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Kahneman and Tversky’s prospect theory (1979) showed that the pain of loss is psychologically about twice as powerful as the pleasure of gain. This is rooted in amygdala activation during losses."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Reframe: “If I had the cash equivalent today, would I buy this asset again?”",
+        "Set automatic stop‑loss rules for investments so emotion doesn’t drive the decision.",
+        "View your portfolio as a whole, not as individual winners and losers."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking loss aversion is always irrational; sometimes it protects us from reckless gambles.",
+        "Assuming you’re immune because you understand the theory; the pain is biological."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A trader buys a stock at $100. It drops to $60. He holds, hoping it will recover to $100 to “break even.” It drops further to $20. He lost $80 instead of $40 because he couldn’t accept the initial loss. A rational sell at $60 would have preserved capital."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The market doesn’t care what you paid. Your reference point is a ghost; the cash in your hand is real."
+    }
+  ]
+}

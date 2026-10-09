@@ -1,0 +1,82 @@
+{
+  "id": "fairness-in-economic-transactions",
+  "slug": "fairness-in-economic-transactions",
+  "title": "Fairness In Economic Transactions (Why We Punish Unfair Offers)",
+  "category": "behavioral-economics",
+  "description": "People care deeply about fairness, even at a personal cost. We reject unfair economic offers, punish exploitative sellers, and reward fair firms—even when it’s not in our narrow self‑interest.",
+  "shortDescription": "People care deeply about fairness, even at a personal cost. We reject unfair economic offers, punish exploitative sellers, and reward fair firms—even when it’s not in our narrow self‑interest.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "behavioral economics",
+    "psychology",
+    "money"
+  ],
+  "relatedTopics": [],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "People care deeply about fairness, even at a personal cost. We reject unfair economic offers, punish exploitative sellers, and reward fair firms—even when it’s not in our narrow self‑interest."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "In the ultimatum game, a proposer offers to split $100 with a responder. If the responder rejects an offer of $10, both get nothing. Logically, $10 is better than $0, but people reject unfair splits out of principle.",
+        "A company that raises prices after a hurricane (price gouging) triggers outrage and boycotts, even from those unaffected.",
+        "A tip at a restaurant is higher when the server is perceived as working hard under unfair conditions."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Refusing to accept a low salary offer that’s “disrespectful,” even if it’s the only offer.",
+        "Spreading negative word‑of‑mouth about companies that treat customers or workers unfairly.",
+        "Paying more for “fair trade” products to reward ethical treatment of producers."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“It’s the principle of the thing.”",
+        "“I won’t give them my business after what they did.”",
+        "“That’s not fair.” (the most powerful economic statement in human history)"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re about to reject a deal that would leave you better off purely because it feels unfair.",
+        "You’re spending more on an ethical product without checking whether the premium actually reaches the workers.",
+        "You feel righteous anger toward a price that is actually just supply and demand (e.g., surge pricing)."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "The ultimatum game (Güth et al., 1982) and its cross‑cultural replications show that fairness is a universal human motivation. The brain’s insula activates when facing unfair offers, signaling disgust. Fairness serves as a social glue for cooperation."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Separate the emotional reaction of unfairness from the economic reality: “Is this deal still better than my next best alternative?”",
+        "If you’re the proposer, offer a split that feels fair to the other party to avoid rejection. 50/50 or 60/40 are typically accepted; 80/20 often isn’t.",
+        "Use your fairness instinct to guide long‑term relationships, not one‑off transactions."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Applying fairness principles to situations that are genuinely zero‑sum or driven by impersonal market forces.",
+        "Assuming that your own standard of fairness is universal; culture shapes what “fair” means."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A freelancer is offered a project at a rate 30% below her normal. She rejects it out of pride, even though she has no other work for the month. The client hires someone else, and the freelancer earns $0. Her fairness instinct cost her money, but she preserved her self‑respect—whether that trade‑off was worth it depends on her values."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Fairness is a currency of its own. Sometimes it’s worth more than dollars; other times, you pay a price for pride. Know which market you’re in."
+    }
+  ]
+}

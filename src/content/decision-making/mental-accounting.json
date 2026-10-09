@@ -1,0 +1,85 @@
+{
+  "id": "mental-accounting",
+  "slug": "mental-accounting",
+  "title": "Mental Accounting",
+  "category": "decision-making",
+  "description": "We treat money differently depending on where it came from, where it’s kept, or what we intend to use it for—even though all money is the same.",
+  "shortDescription": "We treat money differently depending on where it came from, where it’s kept, or what we intend to use it for—even though all money is the same.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "money",
+    "finance",
+    "budgeting"
+  ],
+  "relatedTopics": [
+    "loss-aversion",
+    "the-decoy-effect"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "We treat money differently depending on where it came from, where it’s kept, or what we intend to use it for—even though all money is the same."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "You get a tax refund of $2,000 and splurge on a luxury item, whereas you’d never do that with $2,000 from your regular savings.",
+        "You keep a vacation fund earning 0.5% interest while carrying a credit card balance at 20% interest, because the money is “for” the vacation.",
+        "You drive 20 minutes to save $10 on a $50 purchase, but not on a $500 purchase, though the savings are identical."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Assigning windfall money (gifts, bonuses) a “fun” label and spending it freely.",
+        "Separating budgets rigidly even when it makes no financial sense.",
+        "Treating credit card purchases as less “real” than cash."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I’m using my bonus money for that.”",
+        "“It’s in my savings, so I can’t touch it.” (while paying interest elsewhere)",
+        "“It was a gift, so I can treat myself.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You have savings accounts while simultaneously having high‑interest debt.",
+        "You spend more with a credit card than you would with cash.",
+        "You view money from certain sources as “free” even though it’s part of your total wealth."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Richard Thaler’s concept shows that people categorize funds into non‑fungible mental accounts. This helps with self‑control but creates irrational outcomes when accounts interfere with optimal allocation."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Consolidate your view of money: all dollars are equal.",
+        "Pay off high‑interest debt first before building low‑interest savings.",
+        "When spending, ask: “Would I buy this if it came from my main bank account, with cash?”"
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Thinking mental accounting is just a budgeting tool. It becomes harmful when it prevents paying debt or maximizing returns.",
+        "Labeling all windfall money as “extra” rather than part of your net worth."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A couple has a $5,000 holiday fund in a low‑interest account while carrying $5,000 in credit card debt at 18%. They refuse to use the holiday money to pay the debt because it’s “for the trip.” Over a year, they lose hundreds in interest—far more than any experience the trip could provide."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Money doesn’t know its label. A dollar from a bonus spends exactly like a dollar from salary. Treat them as identical soldiers in the same army."
+    }
+  ]
+}

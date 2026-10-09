@@ -1,0 +1,78 @@
+{
+  "id": "negativity-bias",
+  "slug": "negativity-bias",
+  "title": "Negativity Bias",
+  "category": "human-behavior",
+  "description": "Negative events, emotions, and information have a stronger impact on our thoughts and behavior than equally intense positive ones.",
+  "readTime": 2,
+  "relatedTopics": [
+    "loss-aversion",
+    "red-flags",
+    "the-four-horsemen"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Negative events, emotions, and information have a stronger impact on our thoughts and behavior than equally intense positive ones."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "One critical comment in a performance review overshadows ten positive ones.",
+        "You remember an insult from years ago more vividly than a dozen compliments.",
+        "News outlets lead with negative stories because they grab attention more powerfully than positive ones."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Replaying negative interactions on a loop.",
+        "Making decisions based on fear of negative outcomes rather than pursuit of positive ones.",
+        "Giving negative feedback more weight when evaluating people or options."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I know he said nine nice things, but that one thing he said stings.”",
+        "“I just can’t stop thinking about what went wrong.”",
+        "“Better safe than sorry.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Your mood is disproportionately affected by a small setback.",
+        "You dwell on what could go wrong more than what could go right.",
+        "You avoid situations because of a single past negative experience, even if overall it was positive."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Evolutionary survival required paying more attention to threats than rewards; missing a threat could be fatal, while missing a reward was merely disappointing. Baumeister et al. (2001) summarized extensive evidence: “Bad is stronger than good.”"
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Deliberately count positives: after a negative event, list three good things that also happened.",
+        "When receiving feedback, ask for a balanced view; don’t let one negative bullet point dominate.",
+        "In decision making, consciously weigh upside alongside downside."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming negativity bias means you should ignore risks or negative feedback; it means you should put them in proper proportion.",
+        "Allowing it to create chronic pessimism that impairs action."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A writer publishes a blog post and receives 95 glowing comments and one harsh critique. She focuses exclusively on the critique, feeling like a failure. The next day, she reads the positive comments again, and the sting fades, but only after deliberate effort."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Your brain is Velcro for bad experiences and Teflon for good ones. To see clearly, you must press the good into memory on purpose."
+    }
+  ]
+}

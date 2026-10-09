@@ -1,0 +1,84 @@
+{
+  "id": "omission-bias",
+  "slug": "omission-bias",
+  "title": "Omission Bias",
+  "category": "decision-making",
+  "description": "Harm caused by doing nothing feels less blameworthy than harm caused by doing something, even when the inaction leads to greater harm.",
+  "shortDescription": "Harm caused by doing nothing feels less blameworthy than harm caused by doing something, even when the inaction leads to greater harm.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "responsibility",
+    "action vs inaction"
+  ],
+  "relatedTopics": [
+    "status-quo-bias",
+    "regret-aversion"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Harm caused by doing nothing feels less blameworthy than harm caused by doing something, even when the inaction leads to greater harm."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A parent doesn’t vaccinate a child, and the child falls ill. The parent feels less guilty than if a vaccine had caused a (much rarer) side effect.",
+        "A manager fails to update a safety protocol; an accident happens. The inaction is viewed as an oversight; actively taking a risk that goes wrong would be seen as reckless.",
+        "You don’t correct a misunderstanding at work, letting it become a bigger problem, because the lie by omission feels less “intentional.”"
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Choosing the “not my decision” path when harm is foreseeable.",
+        "Judging others more harshly for harmful actions than for harmful inactions.",
+        "Using the defense “I didn’t do anything” as if it absolves responsibility."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“It’s not my fault; I didn’t touch anything.”",
+        "“Better to do nothing than to do something and make it worse.”",
+        "“I just left it as it was.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You see a problem but decide “not my place” rather than intervene.",
+        "You evaluate a potentially harmful action as worse than a definitely harmful inaction, even when the action’s net risk is lower.",
+        "Policies or decisions are stuck because any active change could be blamed, while the status quo’s slow damage is tolerated."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Moral psychology studies show that acts and omissions are processed differently. Acts are perceived as more causal and more intentional, so they attract more blame. Evolutionarily, we might have punished harmful acts more than failures to help."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "When deciding, mentally reframe inaction as an intentional choice: “I choose to let this continue.”",
+        "In risk assessment, compare the outcomes of both action and inaction using the same metric.",
+        "As a manager or leader, explicitly state that inaction carries equal accountability."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Using omission bias to justify passivity.",
+        "Assuming courts or organizations will see omission as neutral; negligence often carries legal liability."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A company discovers a minor defect in a product. Fixing it would require a recall, which is costly and might cause bad publicity. Doing nothing seems easier; the defect rarely causes harm. When a serious injury occurs, the omission (failure to recall) is judged far more harshly than the cost of the recall would have been. The bias blinded them to the true risk."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Choosing to do nothing is still a choice. The consequences of silence are just as real as the consequences of action—they just arrive more quietly."
+    }
+  ]
+}

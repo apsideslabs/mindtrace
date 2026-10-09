@@ -1,0 +1,115 @@
+{
+  "id": "need-for-cognition",
+  "slug": "need-for-cognition",
+  "title": "Need For Cognition",
+  "category": "personality",
+  "description": "The extent to which a person enjoys and actively seeks out effortful thinking. High NFC people enjoy puzzles, debates, and complex ideas; low NFC people prefer intuitive, low‑effort cognitive tasks.",
+  "shortDescription": "The extent to which a person enjoys and actively seeks out effortful thinking. High NFC people enjoy puzzles, debates, and complex ideas; low NFC people prefer intuitive, low‑effort cognitive tasks.",
+  "readTime": 5,
+  "estimatedReadTime": 5,
+  "difficulty": "Intermediate",
+  "tags": [
+    "thinking",
+    "analysis",
+    "cognition"
+  ],
+  "relatedTopics": [
+    "confirmation-bias",
+    "dunning-kruger-effect"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "The extent to which a person enjoys and actively seeks out effortful thinking. High NFC people enjoy puzzles, debates, and complex ideas; low NFC people prefer intuitive, low‑effort cognitive tasks."
+    },
+    {
+      "title": "Core Characteristics",
+      "content": [
+        "High NFC: curious, analytical, enjoys mental challenges.",
+        "Low NFC: prefers simplicity, may rely on heuristics and gut feelings."
+      ]
+    },
+    {
+      "title": "Behavioral Patterns",
+      "content": [
+        "High NFC: reads long articles, does research before purchases, engages in thought‑provoking conversations for fun.",
+        "Low NFC: skims, relies on others’ summaries, avoids complex material."
+      ]
+    },
+    {
+      "title": "Communication Style",
+      "content": [
+        "High NFC: asks “why” and “how,” uses precise language, may over‑explain.",
+        "Low NFC: prefers concrete, straightforward talk; may say “it’s not that deep.”"
+      ]
+    },
+    {
+      "title": "Strengths",
+      "content": [
+        "High NFC: deep analysis, fewer cognitive biases if engaged, better decision‑making on complex issues.",
+        "Low NFC: saves mental energy for important tasks, efficient."
+      ]
+    },
+    {
+      "title": "Weaknesses",
+      "content": [
+        "High NFC: analysis paralysis, can seem pedantic, exhausts less‑motivated partners.",
+        "Low NFC: susceptible to oversimplification, missed nuances."
+      ]
+    },
+    {
+      "title": "Decision-Making Style",
+      "content": [
+        "High NFC: gathers extensive information, weighs pros and cons, seeks counterarguments.",
+        "Low NFC: decides quickly, uses intuition, may not verify."
+      ]
+    },
+    {
+      "title": "Relationship Patterns",
+      "content": "High NFC partners enjoy deep discussions; may frustrate low NFC partners who just want to relax."
+    },
+    {
+      "title": "Workplace Behavior",
+      "content": [
+        "High NFC suits research, strategy, law, and any role requiring rigorous thinking.",
+        "Low NFC can be excellent in roles where quick, practical action is needed."
+      ]
+    },
+    {
+      "title": "Leadership Style",
+      "content": [
+        "High NFC leaders are thoughtful, data‑driven, but may be slow to decide.",
+        "Low NFC leaders are decisive but may miss details."
+      ]
+    },
+    {
+      "title": "Stress Response",
+      "content": [
+        "High NFC may find comfort in analyzing the stressor.",
+        "Low NFC may avoid thinking about it, which can help or hinder."
+      ]
+    },
+    {
+      "title": "How to Identify It",
+      "content": [
+        "Offer a complex puzzle or abstract article. High NFC dives in; low NFC passes.",
+        "Listen for statements like “I love thinking about how things work” vs. “I don’t like overthinking.”"
+      ]
+    },
+    {
+      "title": "Common Misconceptions",
+      "content": [
+        "High NFC isn’t the same as high intelligence. It’s enjoyment of effortful thought, not ability.",
+        "Low NFC isn’t the same as laziness or stupidity; they may simply prefer thinking only when necessary."
+      ]
+    },
+    {
+      "title": "Real-World Scenario",
+      "content": "A policy advisor spends hours modeling the impact of a new regulation. Her colleague glances at the same data, finds it boring, and relies on a gut feeling. The advisor’s careful analysis catches a flaw that would have cost millions. The colleague’s quick intuition earlier had saved a deal. Both modes matter."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Some people think for fuel; others think for function. Neither is broken, but handing a complex map to someone who prefers signposts is a guarantee of getting lost."
+    }
+  ]
+}

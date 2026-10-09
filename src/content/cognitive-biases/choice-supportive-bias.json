@@ -1,0 +1,84 @@
+{
+  "id": "choice-supportive-bias",
+  "slug": "choice-supportive-bias",
+  "title": "Choice‑supportive Bias",
+  "category": "cognitive-biases",
+  "description": "Once you’ve made a choice, you retroactively remember it as better than it was, and you distort the unchosen options as worse than they were. Your memory edits the past to validate your decisions.",
+  "shortDescription": "Once you’ve made a choice, you retroactively remember it as better than it was, and you distort the unchosen options as worse than they were. Your memory edits the past to validate your decisions.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Beginner",
+  "tags": [
+    "cognitive bias",
+    "psychology",
+    "decision making"
+  ],
+  "relatedTopics": [
+    "decision-fatigue"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "Once you’ve made a choice, you retroactively remember it as better than it was, and you distort the unchosen options as worse than they were. Your memory edits the past to validate your decisions."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "After buying a car, you remember its features as superior and the competing model’s flaws as larger than they actually were.",
+        "You select a candidate in an election and, years later, remember their tenure more positively than the data supports.",
+        "After choosing a university, you downplay the merits of the one you turned down, even if it was objectively similar."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Defending past choices with distorted facts.",
+        "Feeling discomfort when a rejected option proves successful (cognitive dissonance).",
+        "Re‑reading old reviews or comparisons to reassure yourself."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I definitely made the right call.”",
+        "“The other one was never really an option.”",
+        "“I could tell it was the better one all along.” (connecting to hindsight bias)"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "Your memory of the options before the choice has “improved” over time.",
+        "You feel irrationally irritated when someone points out flaws in your chosen option.",
+        "You don’t remember your decision process; you just remember being right."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Cognitive dissonance: inconsistency between “I’m a smart decider” and “I chose something flawed” creates tension. The brain resolves it by rewriting memory to make the choice look smarter."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Keep a decision journal with your reasoning at the time, including the pros and cons of rejected options.",
+        "When evaluating past choices, review the pre‑decision data, not your current feelings.",
+        "Accept that good decisions sometimes lead to suboptimal outcomes, and vice versa. This reduces the need to distort memory."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Confusing this bias with mere confidence in a good decision.",
+        "Doubting yourself unnecessarily when someone challenges an old choice; check the record."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A couple buys a house in a certain neighborhood. Years later, they insist it was always their dream location, and the other house they almost bought “had major issues.” In reality, the other house was equally nice; they’re editing the memory to avoid admitting they might have been equally happy there."
+    },
+    {
+      "title": "Key Insight",
+      "content": "Your memory is your own PR agent, constantly spinning past choices to make you look brilliant. Read the original meeting minutes before believing the spin."
+    }
+  ]
+}

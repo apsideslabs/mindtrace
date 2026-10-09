@@ -1,0 +1,82 @@
+{
+  "id": "transaction-utility",
+  "slug": "transaction-utility",
+  "title": "Transaction Utility (The Joy Of A Good Deal)",
+  "category": "behavioral-economics",
+  "description": "We get two separate pleasures from a purchase: the actual value of the item (acquisition utility) and the feeling of getting a bargain compared to a reference price (transaction utility). We often overpay for the thrill of the deal.",
+  "shortDescription": "We get two separate pleasures from a purchase: the actual value of the item (acquisition utility) and the feeling of getting a bargain compared to a reference price (transaction utility). We often overpay for the thrill of the deal.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "behavioral economics",
+    "psychology",
+    "money"
+  ],
+  "relatedTopics": [],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "We get two separate pleasures from a purchase: the actual value of the item (acquisition utility) and the feeling of getting a bargain compared to a reference price (transaction utility). We often overpay for the thrill of the deal."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "A jacket originally $200, on sale for $80, feels better than an identical jacket priced at $80 with no sale tag.",
+        "You buy something you don’t need because the discount is “too good to pass up.”",
+        "Black Friday frenzy: people fight over TVs not because they need them, but because the perceived deal is euphoric."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Checking the “original” price to feel good about the purchase.",
+        "Bragging about how much you saved, not how much you spent.",
+        "Buying extra items to hit a free‑shipping threshold, “saving” money you wouldn’t have spent otherwise."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I got it for 60% off!”",
+        "“It would have been stupid not to buy it at that price.”",
+        "“I saved so much money.” (while spending money you didn’t plan to)"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You’re more excited about the discount than the product.",
+        "You buy things solely because they’re on sale, and they gather dust later.",
+        "You compare the sale price to an inflated “original” price, which may be fake."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Richard Thaler identified transaction utility as a separate component of overall utility. The feeling of getting a deal activates reward centers in the brain, sometimes more than the item itself."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Ask: “Would I buy this if it were just priced at this amount, without any ‘original’ price?”",
+        "Ignore the “was” price; evaluate the item at its current cost relative to your needs and budget.",
+        "When you feel a rush from a discount, pause for an hour. The high fades, and you can decide clearly."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Assuming all discounts are real. Sellers often inflate reference prices to manufacture transaction utility.",
+        "Thinking that “saving” money on a purchase is the same as keeping money. Not spending $100 on a $200 jacket still means you spent $100."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A shopper sees a handbag marked down from $500 to $150. She buys it immediately, thrilled by the $350 “saving.” She never uses the bag and later realizes she needed that $150 for a repair. The transaction utility tricked her into valuing the deal over the dollars."
+    },
+    {
+      "title": "Key Insight",
+      "content": "A discount is not a deposit into your bank account. The deal high fades; the purchase stays."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "the-peace-model-interviewing-for-honesty",
+  "slug": "the-peace-model-interviewing-for-honesty",
+  "title": "The Peace Model (Interviewing For Honesty)",
+  "category": "deception-detection",
+  "description": "A non‑accusatory, information‑gathering approach to interviewing that prioritizes rapport, open‑ended questions, and careful listening over confrontation. It’s designed to get accurate information, not just confessions.",
+  "shortDescription": "A non‑accusatory, information‑gathering approach to interviewing that prioritizes rapport, open‑ended questions, and careful listening over confrontation. It’s designed to get accurate information, not just confessions.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "PEACE model",
+    "interviewing",
+    "rapport",
+    "information gathering"
+  ],
+  "relatedTopics": [
+    "cognitive-load-the-mental-effort-lens",
+    "baseline-behavior-norming",
+    "strategic-use-of-evidence-sue"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "A non‑accusatory, information‑gathering approach to interviewing that prioritizes rapport, open‑ended questions, and careful listening over confrontation. It’s designed to get accurate information, not just confessions."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "The interviewer starts with a friendly, neutral tone.",
+        "They ask “Tell me everything you remember” without interrupting.",
+        "They use active listening, summaries, and open‑ended probes: “What happened next?” “How did that feel?”",
+        "They challenge inconsistencies later, not upfront."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "The subject does most of the talking.",
+        "The interviewer rarely offers opinions or evidence.",
+        "The atmosphere is calm, not pressured."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“I want to understand your side of things.”",
+        "“Take your time.”",
+        "“Is there anything else you want to add?”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "(In the subject) A sudden inability to elaborate when earlier they could.",
+        "Contradictions that emerge naturally without being forced.",
+        "The subject volunteers self‑incriminating details because they feel safe."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "The PEACE model (UK) was developed to reduce false confessions. It relies on cognitive load, unexpected questions, and rapport to test veracity without coercion. Research shows it yields more accurate information than accusatory methods."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "If you need to find the truth, use this approach yourself: calm, curious, non‑judgmental.",
+        "Don’t interrupt; let them paint themselves into a corner if they’re lying.",
+        "Summarize back what they said and ask, “Did I get that right?” Then watch for hesitation or corrections."
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Believing that a friendly interview means you’re being soft on liars. You’re actually trapping them more effectively.",
+        "Using the PEACE model but then slipping into accusation when frustrated."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A school principal uses PEACE to talk to a student about a vandalism incident. She says, “Help me understand what happened yesterday after school.” The student, feeling unthreatened, talks for ten minutes. His story contains a key timeline inconsistency that he never would have revealed under harsh questioning. The truth emerges without a single accusation."
+    },
+    {
+      "title": "Key Insight",
+      "content": "A soft voice opens more doors than a sledgehammer. The truth often emerges not when you squeeze, but when you give it room to breathe."
+    }
+  ]
+}

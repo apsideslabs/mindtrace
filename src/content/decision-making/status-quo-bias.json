@@ -1,0 +1,87 @@
+{
+  "id": "status-quo-bias",
+  "slug": "status-quo-bias",
+  "title": "Status Quo Bias",
+  "category": "decision-making",
+  "description": "People prefer things to stay the same. Doing nothing or keeping the current situation feels safer than making a change—even when the change is beneficial.",
+  "shortDescription": "People prefer things to stay the same. Doing nothing or keeping the current situation feels safer than making a change—even when the change is beneficial.",
+  "readTime": 4,
+  "estimatedReadTime": 4,
+  "difficulty": "Intermediate",
+  "tags": [
+    "change",
+    "loss aversion",
+    "inertia"
+  ],
+  "relatedTopics": [
+    "the-default-effect",
+    "omission-bias",
+    "regret-aversion"
+  ],
+  "sections": [
+    {
+      "title": "What It Is",
+      "content": "People prefer things to stay the same. Doing nothing or keeping the current situation feels safer than making a change—even when the change is beneficial."
+    },
+    {
+      "title": "How It Actually Appears",
+      "content": [
+        "You remain in a job you don’t like because leaving is “too much hassle.”",
+        "A country sticks with a flawed healthcare system because overhaul feels risky.",
+        "You keep a subscription you don’t use because cancelling takes three clicks.",
+        "A manager keeps a failing project alive because stopping it means admitting a previous decision was wrong."
+      ]
+    },
+    {
+      "title": "Common Behaviors",
+      "content": [
+        "Inertia in all areas: same bank, same brand, same routine.",
+        "Rejecting new ideas not because they are worse, but because they are new.",
+        "Feeling a vague anxiety when someone suggests a change, even a positive one."
+      ]
+    },
+    {
+      "title": "Real Phrases",
+      "content": [
+        "“Better the devil you know.”",
+        "“If it ain’t broke, don’t fix it.” (even when it is slightly broken)",
+        "“I’ll stick with what I have, thanks.”"
+      ]
+    },
+    {
+      "title": "Warning Signs",
+      "content": [
+        "You can’t articulate a good reason to keep things as they are beyond “it’s what I’m used to.”",
+        "Change feels disproportionately scary.",
+        "You avoid even evaluating alternatives because it’s uncomfortable."
+      ]
+    },
+    {
+      "title": "Why It Works",
+      "content": "Loss aversion: the potential losses from a change loom larger than the potential gains. Additionally, sticking with the status quo avoids the regret of an active choice that goes wrong."
+    },
+    {
+      "title": "Protection Strategy",
+      "content": [
+        "Reframe the status quo as one option among many, not the “safe” default.",
+        "Ask: “If I were starting fresh today, would I choose my current situation?”",
+        "Evaluate the cost of inaction—what will I lose by not changing?"
+      ]
+    },
+    {
+      "title": "Common Mistakes",
+      "content": [
+        "Confusing stability with safety. Sometimes staying put is the riskiest move.",
+        "Assuming the status quo is the result of a thoughtful decision rather than inertia."
+      ]
+    },
+    {
+      "title": "Real Scenario",
+      "content": "A government maintains a costly, ineffective tax incentive for decades. Politicians hesitate to remove it because of potential backlash, even though the data shows it harms the economy. The status quo persists because change is politically riskier than continued inefficiency."
+    },
+    {
+      "title": "Key Insight",
+      "content": "The devil you know is still a devil. The “safe” choice isn’t safe just because it’s familiar—it’s just comfortable."
+    }
+  ]
+}
