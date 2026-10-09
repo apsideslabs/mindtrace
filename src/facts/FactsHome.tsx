@@ -1,6 +1,13 @@
 import React from 'react';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ArrowRight, BrainCircuit, Link2, Network, Fingerprint } from 'lucide-react';
 import { factsCategories, getCollectionsForCategory } from '../content/facts';
+
+const ICONS: Record<string, React.ReactNode> = {
+  psychology: <BrainCircuit className="w-5 h-5" />,
+  relationships: <Link2 className="w-5 h-5" />,
+  social: <Network className="w-5 h-5" />,
+  crime: <Fingerprint className="w-5 h-5" />,
+};
 
 export function FactsHome({ onBack, onOpenCategory }: { onBack: () => void; onOpenCategory: (id: string) => void }) {
   const totalFacts = factsCategories.reduce(
@@ -9,21 +16,23 @@ export function FactsHome({ onBack, onOpenCategory }: { onBack: () => void; onOp
   );
 
   return (
-    <div className="max-w-4xl mx-auto px-5 md:px-8 pt-8 pb-20">
-      <button onClick={onBack} className="flex items-center gap-2 font-mono text-[10.5px] tracking-[0.16em] uppercase text-muted hover:text-accent transition-colors mb-6">
-        <ArrowLeft className="w-3.5 h-3.5" /> Back
+    <div className="max-w-4xl mx-auto px-5 md:px-8 pt-12 pb-24">
+      <button onClick={onBack} className="flex items-center gap-2 text-[13px] font-medium text-muted hover:text-ink transition-colors mb-8">
+        <ArrowLeft className="w-4 h-4" /> Back
       </button>
 
-      <header className="rule-red pt-6 pb-7">
-        <div className="kicker kicker-accent mb-4">MindTrace Facts</div>
-        <h1 className="font-display text-[46px] sm:text-[58px] leading-[1] font-semibold tracking-tight text-ink">Research Notes</h1>
-        <p className="standfirst mt-5 max-w-2xl">
-          {totalFacts} sourced findings across {factsCategories.length} collections — each a short, evidence-rated note you can actually use.
+      <header className="border-b hairline pb-8 mb-8">
+        <div className="kicker mb-3">MindTrace Facts</div>
+        <h1 className="font-display text-[38px] sm:text-[46px] leading-tight font-semibold text-ink">
+          Research-backed findings
+        </h1>
+        <p className="mt-4 text-[16px] text-ink-soft max-w-2xl leading-relaxed">
+          {totalFacts} facts across {factsCategories.length} collections — each one a short, sourced finding you can actually use.
         </p>
       </header>
 
-      <div className="rule">
-        {factsCategories.map((c, i) => {
+      <div className="grid sm:grid-cols-2 gap-3">
+        {factsCategories.map((c) => {
           const collections = getCollectionsForCategory(c.id);
           const count = collections.reduce((a, col) => a + col.facts.length, 0);
           const enabled = count > 0;
@@ -32,12 +41,19 @@ export function FactsHome({ onBack, onOpenCategory }: { onBack: () => void; onOp
               key={c.id}
               onClick={() => enabled && onOpenCategory(c.id)}
               disabled={!enabled}
-              className={`group w-full grid grid-cols-[2.5rem_1fr_auto] md:grid-cols-[3rem_14rem_1fr_auto] gap-x-4 items-baseline py-5 text-left border-b hairline transition-colors ${enabled ? 'hover:bg-surface/60' : 'opacity-50 cursor-default'}`}
+              className={`card p-6 text-left group flex flex-col ${enabled ? '' : 'opacity-50 cursor-default'}`}
             >
-              <span className="font-mono text-[13px] text-accent tnum">{String(i + 1).padStart(2, '0')}</span>
-              <span className="font-display text-[22px] font-medium text-ink group-hover:text-accent transition-colors leading-snug">{c.title}</span>
-              <span className="hidden md:block font-body text-[14.5px] text-muted leading-relaxed">{c.description}</span>
-              <span className="font-mono text-[11px] text-faint tnum whitespace-nowrap">{count} notes</span>
+              <div className="flex items-center justify-between mb-4">
+                <span className="w-10 h-10 rounded-xl bg-accent-soft flex items-center justify-center text-accent">
+                  {ICONS[c.id] ?? <BrainCircuit className="w-5 h-5" />}
+                </span>
+                <span className="text-[11px] font-semibold text-muted tabular-nums">{count} facts</span>
+              </div>
+              <h3 className="font-display text-[19px] font-semibold text-ink group-hover:text-accent transition-colors">{c.title}</h3>
+              <p className="mt-1.5 text-[13px] text-muted leading-relaxed flex-1">{c.description}</p>
+              <span className="mt-4 inline-flex items-center gap-1.5 text-[12px] font-semibold text-ink-soft group-hover:text-accent transition-colors">
+                Open <ArrowRight className="w-3.5 h-3.5" />
+              </span>
             </button>
           );
         })}

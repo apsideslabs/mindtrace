@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { Search, X, CornerDownLeft } from 'lucide-react';
+import { Search, X, CornerDownLeft, BookOpen, Zap } from 'lucide-react';
 import { searchTopics, searchFacts, getCategoryById } from '../content/content-index';
 
 export function SearchOverlay({
@@ -40,43 +40,52 @@ export function SearchOverlay({
   if (!open) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center px-4 pt-[12vh] sm:pt-[15vh]">
-      <div className="absolute inset-0 bg-ink/30" onClick={onClose} />
-      <div className="relative w-full max-w-2xl bg-surface border hairline border-t-2 border-t-accent shadow-2xl mt-fade">
-        <div className="flex items-center gap-3 px-5 h-16 border-b hairline">
-          <Search className="w-[18px] h-[18px] text-accent" />
+    <div className="fixed inset-0 z-50 flex items-start justify-center px-4 pt-[12vh] sm:pt-[16vh]">
+      <div className="absolute inset-0 bg-ink/25 backdrop-blur-[2px]" onClick={onClose} />
+      <div className="relative w-full max-w-xl bg-surface border hairline rounded-2xl shadow-2xl overflow-hidden mt-fade">
+        <div className="flex items-center gap-3 px-4 h-14 border-b hairline">
+          <Search className="w-[18px] h-[18px] text-muted" />
           <input
             ref={inputRef}
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Search the catalogue and facts…"
-            className="flex-1 bg-transparent outline-none font-body text-[17px] text-ink placeholder:text-faint"
+            placeholder="Search topics, behaviours, facts…"
+            className="flex-1 bg-transparent outline-none text-[15px] text-ink placeholder:text-faint"
           />
-          <button onClick={onClose} className="w-8 h-8 flex items-center justify-center text-muted hover:text-ink">
+          <button onClick={onClose} className="w-8 h-8 flex items-center justify-center rounded-full text-muted hover:bg-paper-2">
             <X className="w-4 h-4" />
           </button>
         </div>
 
-        <div className="max-h-[54vh] overflow-y-auto">
+        <div className="max-h-[52vh] overflow-y-auto">
           {q.trim().length <= 1 && (
-            <div className="px-5 py-6">
-              <div className="kicker mb-3">Try</div>
-              <div className="flex flex-wrap gap-2">
+            <div className="px-5 py-6 text-[13px] text-muted">
+              Type to search across <strong className="text-ink font-semibold">237 topics</strong> and the Facts library.
+              <div className="mt-3 flex flex-wrap gap-2">
                 {['gaslighting', 'attachment', 'anchoring', 'cognitive biases', 'body language'].map((s) => (
-                  <button key={s} onClick={() => setQ(s)} className="chip">{s}</button>
+                  <button key={s} onClick={() => setQ(s)} className="px-3 py-1 rounded-full border hairline text-[12px] text-ink-soft hover:border-line-strong">
+                    {s}
+                  </button>
                 ))}
               </div>
             </div>
           )}
 
           {topics.length > 0 && (
-            <div className="border-t hairline">
-              <div className="px-5 pt-4 pb-1 kicker">Entries</div>
+            <div className="py-2">
+              <div className="px-5 pt-2 pb-1 kicker">Topics</div>
               {topics.map((t) => (
-                <button key={t.id} onClick={() => onOpenTopic(t.id)} className="w-full flex items-center gap-4 px-5 py-3 text-left border-b hairline group hover:bg-paper-2/60">
+                <button
+                  key={t.id}
+                  onClick={() => onOpenTopic(t.id)}
+                  className="w-full flex items-center gap-3 px-5 py-2.5 text-left hover:bg-paper-2/70 group"
+                >
+                  <BookOpen className="w-4 h-4 text-muted shrink-0" />
                   <span className="flex-1 min-w-0">
-                    <span className="block font-display text-[17px] font-medium text-ink group-hover:text-accent transition-colors truncate">{t.title}</span>
-                    <span className="block font-mono text-[10px] tracking-[0.14em] uppercase text-faint mt-0.5">{getCategoryById(t.category)?.title}</span>
+                    <span className="block text-[14px] font-medium text-ink truncate">{t.title}</span>
+                    <span className="block text-[12px] text-muted truncate">
+                      {getCategoryById(t.category)?.title}
+                    </span>
                   </span>
                   <CornerDownLeft className="w-3.5 h-3.5 text-faint opacity-0 group-hover:opacity-100" />
                 </button>
@@ -85,20 +94,29 @@ export function SearchOverlay({
           )}
 
           {facts.length > 0 && (
-            <div className="border-t hairline">
-              <div className="px-5 pt-4 pb-1 kicker">Facts</div>
+            <div className="py-2 border-t hairline">
+              <div className="px-5 pt-2 pb-1 kicker">Facts</div>
               {facts.map((f) => (
-                <button key={f.id} onClick={() => onOpenFact(f.id)} className="w-full flex items-start gap-4 px-5 py-3 text-left border-b hairline group hover:bg-paper-2/60">
+                <button
+                  key={f.id}
+                  onClick={() => onOpenFact(f.id)}
+                  className="w-full flex items-start gap-3 px-5 py-2.5 text-left hover:bg-paper-2/70 group"
+                >
+                  <Zap className="w-4 h-4 text-accent shrink-0 mt-0.5" />
                   <span className="flex-1 min-w-0">
-                    <span className="block font-display text-[17px] font-medium text-ink group-hover:text-accent transition-colors truncate">{f.title}</span>
-                    <span className="block font-body text-[13px] text-muted line-clamp-1 mt-0.5">{f.summary}</span>
+                    <span className="block text-[14px] font-medium text-ink truncate">{f.title}</span>
+                    <span className="block text-[12px] text-muted line-clamp-1">{f.summary}</span>
                   </span>
                 </button>
               ))}
             </div>
           )}
 
-          {empty && <div className="px-5 py-12 text-center font-body text-[15px] text-muted">No results for “{q}”. Try a broader term.</div>}
+          {empty && (
+            <div className="px-5 py-10 text-center text-[13px] text-muted">
+              No results for “{q}”. Try a broader term.
+            </div>
+          )}
         </div>
       </div>
     </div>

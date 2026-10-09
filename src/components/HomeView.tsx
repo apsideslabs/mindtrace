@@ -1,8 +1,9 @@
 import React, { useMemo } from 'react';
-import { ArrowRight, Clock } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, Clock, BookOpen, Sparkles } from 'lucide-react';
 import { CategoryId, TopicId } from '../types';
-import { getAllCategories, getTopicsByCategory, getTopicById, getRelatedTopics, getTopicCount } from '../content/content-index';
-import { allCollections } from '../content/facts';
+import { getAllCategories, getTopicsByCategory, getTopicById, getRelatedTopics, CATEGORY_ACCENT, getTopicCount } from '../content/content-index';
+import { allCollections, getFactById } from '../content/facts';
+import { getCategoryIcon } from '../utils/icons';
 
 type Go = (screen: any) => void;
 
@@ -21,26 +22,8 @@ export function HomeView({
 }) {
   const categories = getAllCategories();
   const totalTopics = getTopicCount();
+
   const featured = getTopicById(FEATURED_ID) ?? getTopicsByCategory('manipulation')[0];
-
-  const edition = useMemo(() => {
-    if (!featured) return [];
-    const picks = [
-      ...getRelatedTopics(featured),
-      getTopicsByCategory('persuasion')[0],
-      getTopicsByCategory('relationships')[0],
-      getTopicsByCategory('cognitive-biases')[0],
-    ].filter(Boolean).filter((t) => t!.id !== featured.id);
-    const seen = new Set<string>();
-    return picks.filter((t) => (seen.has(t!.id) ? false : (seen.add(t!.id), true))).slice(0, 4);
-  }, [featured]);
-
-  const briefs = useMemo(() => {
-    if (!featured) return [];
-    return [getTopicsByCategory('social-psychology')[0], getTopicsByCategory('power-dynamics')[0], getTopicsByCategory('deception-detection')[0]]
-      .filter(Boolean)
-      .filter((t) => t!.id !== featured.id);
-  }, [featured]);
 
   const dailyFact = useMemo(() => {
     const all = allCollections.flatMap((c) => c.facts);
@@ -55,131 +38,145 @@ export function HomeView({
     return getTopicById(ids[ids.length - 1]) ?? null;
   }, []);
 
-  const featuredCat = featured ? categories.find((c) => c.id === featured.category) : null;
+  const featuredRelated = featured ? getRelatedTopics(featured).slice(0, 3) : [];
 
   return (
-    <div className="max-w-6xl mx-auto px-5 md:px-8 pt-6 md:pt-8 pb-20">
-      {/* ---- Lead ---- */}
-      <section className="rule-red pt-7 grid md:grid-cols-12 gap-x-12 gap-y-10">
-        <div className="md:col-span-8">
-          {featured && (
-            <>
-              <div className="kicker kicker-accent mb-5">Lead entry — {featuredCat?.title}</div>
-              <button onClick={() => onOpenTopic(featured.id)} className="block text-left group">
-                <h1 className="font-display text-[46px] sm:text-[62px] md:text-[70px] leading-[0.98] font-semibold tracking-tight text-ink group-hover:text-accent transition-colors">
-                  {featured.title}
-                </h1>
-                <p className="standfirst mt-6 max-w-2xl">{featured.description}</p>
-                <span className="mt-6 inline-flex items-center gap-2 font-mono text-[11px] tracking-[0.18em] uppercase text-accent">
-                  Read the entry <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                </span>
-              </button>
-            </>
-          )}
-
-          {lastRead && (
-            <div className="mt-6 rule pt-5 flex flex-wrap items-baseline gap-x-4 gap-y-1">
-              <span className="kicker">Continue</span>
-              <button onClick={() => onOpenTopic(lastRead.id)} className="link font-display text-[18px] font-medium">
-                {lastRead.title}
-              </button>
-              <span className="font-mono text-[11px] text-faint flex items-center gap-1.5">
-                <Clock className="w-3.5 h-3.5" /> {lastRead.readTime} min
-              </span>
-            </div>
-          )}
-          {briefs.length > 0 && (
-            <div className="mt-7 rule pt-5">
-              <div className="kicker mb-1">Also worth reading</div>
-              {briefs.map((t) => (
-                <button key={t!.id} onClick={() => onOpenTopic(t!.id)} className="w-full flex items-baseline justify-between gap-4 py-3 border-b hairline text-left group">
-                  <span className="min-w-0">
-                    <span className="font-display text-[17px] font-medium text-ink group-hover:text-accent transition-colors">{t!.title}</span>
-                    <span className="block font-mono text-[10px] tracking-[0.14em] uppercase text-faint mt-1">{categories.find((c) => c.id === t!.category)?.title}</span>
-                  </span>
-                  <ArrowRight className="w-4 h-4 text-faint group-hover:text-accent transition-colors shrink-0" />
-                </button>
-              ))}
-            </div>
-          )}
-        </div>
-
-        {/* In this edition */}
-        <aside className="md:col-span-4 md:border-l hairline md:pl-10">
-          <div className="kicker mb-4">In this edition</div>
-          <ol className="rule">
-            {edition.map((t, i) => (
-              <li key={t!.id} className="border-b hairline">
-                <button onClick={() => onOpenTopic(t!.id)} className="w-full flex items-baseline gap-3 py-4 text-left group">
-                  <span className="font-mono text-[11px] text-faint tnum shrink-0">{String(i + 1).padStart(2, '0')}</span>
-                  <span className="min-w-0">
-                    <span className="block font-display text-[17px] font-medium text-ink group-hover:text-accent transition-colors leading-snug">
-                      {t!.title}
-                    </span>
-                    <span className="block font-mono text-[10px] tracking-[0.14em] uppercase text-faint mt-1">
-                      {categories.find((c) => c.id === t!.category)?.title}
-                    </span>
-                  </span>
-                </button>
-              </li>
-            ))}
-          </ol>
-          <button onClick={() => go('explore')} className="mt-5 inline-flex items-center gap-2 font-mono text-[11px] tracking-[0.18em] uppercase text-ink hover:text-accent transition-colors">
-            Full catalogue <ArrowRight className="w-3.5 h-3.5" />
+    <div className="max-w-6xl mx-auto px-5 md:px-8 pt-12 md:pt-16 pb-24">
+      {/* Masthead / hero */}
+      <section className="border-b hairline pb-10 mb-12">
+        <div className="kicker mb-4">A reading library for human behaviour</div>
+        <h1 className="font-display text-[40px] leading-[1.05] sm:text-[56px] md:text-[68px] font-semibold tracking-tight text-ink max-w-4xl">
+          Understand people.<br className="hidden sm:block" /> Understand yourself.
+        </h1>
+        <p className="mt-6 text-[17px] leading-relaxed text-ink-soft max-w-2xl">
+          {totalTopics} structured topics across {categories.length} modules — psychology, relationships,
+          influence, negotiation and the quiet mechanics of everyday behaviour. Read, bookmark, and come back.
+        </p>
+        <div className="mt-8 flex flex-wrap items-center gap-3">
+          <button onClick={() => go('explore')} className="btn btn-primary">
+            Browse the library <ArrowRight className="w-4 h-4" />
           </button>
-        </aside>
+          <button onClick={() => go('facts-home')} className="btn btn-ghost">
+            Explore facts
+          </button>
+        </div>
       </section>
 
-      {/* ---- The catalogue ---- */}
-      <section className="rule-ink pt-7 mt-8">
-        <div className="flex items-end justify-between mb-2">
-          <h2 className="font-display text-[30px] font-semibold text-ink">The catalogue</h2>
-          <span className="kicker">{totalTopics} entries · {categories.length} modules</span>
-        </div>
-        <div className="grid sm:grid-cols-2 gap-x-12">
-          {categories.map((c, i) => {
-            const count = getTopicsByCategory(c.id).length;
-            return (
-              <button key={c.id} onClick={() => onOpenCategory(c.id)} className="group flex items-baseline gap-4 py-3.5 text-left border-b hairline">
-                <span className="font-mono text-[12px] text-accent tnum w-6 shrink-0">{String(i + 1).padStart(2, '0')}</span>
-                <span className="font-display text-[18px] font-medium text-ink group-hover:text-accent transition-colors shrink-0">
-                  {c.title}
+      {/* Continue reading */}
+      {lastRead && (
+        <section className="mb-12">
+          <div className="kicker mb-3">Continue reading</div>
+          <button
+            onClick={() => onOpenTopic(lastRead.id)}
+            className="card w-full text-left p-5 flex items-center gap-4 group"
+          >
+            <span className="w-11 h-11 rounded-full bg-accent-soft flex items-center justify-center shrink-0">
+              <BookOpen className="w-5 h-5 text-accent" />
+            </span>
+            <span className="flex-1 min-w-0">
+              <span className="block font-display text-[18px] font-semibold text-ink truncate">{lastRead.title}</span>
+              <span className="block text-[13px] text-muted mt-0.5 flex items-center gap-1.5">
+                <Clock className="w-3.5 h-3.5" /> {lastRead.readTime} min read
+              </span>
+            </span>
+            <ArrowUpRight className="w-5 h-5 text-muted group-hover:text-accent transition-colors" />
+          </button>
+        </section>
+      )}
+
+      {/* Featured */}
+      {featured && (
+        <section className="mb-14">
+          <div className="kicker mb-3">Featured</div>
+          <div className="grid md:grid-cols-5 gap-6 md:gap-10 items-start">
+            <div className="md:col-span-3">
+              <button onClick={() => onOpenTopic(featured.id)} className="block text-left group">
+                <h2 className="font-display text-[32px] sm:text-[40px] leading-[1.1] font-semibold text-ink group-hover:text-accent transition-colors">
+                  {featured.title}
+                </h2>
+                <p className="mt-4 text-[16px] leading-relaxed text-ink-soft">{featured.description}</p>
+                <span className="mt-5 inline-flex items-center gap-2 text-[13px] font-semibold text-accent">
+                  Read the entry <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                 </span>
-                <span className="flex-1 border-b border-dotted border-line-strong translate-y-[-4px] min-w-4" />
-                <span className="font-mono text-[11px] text-faint tnum shrink-0">{count}</span>
+              </button>
+            </div>
+            <div className="md:col-span-2">
+              <div className="border-l hairline pl-5 space-y-4">
+                <div className="kicker">Explore next</div>
+                {featuredRelated.map((r) => (
+                  <button key={r.id} onClick={() => onOpenTopic(r.id)} className="block text-left group">
+                    <span className="font-display text-[17px] font-medium text-ink group-hover:text-accent transition-colors">
+                      {r.title}
+                    </span>
+                    <span className="block text-[13px] text-muted line-clamp-1 mt-0.5">{r.description}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Modules */}
+      <section className="mb-14">
+        <div className="flex items-end justify-between mb-5">
+          <div>
+            <div className="kicker mb-1">The modules</div>
+            <h2 className="font-display text-2xl font-semibold text-ink">Browse by theme</h2>
+          </div>
+          <button onClick={() => go('explore')} className="text-[13px] font-semibold text-accent hover:underline hidden sm:block">
+            View all
+          </button>
+        </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+          {categories.slice(0, 6).map((c) => {
+            const Icon = getCategoryIcon(c.iconName);
+            const count = getTopicsByCategory(c.id).length;
+            const accent = CATEGORY_ACCENT[c.id] ?? '#14120f';
+            return (
+              <button key={c.id} onClick={() => onOpenCategory(c.id)} className="card p-5 text-left group">
+                <div className="flex items-center justify-between mb-3">
+                  <span className="w-9 h-9 rounded-lg flex items-center justify-center" style={{ background: `${accent}14`, color: accent }}>
+                    <Icon className="w-[18px] h-[18px]" />
+                  </span>
+                  <span className="text-[11px] font-semibold text-muted tabular-nums">{count}</span>
+                </div>
+                <h3 className="font-display text-[17px] font-semibold text-ink group-hover:text-accent transition-colors">{c.title}</h3>
+                <p className="mt-1 text-[13px] text-muted leading-relaxed line-clamp-2">{c.description}</p>
               </button>
             );
           })}
         </div>
       </section>
 
-      {/* ---- Research note + tools ---- */}
-      <section className="rule-ink pt-7 mt-12 grid md:grid-cols-12 gap-x-12 gap-y-8">
+      {/* Daily fact + tools */}
+      <section className="grid md:grid-cols-3 gap-4">
         {dailyFact && (
-          <div className="md:col-span-8">
-            <div className="kicker kicker-accent mb-4">Research note</div>
-            <button onClick={() => onOpenFact(dailyFact.id)} className="text-left group block">
-              <h3 className="font-display text-[28px] sm:text-[34px] leading-[1.12] font-semibold text-ink group-hover:text-accent transition-colors">
+          <div className="md:col-span-2 card p-6">
+            <div className="kicker mb-3 flex items-center gap-2">
+              <Sparkles className="w-3.5 h-3.5 text-accent" /> Fact of the day
+            </div>
+            <button onClick={() => onOpenFact(dailyFact.id)} className="text-left group">
+              <h3 className="font-display text-[21px] font-semibold text-ink leading-snug group-hover:text-accent transition-colors">
                 {dailyFact.title}
               </h3>
-              <p className="standfirst mt-4 max-w-2xl line-clamp-3">{dailyFact.summary}</p>
+              <p className="mt-3 text-[14px] text-ink-soft leading-relaxed line-clamp-3">{dailyFact.summary}</p>
             </button>
           </div>
         )}
-        <div className="md:col-span-4 md:border-l hairline md:pl-10">
-          <div className="kicker mb-4">Reference tools</div>
-          <div className="rule">
-            <button onClick={() => go('visualize')} className="w-full flex items-center justify-between py-3.5 border-b hairline group">
-              <span className="font-display text-[17px] font-medium text-ink group-hover:text-accent transition-colors">The map</span>
-              <ArrowRight className="w-4 h-4 text-faint group-hover:text-accent transition-colors" />
+        <div className="card p-6 flex flex-col justify-between gap-6">
+          <div>
+            <div className="kicker mb-2">Tools</div>
+            <p className="text-[13px] text-muted leading-relaxed">
+              See how every concept connects in the interactive map, or browse quotes by theme.
+            </p>
+          </div>
+          <div className="flex flex-col gap-2">
+            <button onClick={() => go('visualize')} className="btn btn-ghost justify-between w-full">
+              Open the map <ArrowRight className="w-4 h-4" />
             </button>
-            <button onClick={() => go('quotes')} className="w-full flex items-center justify-between py-3.5 border-b hairline group">
-              <span className="font-display text-[17px] font-medium text-ink group-hover:text-accent transition-colors">Quotes</span>
-              <ArrowRight className="w-4 h-4 text-faint group-hover:text-accent transition-colors" />
-            </button>
-            <button onClick={() => go('facts-home')} className="w-full flex items-center justify-between py-3.5 border-b hairline group">
-              <span className="font-display text-[17px] font-medium text-ink group-hover:text-accent transition-colors">Facts</span>
-              <ArrowRight className="w-4 h-4 text-faint group-hover:text-accent transition-colors" />
+            <button onClick={() => go('quotes')} className="btn btn-ghost justify-between w-full">
+              Read quotes <ArrowRight className="w-4 h-4" />
             </button>
           </div>
         </div>

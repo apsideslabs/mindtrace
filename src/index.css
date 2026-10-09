@@ -1,34 +1,38 @@
 @import "tailwindcss";
 
 @theme {
-  /* Paper & ink — crisp newsprint */
-  --color-paper: #fcfbf8;
-  --color-paper-2: #f3f0ea;
+  /* Paper & ink — editorial light theme */
+  --color-paper: #fbfaf7;
+  --color-paper-2: #f4f1ea;
   --color-surface: #ffffff;
-  --color-ink: #12100e;
-  --color-ink-soft: #3a362f;
-  --color-muted: #857e72;
-  --color-faint: #b3ab9c;
-  --color-line: #e4dfd4;
-  --color-line-strong: #cfc7b6;
+  --color-ink: #14120f;
+  --color-ink-soft: #403b34;
+  --color-muted: #8a8378;
+  --color-faint: #b7b0a3;
+  --color-line: #e7e1d6;
+  --color-line-strong: #d6cec0;
 
-  /* Accent — editorial red */
-  --color-accent: #c8102e;
-  --color-accent-deep: #9e0b24;
-  --color-accent-soft: #fbe9ec;
-  --color-gold: #a67c2e;
+  /* Accent — oxblood */
+  --color-accent: #b23a2a;
+  --color-accent-deep: #8f2c1f;
+  --color-accent-soft: #f5e6e1;
 
-  --color-good: #1f4a3a;
-  --color-warn: #a67c2e;
-  --color-bad: #9b3b2e;
+  /* Semantic */
+  --color-good: #2f7d5f;
+  --color-warn: #b07a2a;
+  --color-bad: #b23a2a;
 
-  --font-display: "Bodoni Moda", "Times New Roman", Times, serif;
-  --font-body: "Spectral", Georgia, Cambria, serif;
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-display: "Fraunces", ui-serif, Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, "SFMono-Regular", "Menlo", monospace;
+
+  --radius-card: 14px;
 }
 
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
 
 body {
   background-color: var(--color-paper);
@@ -39,145 +43,101 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-::selection { background: #f6d3da; color: var(--color-ink); }
+::selection {
+  background: #f2d9d2;
+  color: var(--color-ink);
+}
 
-/* ---- Type ---- */
+/* Headings lean on the display serif */
 h1, h2, h3, .font-display {
   font-family: var(--font-display);
   font-optical-sizing: auto;
-  letter-spacing: -0.015em;
-  text-wrap: balance;
-}
-.font-body { font-family: var(--font-body); }
-.font-mono { font-family: var(--font-mono); }
-
-/* Mono kicker / eyebrow */
-.kicker {
-  font-family: var(--font-mono);
-  font-size: 0.6875rem;
-  font-weight: 500;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--color-muted);
-}
-.kicker-accent { color: var(--color-accent); }
-
-/* Standfirst — the opening paragraph under a headline */
-.standfirst {
-  font-family: var(--font-body);
-  font-size: 1.1875rem;
-  line-height: 1.6;
-  color: var(--color-ink-soft);
-  text-wrap: pretty;
+  letter-spacing: -0.01em;
 }
 
-/* ---- Rules ---- */
+/* Fine hairline rule used across the layout */
 .hairline { border-color: var(--color-line); }
-.rule { border-top: 1px solid var(--color-line); }
-.rule-ink { border-top: 2px solid var(--color-ink); }
-.rule-red { border-top: 3px solid var(--color-accent); }
-.rule-double { border-top: 3px double var(--color-line-strong); }
 
-/* ---- Links ---- */
-.link {
-  color: var(--color-ink);
-  text-decoration: none;
-  border-bottom: 1px solid var(--color-line-strong);
-  transition: color .15s ease, border-color .15s ease;
-}
-.link:hover { color: var(--color-accent); border-color: var(--color-accent); }
-
-/* ---- Buttons: editorial, rectangular, letter-spaced ---- */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  gap: .55rem;
+/* Editorial eyebrow / kicker */
+.kicker {
   font-family: var(--font-sans);
-  font-size: .6875rem;
+  font-size: 0.6875rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  padding: .8rem 1.15rem;
-  border-radius: 2px;
-  border: 1px solid transparent;
+  color: var(--color-muted);
+}
+
+/* Card */
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius-card);
+  transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+.card:hover {
+  border-color: var(--color-line-strong);
+  box-shadow: 0 8px 24px -18px rgba(20, 18, 15, .35);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .8125rem;
+  font-weight: 600;
+  padding: .55rem .95rem;
+  border-radius: 999px;
   transition: all .16s ease;
   cursor: pointer;
 }
-.btn-primary { background: var(--color-accent); color: #fff; }
-.btn-primary:hover { background: var(--color-accent-deep); }
+.btn-primary { background: var(--color-ink); color: var(--color-paper); }
+.btn-primary:hover { background: #000; }
 .btn-accent { background: var(--color-accent); color: #fff; }
 .btn-accent:hover { background: var(--color-accent-deep); }
-.btn-ghost { color: var(--color-ink); border-color: var(--color-line-strong); background: transparent; }
-.btn-ghost:hover { border-color: var(--color-ink); background: var(--color-ink); color: var(--color-paper); }
+.btn-ghost { color: var(--color-ink-soft); border: 1px solid var(--color-line); background: var(--color-surface); }
+.btn-ghost:hover { border-color: var(--color-line-strong); color: var(--color-ink); }
 
-/* ---- Filter chips: rectangular ---- */
-.chip {
-  font-family: var(--font-mono);
-  font-size: .6875rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  padding: .55rem .85rem;
-  border: 1px solid var(--color-line);
-  border-radius: 2px;
-  color: var(--color-muted);
-  transition: all .15s ease;
-  cursor: pointer;
-}
-.chip:hover { border-color: var(--color-line-strong); color: var(--color-ink); }
-.chip-active { background: var(--color-accent); border-color: var(--color-accent); color: #fff; }
-
-/* ---- Long-form reading ---- */
-.reading {
-  font-family: var(--font-body);
-  font-size: 1.1875rem;
-  line-height: 1.78;
-  color: var(--color-ink-soft);
-  text-wrap: pretty;
-  hyphens: auto;
-}
-.reading p { margin-bottom: 1.35rem; }
+/* Reading body for topic + fact long-form */
+.reading p { margin-bottom: 1.15rem; }
 .reading p:last-child { margin-bottom: 0; }
-.reading strong { color: var(--color-ink); font-weight: 600; }
 
+/* Drop cap for the opening paragraph of an article */
 .dropcap::first-letter {
   font-family: var(--font-display);
   font-weight: 600;
   float: left;
-  font-size: 4.4rem;
-  line-height: .76;
-  padding: .28rem .6rem 0 0;
+  font-size: 3.5rem;
+  line-height: .82;
+  padding: .35rem .6rem 0 0;
   color: var(--color-accent);
 }
 
-.sec-num {
-  font-family: var(--font-mono);
-  font-size: .72rem;
-  font-weight: 500;
-  letter-spacing: .1em;
-  color: var(--color-accent);
-}
-
-/* Ornamental divider */
-.ornament { display: flex; align-items: center; justify-content: center; gap: .9rem; color: var(--color-line-strong); }
-.ornament::before, .ornament::after { content: ""; height: 1px; width: 4rem; background: var(--color-line); }
-
-/* Numeric alignment */
-.tnum { font-variant-numeric: tabular-nums; }
-
-/* Scrollbars */
+/* Thin custom scrollbar */
 * { scrollbar-width: thin; scrollbar-color: var(--color-line-strong) transparent; }
 *::-webkit-scrollbar { width: 9px; height: 9px; }
-*::-webkit-scrollbar-thumb { background: var(--color-line-strong); border-radius: 0; }
+*::-webkit-scrollbar-thumb { background: var(--color-line-strong); border-radius: 999px; border: 2px solid var(--color-paper); }
 *::-webkit-scrollbar-track { background: transparent; }
+
+/* Hide scrollbar for horizontal rails */
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
+/* Safe area for mobile bottom nav */
 .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); }
 
-/* React Flow */
+/* React Flow light-theme tweaks */
 .react-flow__attribution { display: none; }
-.react-flow__controls-button { background: var(--color-surface) !important; border-bottom: 1px solid var(--color-line) !important; color: var(--color-ink) !important; }
+.react-flow__controls-button {
+  background: var(--color-surface) !important;
+  border-bottom: 1px solid var(--color-line) !important;
+  color: var(--color-ink) !important;
+}
 .react-flow__controls-button svg { fill: var(--color-ink) !important; }
 
-@keyframes mt-fade-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes mt-fade-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 .mt-fade { animation: mt-fade-up .35s ease both; }

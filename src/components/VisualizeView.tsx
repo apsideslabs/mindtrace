@@ -11,14 +11,14 @@ import { getAllCategories, getTopicsByCategory, getAllTopics, getCategoryById } 
 import { TopicId } from '../types';
 
 const INK = '#14120f';
-const ACCENT = '#c8102e';
+const ACCENT = '#b23a2a';
 const LINE = '#d6cec0';
 
 const NODE_W = 186;
 const NODE_H = 44;
 
 const nodeBase: React.CSSProperties = {
-  borderRadius: '2px',
+  borderRadius: '10px',
   border: `1px solid ${LINE}`,
   background: '#ffffff',
   color: INK,
@@ -171,21 +171,23 @@ function Inner({ onOpenTopic }: { onOpenTopic?: (id: TopicId) => void }) {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto px-5 md:px-8 pt-8 pb-20">
-      <header className="mb-5">
-        <div className="kicker kicker-accent mb-4 flex items-center gap-2"><Waypoints className="w-3.5 h-3.5" /> Visualise</div>
-        <h1 className="font-display text-[46px] sm:text-[56px] leading-[1] font-semibold tracking-tight text-ink">The Map</h1>
-        <p className="standfirst mt-5 max-w-2xl">
-          See how concepts connect. Click any node to open the entry.
+    <div className="max-w-6xl mx-auto px-5 md:px-8 pt-12 pb-24">
+      <header className="mb-6">
+        <div className="kicker mb-3 flex items-center gap-2"><Waypoints className="w-3.5 h-3.5 text-accent" /> Visualise</div>
+        <h1 className="font-display text-[34px] sm:text-[40px] font-semibold text-ink">The map</h1>
+        <p className="mt-3 text-[15.5px] text-ink-soft max-w-2xl leading-relaxed">
+          See how concepts connect. Click any node to open the topic.
         </p>
       </header>
 
-      <div className="flex flex-wrap items-center gap-2 mb-3">
+      <div className="flex flex-wrap items-center gap-2 mb-4">
         {modes.map((m) => (
           <button
             key={m.key}
             onClick={() => setMode(m.key)}
-            className={`chip ${mode === m.key ? 'chip-active' : ''}`}
+            className={`px-3.5 py-1.5 rounded-full text-[12.5px] font-medium border transition-colors ${
+              mode === m.key ? 'bg-ink text-paper border-ink' : 'border-line text-ink-soft hover:border-line-strong'
+            }`}
           >
             {m.label}
           </button>
@@ -194,14 +196,14 @@ function Inner({ onOpenTopic }: { onOpenTopic?: (id: TopicId) => void }) {
           <select
             value={categoryId}
             onChange={(e) => setCategoryId(e.target.value)}
-            className="ml-auto bg-transparent border-b hairline px-1 py-1.5 font-mono text-[11px] tracking-[0.12em] uppercase text-ink outline-none focus:border-accent"
+            className="ml-auto bg-surface border hairline rounded-full px-3.5 py-1.5 text-[12.5px] text-ink outline-none focus:border-line-strong"
           >
             {categories.map((c) => <option key={c.id} value={c.id}>{c.title}</option>)}
           </select>
         )}
       </div>
 
-      <div ref={wrapRef} className="h-[68vh] border hairline bg-surface overflow-hidden">
+      <div ref={wrapRef} className="h-[68vh] rounded-2xl border hairline bg-surface overflow-hidden">
         <ReactFlow
           nodes={nodes}
           edges={edges}

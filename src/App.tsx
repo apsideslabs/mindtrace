@@ -216,11 +216,11 @@ export default function App() {
         </main>
 
         {/* Mobile bottom navigation */}
-        <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-paper border-t-2 border-ink/10 pb-safe">
+        <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-paper/90 backdrop-blur-lg border-t hairline pb-safe">
           <div className="h-16 grid grid-cols-5">
             {([
               { key: 'home', icon: Search, label: 'Home' },
-              { key: 'explore', icon: BookOpen, label: 'Catalogue' },
+              { key: 'explore', icon: BookOpen, label: 'Library' },
               { key: 'visualize', icon: Waypoints, label: 'Map' },
               { key: 'quotes', icon: QuoteIcon, label: 'Quotes' },
               { key: 'profile', icon: UserIcon, label: 'Profile' },

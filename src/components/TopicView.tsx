@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, ArrowRight, Bookmark, Share2, Clock, List, X, Quote as QuoteIcon, AlertTriangle, ShieldCheck, Lightbulb, BookOpen } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Bookmark, Share2, Clock, List, X, Quote as QuoteIcon, AlertTriangle, ShieldCheck, Lightbulb } from 'lucide-react';
 import { TopicId, UserStats } from '../types';
-import { getTopicById, getCategoryById, getTopicsByCategory, getRelatedTopics, getAllCategories } from '../content/content-index';
+import { getTopicById, getCategoryById, getTopicsByCategory, getRelatedTopics, CATEGORY_ACCENT } from '../content/content-index';
 import { motion, useScroll, useSpring } from 'motion/react';
 
 const LEAD_TITLES = ['Introduction', 'Quick Understanding', 'Overview', 'The Basics'];
@@ -42,14 +42,18 @@ export function TopicView({
     return () => unsub();
   }, [scrollYProgress, topic, addReadingTime]);
 
-  useEffect(() => { counted.current = false; window.scrollTo({ top: 0 }); }, [topicId]);
+  useEffect(() => {
+    counted.current = false;
+    window.scrollTo({ top: 0 });
+  }, [topicId]);
 
   const related = useMemo(() => (topic ? getRelatedTopics(topic) : []), [topic]);
+
   if (!topic) return null;
 
   const category = getCategoryById(topic.category);
+  const accent = CATEGORY_ACCENT[topic.category] ?? '#14120f';
   const isSaved = stats.bookmarkedTopics.includes(topic.id);
-  const moduleNo = getAllCategories().findIndex((c) => c.id === topic.category) + 1;
 
   const siblings = getTopicsByCategory(topic.category);
   const idx = siblings.findIndex((t) => t.id === topic.id);
@@ -57,27 +61,28 @@ export function TopicView({
   const next = idx < siblings.length - 1 ? siblings[idx + 1] : null;
 
   const share = async () => {
-    try { await navigator.share({ title: topic.title, text: topic.description, url: window.location.href }); } catch { /* cancelled */ }
+    try {
+      await navigator.share({ title: topic.title, text: topic.description, url: window.location.href });
+    } catch {
+      /* user cancelled or unsupported */
+    }
   };
 
   const lead = topic.sections.find((s) => LEAD_TITLES.includes(s.title));
   const body = topic.sections.filter((s) => s !== lead);
 
-  const renderSection = (section: { title: string; content: string | string[] }, n: number, i: number) => {
+  const renderSection = (section: { title: string; content: string | string[] }, i: number) => {
     const arr = Array.isArray(section.content) ? section.content : null;
 
     if (isExample(section.title)) {
       return (
-        <section key={i} id={`s-${i}`} className="my-12">
-          <div className="flex items-baseline gap-3 mb-5">
-            <span className="sec-num">{String(n).padStart(2, '0')}</span>
-            <h2 className="font-display text-[23px] font-medium text-ink flex items-center gap-2">
-              <QuoteIcon className="w-4 h-4 text-accent" /> {section.title}
-            </h2>
-          </div>
-          <div className="space-y-5">
+        <section key={i} id={`s-${i}`} className="my-10">
+          <h2 className="font-display text-[19px] font-semibold text-ink mb-4 flex items-center gap-2">
+            <QuoteIcon className="w-4 h-4 text-accent" /> {section.title}
+          </h2>
+          <div className="space-y-4">
             {(arr ?? [section.content as string]).map((ex, k) => (
-              <blockquote key={k} className="border-l-2 border-accent pl-6 py-1 font-body italic text-[18.5px] leading-relaxed text-ink-soft">
+              <blockquote key={k} className="border-l-2 pl-5 py-1 italic text-[16px] text-ink-soft" style={{ borderColor: accent }}>
                 {ex}
               </blockquote>
             ))}
@@ -88,11 +93,11 @@ export function TopicView({
 
     if (isTakeaway(section.title)) {
       return (
-        <section key={i} id={`s-${i}`} className="my-12 border-y-2 border-accent/70 py-7">
-          <h2 className="font-display text-[16px] font-medium text-accent mb-3 flex items-center gap-2 uppercase tracking-wider">
-            <Lightbulb className="w-4 h-4" /> {section.title}
+        <section key={i} id={`s-${i}`} className="my-10 rounded-2xl border hairline bg-paper p-6">
+          <h2 className="font-display text-[16px] font-semibold text-ink mb-2 flex items-center gap-2">
+            <Lightbulb className="w-4 h-4 text-accent" /> {section.title}
           </h2>
-          <p className="font-display text-[24px] leading-snug text-ink font-medium">
+          <p className="font-display text-[18px] leading-relaxed text-ink">
             {arr ? arr.join(' ') : section.content}
           </p>
         </section>
@@ -103,26 +108,26 @@ export function TopicView({
     const prot = isProtection(section.title);
 
     return (
-      <section key={i} id={`s-${i}`} className="my-12">
-        <div className="flex items-baseline gap-3 mb-4">
-          <span className="sec-num">{String(n).padStart(2, '0')}</span>
-          <h2 className="font-display text-[25px] font-medium text-ink flex items-center gap-2.5">
-            {warn && <AlertTriangle className="w-5 h-5 text-accent" />}
-            {prot && <ShieldCheck className="w-5 h-5 text-accent" />}
-            {section.title}
-          </h2>
-        </div>
+      <section key={i} id={`s-${i}`} className="my-10">
+        <h2 className="font-display text-[22px] font-semibold text-ink mb-4 flex items-center gap-2">
+          {warn && <AlertTriangle className="w-5 h-5 text-bad" />}
+          {prot && <ShieldCheck className="w-5 h-5 text-good" />}
+          {section.title}
+        </h2>
         {arr ? (
-          <ul className="space-y-3.5">
+          <ul className="space-y-3">
             {arr.map((item, k) => (
-              <li key={k} className="flex items-start gap-3.5 font-body text-[18.5px] leading-relaxed text-ink-soft">
-                <span className="mt-2.5 w-1.5 h-1.5 rounded-full shrink-0 bg-accent" />
+              <li key={k} className="flex items-start gap-3 text-[16.5px] leading-relaxed text-ink-soft">
+                <span
+                  className="mt-2 w-1.5 h-1.5 rounded-full shrink-0"
+                  style={{ background: warn ? '#b23a2a' : prot ? '#2f7d5f' : accent }}
+                />
                 <span>{item}</span>
               </li>
             ))}
           </ul>
         ) : (
-          <p className="font-body text-[18.5px] leading-[1.8] text-ink-soft">{section.content}</p>
+          <p className="text-[17px] leading-[1.75] text-ink-soft">{section.content}</p>
         )}
       </section>
     );
@@ -130,17 +135,21 @@ export function TopicView({
 
   return (
     <article className="relative">
-      <motion.div className="fixed top-0 left-0 right-0 h-[3px] origin-left z-50 bg-accent" style={{ scaleX }} />
+      <motion.div className="fixed top-0 left-0 right-0 h-[3px] origin-left z-50" style={{ scaleX, background: accent }} />
 
-      <div className="sticky top-[62px] md:top-[104px] z-30 bg-paper border-b hairline">
+      <div className="sticky top-16 z-30 bg-paper/90 backdrop-blur-md border-b hairline">
         <div className="max-w-3xl mx-auto px-5 md:px-8 h-12 flex items-center justify-between">
-          <button onClick={onBack} className="flex items-center gap-2 font-mono text-[10.5px] tracking-[0.16em] uppercase text-muted hover:text-accent transition-colors">
-            <ArrowLeft className="w-3.5 h-3.5" /> {category?.title ?? 'Back'}
+          <button onClick={onBack} className="flex items-center gap-2 text-[13px] font-medium text-muted hover:text-ink transition-colors">
+            <ArrowLeft className="w-4 h-4" /> {category?.title ?? 'Back'}
           </button>
           <div className="flex items-center gap-1">
-            <button onClick={() => setToc((v) => !v)} className="p-2 text-muted hover:text-ink transition-colors" aria-label="Contents"><List className="w-4 h-4" /></button>
-            <button onClick={share} className="p-2 text-muted hover:text-ink transition-colors" aria-label="Share"><Share2 className="w-4 h-4" /></button>
-            <button onClick={() => toggleBookmark(topic.id)} className="p-2 transition-colors" aria-label="Bookmark">
+            <button onClick={() => setToc((v) => !v)} className="p-2 rounded-full text-muted hover:text-ink transition-colors" aria-label="Contents">
+              <List className="w-4 h-4" />
+            </button>
+            <button onClick={share} className="p-2 rounded-full text-muted hover:text-ink transition-colors" aria-label="Share">
+              <Share2 className="w-4 h-4" />
+            </button>
+            <button onClick={() => toggleBookmark(topic.id)} className="p-2 rounded-full transition-colors" aria-label="Bookmark">
               <Bookmark className={`w-4 h-4 ${isSaved ? 'text-accent fill-current' : 'text-muted hover:text-ink'}`} />
             </button>
           </div>
@@ -149,88 +158,84 @@ export function TopicView({
 
       {toc && (
         <div className="fixed inset-0 z-40 flex justify-end" onClick={() => setToc(false)}>
-          <div className="absolute inset-0 bg-ink/25" />
+          <div className="absolute inset-0 bg-ink/20" />
           <motion.aside
-            initial={{ x: 40, opacity: 0 }} animate={{ x: 0, opacity: 1 }}
-            className="relative w-80 max-w-[86vw] h-full bg-surface border-l hairline p-7 overflow-y-auto"
+            initial={{ x: 40, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            className="relative w-72 max-w-[85vw] h-full bg-surface border-l hairline p-6 overflow-y-auto"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex items-center justify-between mb-5">
               <span className="kicker">Contents</span>
               <button onClick={() => setToc(false)} className="text-muted hover:text-ink"><X className="w-4 h-4" /></button>
             </div>
-            <ol className="space-y-3.5">
+            <ul className="space-y-3">
               {topic.sections.map((s, i) => (
-                <li key={i} className="flex gap-3">
-                  <span className="font-mono text-[11px] text-accent tnum pt-0.5">{String(i + 1).padStart(2, '0')}</span>
-                  <a href={`#s-${i}`} onClick={() => setToc(false)} className="font-body text-[14.5px] text-ink-soft hover:text-accent leading-snug">
+                <li key={i}>
+                  <a href={`#s-${i}`} onClick={() => setToc(false)} className="text-[13.5px] text-ink-soft hover:text-accent leading-snug block">
                     {s.title}
                   </a>
                 </li>
               ))}
-            </ol>
+            </ul>
           </motion.aside>
         </div>
       )}
 
-      <div className="max-w-2xl mx-auto px-5 md:px-8 pt-10 pb-24">
+      <div className="max-w-2xl mx-auto px-5 md:px-8 pt-12 pb-24">
         <header className="mb-10">
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 mb-5 font-mono text-[10.5px] tracking-[0.16em] uppercase">
-            <span className="text-accent">{category?.title}</span>
-            <span className="text-line-strong">/</span>
-            <span className="text-faint">Module {String(moduleNo).padStart(2, '0')}</span>
-            <span className="text-line-strong">/</span>
-            <span className="text-muted flex items-center gap-1.5"><Clock className="w-3.5 h-3.5" /> {topic.readTime} min</span>
-            {topic.difficulty && <><span className="text-line-strong">/</span><span className="text-muted">{topic.difficulty}</span></>}
+          <div className="flex items-center gap-3 mb-4">
+            <span className="kicker" style={{ color: accent }}>{category?.title}</span>
+            <span className="text-faint">·</span>
+            <span className="text-[12px] text-muted flex items-center gap-1.5">
+              <Clock className="w-3.5 h-3.5" /> {topic.readTime} min read
+            </span>
+            {topic.difficulty && (
+              <span className="text-[11px] font-semibold uppercase tracking-wider text-muted border hairline rounded-full px-2 py-0.5">
+                {topic.difficulty}
+              </span>
+            )}
           </div>
-          <h1 className="font-display text-[44px] sm:text-[54px] leading-[1.02] font-semibold tracking-tight text-ink">
+          <h1 className="font-display text-[38px] sm:text-[46px] leading-[1.08] font-semibold tracking-tight text-ink">
             {topic.title}
           </h1>
-          <p className="standfirst mt-5">{topic.description}</p>
-          <div className="mt-9 ornament"><span className="text-[13px] tracking-widest">❦</span></div>
+          <p className="mt-5 text-[18px] leading-relaxed text-ink-soft">{topic.description}</p>
         </header>
 
         <div className="reading">
-          {lead && <p className="dropcap">{Array.isArray(lead.content) ? lead.content.join(' ') : lead.content}</p>}
-          {body.map((s, i) => renderSection(s, i + 2, i))}
+          {lead && (
+            <p className="dropcap text-[18.5px] leading-[1.8] text-ink mb-8">
+              {Array.isArray(lead.content) ? lead.content.join(' ') : lead.content}
+            </p>
+          )}
+          {body.map((s, i) => renderSection(s, i))}
         </div>
 
-        {topic.references && topic.references.length > 0 && (
-          <section className="mt-14 pt-7 border-t hairline">
-            <div className="kicker mb-4 flex items-center gap-2"><BookOpen className="w-3.5 h-3.5" /> Sources</div>
-            <ul className="space-y-2.5">
-              {topic.references.map((r, i) => (
-                <li key={i} className="font-body text-[14px] text-ink-soft leading-snug">{r}</li>
-              ))}
-            </ul>
-          </section>
-        )}
-
         {related.length > 0 && (
-          <section className="mt-14 pt-7 border-t hairline">
-            <div className="kicker mb-2">Related reading</div>
-            <div className="rule">
+          <section className="mt-14 pt-8 border-t hairline">
+            <div className="kicker mb-4">Related reading</div>
+            <div className="grid sm:grid-cols-2 gap-3">
               {related.map((r) => (
-                <button key={r.id} onClick={() => onOpenTopic(r.id)} className="w-full flex items-baseline justify-between gap-4 py-3.5 border-b hairline text-left group">
-                  <span className="font-display text-[18px] font-medium text-ink group-hover:text-accent transition-colors">{r.title}</span>
-                  <ArrowRight className="w-4 h-4 text-faint group-hover:text-accent transition-colors shrink-0" />
+                <button key={r.id} onClick={() => onOpenTopic(r.id)} className="card p-4 text-left group">
+                  <span className="font-display text-[16px] font-semibold text-ink group-hover:text-accent transition-colors">{r.title}</span>
+                  <span className="block text-[12.5px] text-muted line-clamp-2 mt-1">{r.description}</span>
                 </button>
               ))}
             </div>
           </section>
         )}
 
-        <nav className="mt-12 pt-7 border-t hairline flex items-center justify-between gap-4">
+        <nav className="mt-12 pt-8 border-t hairline flex items-center justify-between gap-4">
           {prev ? (
             <button onClick={() => onOpenTopic(prev.id)} className="group text-left min-w-0">
-              <span className="font-mono text-[10px] tracking-[0.16em] uppercase text-faint flex items-center gap-1"><ArrowLeft className="w-3.5 h-3.5" /> Previous</span>
-              <span className="font-display text-[17px] font-medium text-ink group-hover:text-accent transition-colors line-clamp-1">{prev.title}</span>
+              <span className="text-[11px] font-semibold uppercase tracking-wider text-faint flex items-center gap-1"><ArrowLeft className="w-3.5 h-3.5" /> Previous</span>
+              <span className="font-display text-[15px] font-semibold text-ink group-hover:text-accent transition-colors line-clamp-1">{prev.title}</span>
             </button>
           ) : <span />}
           {next ? (
             <button onClick={() => onOpenTopic(next.id)} className="group text-right min-w-0">
-              <span className="font-mono text-[10px] tracking-[0.16em] uppercase text-faint flex items-center gap-1 justify-end">Next <ArrowRight className="w-3.5 h-3.5" /></span>
-              <span className="font-display text-[17px] font-medium text-ink group-hover:text-accent transition-colors line-clamp-1">{next.title}</span>
+              <span className="text-[11px] font-semibold uppercase tracking-wider text-faint flex items-center gap-1 justify-end">Next <ArrowRight className="w-3.5 h-3.5" /></span>
+              <span className="font-display text-[15px] font-semibold text-ink group-hover:text-accent transition-colors line-clamp-1">{next.title}</span>
             </button>
           ) : <span />}
         </nav>
