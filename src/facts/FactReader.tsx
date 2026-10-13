@@ -1,6 +1,16 @@
-import React from 'react';
-import { ArrowLeft, ArrowRight, Clock, Star, BookOpen } from 'lucide-react';
+import React, { useState } from 'react';
+import { ArrowLeft, ArrowRight, Clock, Star, BookOpen, ImageDown } from 'lucide-react';
 import { getFactById, getCollectionById } from '../content/facts';
+import { ShareCardModal } from '../components/ShareCardModal';
+import { slugify } from '../share/card';
+
+/** One hue per fact category, matching the module palette. */
+const FACT_ACCENT: Record<string, string> = {
+  psychology: '#3a5ba0',
+  relationships: '#a2486b',
+  social: '#2f6e7a',
+  crime: '#4a4048',
+};
 
 export function FactReader({
   factId,
@@ -11,6 +21,7 @@ export function FactReader({
   onBack: () => void;
   onNavigateFact: (id: string) => void;
 }) {
+  const [card, setCard] = useState(false);
   const fact = getFactById(factId);
   if (!fact) return null;
   const collection = getCollectionById(fact.collectionId);
@@ -36,7 +47,14 @@ export function FactReader({
           <div className="flex items-center gap-4 text-[12px] text-muted mb-5">
             <span className="font-mono tracking-wider border hairline rounded px-2 py-0.5">FACT {String(fact.number).padStart(2, '0')}</span>
             <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5" /> {fact.readingTimeMinutes} min</span>
-            <span className="flex items-center gap-0.5 ml-auto">
+            <button
+              onClick={() => setCard(true)}
+              className="ml-auto flex items-center gap-1.5 text-[12px] font-medium text-muted hover:text-ink transition-colors"
+              aria-label="Make a card from this finding"
+            >
+              <ImageDown className="w-3.5 h-3.5" /> Card
+            </button>
+            <span className="flex items-center gap-0.5">
               {Array.from({ length: 5 }).map((_, i) => (
                 <Star key={i} className={`w-3.5 h-3.5 ${i < fact.evidenceLevel ? 'fill-accent text-accent' : 'text-line-strong'}`} />
               ))}
@@ -114,6 +132,21 @@ export function FactReader({
           ) : <span />}
         </nav>
       </div>
+
+      {card && (
+        <ShareCardModal
+          content={{
+            eyebrow: collection.title,
+            title: fact.title,
+            body: fact.summary,
+            meta: `${fact.evidenceLevel} of 5 evidence${fact.references?.[0]?.source ? ` · ${fact.references[0].source}` : ''}`,
+            accent: FACT_ACCENT[collection.categoryId] ?? '#b23a2a',
+          }}
+          filename={`mindtrace-fact-${slugify(fact.title)}.png`}
+          onClose={() => setCard(false)}
+          initialFormat="portrait"
+        />
+      )}
     </div>
   );
 }

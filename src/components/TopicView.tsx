@@ -1,7 +1,9 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, ArrowRight, Bookmark, Share2, Clock, List, X, Quote as QuoteIcon, AlertTriangle, ShieldCheck, Lightbulb, StickyNote, Highlighter, Trash2 } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Bookmark, Share2, Clock, List, X, Quote as QuoteIcon, AlertTriangle, ShieldCheck, Lightbulb, StickyNote, Highlighter, Trash2, ImageDown } from 'lucide-react';
 import { TopicId, UserStats, Note } from '../types';
 import { getTopicById, getCategoryById, getTopicsByCategory, getRelatedTopics, CATEGORY_ACCENT } from '../content/content-index';
+import { ShareCardModal } from './ShareCardModal';
+import { slugify } from '../share/card';
 import { motion, useScroll, useSpring } from 'motion/react';
 
 const LEAD_TITLES = ['Introduction', 'Quick Understanding', 'Overview', 'The Basics', 'What It Is'];
@@ -95,6 +97,7 @@ export function TopicView({
 
   const [sel, setSel] = useState<{ text: string; x: number; y: number } | null>(null);
   const [composer, setComposer] = useState<{ quote: string } | null>(null);
+  const [card, setCard] = useState(false);
   const [draft, setDraft] = useState('');
   const [savedFlash, setSavedFlash] = useState(false);
   const composerRef = useRef<HTMLTextAreaElement>(null);
@@ -143,6 +146,10 @@ export function TopicView({
 
   const category = getCategoryById(topic.category);
   const accent = CATEGORY_ACCENT[topic.category] ?? '#14120f';
+  const takeaway = topic.sections.find((s) => isTakeaway(s.title));
+  const insightText = takeaway
+    ? (Array.isArray(takeaway.content) ? takeaway.content.join(' ') : takeaway.content)
+    : topic.description;
   const isSaved = stats.bookmarkedTopics.includes(topic.id);
   const topicNotes = (notes ?? []).filter((n) => n.topicId === topic.id);
   const quotes = [...new Set(topicNotes.map((n) => n.quote).filter((q) => q && q.length > 3))].sort((a, b) => b.length - a.length);
@@ -286,6 +293,9 @@ export function TopicView({
             </button>
             <button onClick={() => setToc((v) => !v)} className="p-2 rounded-full text-muted hover:text-ink transition-colors" aria-label="Contents">
               <List className="w-4 h-4" />
+            </button>
+            <button onClick={() => setCard(true)} className="p-2 rounded-full text-muted hover:text-ink transition-colors" aria-label="Make a card" title="Make a card">
+              <ImageDown className="w-4 h-4" />
             </button>
             <button onClick={share} className="p-2 rounded-full text-muted hover:text-ink transition-colors" aria-label="Share">
               <Share2 className="w-4 h-4" />
@@ -455,6 +465,21 @@ export function TopicView({
             </div>
           </div>
         </div>
+      )}
+
+      {card && (
+        <ShareCardModal
+          content={{
+            eyebrow: category?.title ?? 'MindTrace',
+            title: topic.title,
+            body: insightText,
+            meta: `${topic.readTime} min read`,
+            accent,
+          }}
+          filename={`mindtrace-${slugify(topic.title)}.png`}
+          onClose={() => setCard(false)}
+          initialFormat="portrait"
+        />
       )}
     </article>
   );
