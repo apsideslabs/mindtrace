@@ -6,6 +6,12 @@ import { memory } from './collections/memory';
 import { attentionPerception } from './collections/attention-perception';
 import { learningMotivation } from './collections/learning-motivation';
 import { personalityDifferences } from './collections/personality-differences';
+import { sleepCircadian } from './collections/sleep-circadian';
+import { stressCoping } from './collections/stress-coping';
+import { languageThought } from './collections/language-thought';
+import { creativityInsight } from './collections/creativity-insight';
+import { developmentAgeing } from './collections/development-ageing';
+import { selfRegulation } from './collections/self-regulation';
 import { FactCategory } from '../types';
 
 export const psychologyCollections = [
@@ -17,6 +23,12 @@ export const psychologyCollections = [
   attentionPerception,
   learningMotivation,
   personalityDifferences,
+  sleepCircadian,
+  stressCoping,
+  languageThought,
+  creativityInsight,
+  developmentAgeing,
+  selfRegulation,
 ];
 
 export const psychologyCategory: FactCategory = {
