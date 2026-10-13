@@ -57,7 +57,7 @@ Across the 262 entries sit **2,742 individual sections** of writing, an average 
 | **Sections** | 2,742 (avg 10.5 per entry) |
 | **Facts** | 980 sourced findings in 40 collections |
 | **Citations** | 995 references |
-| **Quotes** | 32 from 24 authors, in 6 themes |
+| **Quotes** | 254 from 187 authors, each with a source |
 | **Reading time** | about 18 hours |
 | **Hosting** | GitHub Pages — static, no backend |
 
@@ -90,7 +90,7 @@ Every entry runs to roughly ten sections — typically *What It Is*, *Why It Wor
 - **Notes & highlights** — Select any passage to add a note; it is re-marked inline in your chosen colour and saved. Export everything to a single Markdown file.
 - **Map** — An interactive graph of how entries connect — category map, concept web and relationship graph — exportable as a PNG.
 - **Facts** — 980 sourced findings, each with an evidence rating and a cited reference, organised into 40 collections.
-- **Quotes** — 32 attributable quotes grouped into six themes.
+- **Quotes** — 254 attributable quotes grouped into six themes, each with its source.
 - **Search** — A global overlay that searches entries and facts as you type.
 - **Reading settings** — Theme, accent colour, text size, page width, highlight colour, emphasis and focus mode.
 - **Profile** — Entries read, saved items, reading time and library progress, with a one-click clear of local data.
@@ -104,7 +104,7 @@ flowchart LR
     subgraph Content["Static content"]
         E["262 entries<br/>14 modules"]
         F["980 facts<br/>40 collections"]
-        Q["32 quotes<br/>6 themes"]
+        Q["254 quotes<br/>6 themes"]
     end
 
     subgraph App["React application"]
@@ -173,7 +173,8 @@ Alongside the entries sits a research library of **980 sourced findings**, each 
 
 Evidence ratings run from 2 to 5: **271** findings are rated 5 (replicated or meta-analysed), **550** are rated 4, **154** are rated 3, and **5** are rated 2. Contested findings say so in their own text rather than being smoothed over.
 
-The library closes with **32 quotes from 24 authors**, grouped into six themes: Psychology (8), Philosophy (9), Human Nature (6), Leadership (3), Success & Work (3) and Motivation & Discipline (3) — from Carl Jung, Daniel Kahneman and Viktor Frankl to Marcus Aurelius, Seneca and Sun Tzu.
+The library closes with **254 quotes from 187 authors**, grouped into six themes: Psychology (44), Philosophy (40), Human Nature (46), Leadership (43), Success & Work (43), Motivation & Discipline (38). Every quote carries a verified source — the book, speech, essay or letter it comes from.
+
 
 ## Tech stack
 
@@ -222,7 +223,7 @@ mindtrace/
 │   ├── components/                # Home · Library · Reader · Map · Notes · Profile
 │   ├── content/
 │   │   ├── content-index.ts        # category registry, lookup and search
-│   │   ├── quotes.ts               # 32 quotes across 6 themes
+│   │   ├── quotes.ts               # 254 quotes across 6 themes
 │   │   ├── facts/                  # 4 categories · 40 collections · 980 findings
 │   │   └── <module>/               # 14 modules · 262 entry .json files
 │   ├── facts/                      # fact browsing and reader views
