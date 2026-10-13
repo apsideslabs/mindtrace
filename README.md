@@ -4,7 +4,7 @@
 
 **Understand people. Understand yourself.**
 
-A reading library for psychology, relationships and human behaviour — **262 structured entries** across **14 modules**, with a sourced facts library and an interactive concept map. Fully static: no account, no server, no tracking.
+A reading library for psychology, relationships and human behaviour — **262 structured entries** across **14 modules**, with a **980-fact** research library and an interactive concept map. Fully static: no account, no server, no tracking.
 
 [![Live](https://img.shields.io/badge/live-apsideslabs.github.io%2Fmindtrace-b23a2a?style=flat-square&logo=github&logoColor=white)](https://apsideslabs.github.io/mindtrace/)
 [![License](https://img.shields.io/badge/license-Apache--2.0-14120f?style=flat-square)](LICENSE)
@@ -49,13 +49,14 @@ Or just read it — the library is live at **<https://apsideslabs.github.io/mind
 
 MindTrace is a reading library for psychology, relationships and human behaviour. It runs entirely in the browser — no account, no server and no tracking — and every note, bookmark and preference stays on the device.
 
-Across the 262 entries sit **2,742 individual sections** of writing, an average of 10.5 per entry, which is roughly **18 hours of reading** at the library's own stated read times. Each entry is self-contained and written in plain language, with the substance marked so it can be found at a glance.
+Across the 262 entries sit **2,742 individual sections** of writing, an average of 10.5 per entry, which is roughly **18 hours of reading** at the library's own stated read times. Alongside them sits a research library of **980 sourced findings**, each carrying an evidence rating and at least one cited reference.
 
 | | |
 | :--- | :--- |
 | **Entries** | 262 across 14 modules |
 | **Sections** | 2,742 (avg 10.5 per entry) |
-| **Facts** | 31 sourced findings in 8 collections |
+| **Facts** | 980 sourced findings in 40 collections |
+| **Citations** | 995 references |
 | **Quotes** | 32 from 24 authors, in 6 themes |
 | **Reading time** | about 18 hours |
 | **Hosting** | GitHub Pages — static, no backend |
@@ -88,7 +89,7 @@ Every entry runs to roughly ten sections — typically *What It Is*, *Why It Wor
 - **Key-line emphasis** — The key line of every section is underlined and the important points in warning and protection sections are highlighted. Switchable.
 - **Notes & highlights** — Select any passage to add a note; it is re-marked inline in your chosen colour and saved. Export everything to a single Markdown file.
 - **Map** — An interactive graph of how entries connect — category map, concept web and relationship graph — exportable as a PNG.
-- **Facts** — 31 sourced findings, each with an evidence rating and a cited reference.
+- **Facts** — 980 sourced findings, each with an evidence rating and a cited reference, organised into 40 collections.
 - **Quotes** — 32 attributable quotes grouped into six themes.
 - **Search** — A global overlay that searches entries and facts as you type.
 - **Reading settings** — Theme, accent colour, text size, page width, highlight colour, emphasis and focus mode.
@@ -102,7 +103,7 @@ Everything is static. The content layer is a folder of JSON entries and typed da
 flowchart LR
     subgraph Content["Static content"]
         E["262 entries<br/>14 modules"]
-        F["31 facts<br/>8 collections"]
+        F["980 facts<br/>40 collections"]
         Q["32 quotes<br/>6 themes"]
     end
 
@@ -148,20 +149,29 @@ mindmap
 
 ## Facts and quotes
 
-Alongside the entries sits a facts library: short, sourced findings that each carry an evidence rating and a cited reference. The 31 findings are grouped into eight collections under four categories.
+Alongside the entries sits a research library of **980 sourced findings**, each carrying an evidence rating and at least one cited reference — **995 references** in total. They are grouped into 40 collections across four categories.
 
-| Category | Collection | Findings |
-| :--- | :--- | ---: |
-| Psychology Facts | Brain & Cognition | 3 |
-| Psychology Facts | Cognitive Biases | 5 |
-| Psychology Facts | Decision Making | 5 |
-| Psychology Facts | Emotion | 1 |
-| Psychology Facts | Memory | 1 |
-| Relationships, Love & Sex | Attachment & Attraction | 7 |
-| Social & Human Behaviour | Social Influence | 4 |
-| Crime & Dark Psychology | Deception & Manipulation | 5 |
+| Category | Collections | Findings |
+| :--- | ---: | ---: |
+| Psychology Facts | 16 | 392 |
+| Social & Human Behaviour | 9 | 220 |
+| Crime & Dark Psychology | 8 | 196 |
+| Relationships, Love & Sex | 7 | 172 |
 
-Evidence ratings run from 3 to 5 on the product's own scale: 13 findings are rated 5, 17 are rated 4 and one is rated 3. Every finding cites at least one source.
+<details>
+<summary><strong>All 40 collections</strong></summary>
+
+**Psychology Facts** — Brain & Cognition · Cognitive Biases · Decision Making · Emotion · Memory · Attention & Perception · Learning & Motivation · Personality & Individual Differences · Sleep & Circadian Rhythms · Stress & Coping · Language & Thought · Creativity & Insight · Development & Ageing · Self-Regulation & Willpower · Mental Health & Psychopathology · Intelligence & Cognitive Ability
+
+**Social & Human Behaviour** — Social Influence · Groups & Conformity · Persuasion & Compliance · Identity & Prejudice · Culture & Cross-Cultural Psychology · Leadership & Followership · Morality & Ethics · Cooperation & Conflict · Status & Hierarchy
+
+**Crime & Dark Psychology** — Deception & Manipulation · Dark Personality · Criminal Behaviour & Victimology · Forensic Interviewing & Lie Detection · Aggression & Violence · Fraud & Scams · Addiction & Substance Use · Cults & Coercive Groups
+
+**Relationships, Love & Sex** — Attachment & Attraction · Communication & Conflict · Intimacy & Sexuality · Relationship Maintenance · Friendship · Family & Parenting · Loneliness & Connection
+
+</details>
+
+Evidence ratings run from 2 to 5: **271** findings are rated 5 (replicated or meta-analysed), **550** are rated 4, **154** are rated 3, and **5** are rated 2. Contested findings say so in their own text rather than being smoothed over.
 
 The library closes with **32 quotes from 24 authors**, grouped into six themes: Psychology (8), Philosophy (9), Human Nature (6), Leadership (3), Success & Work (3) and Motivation & Discipline (3) — from Carl Jung, Daniel Kahneman and Viktor Frankl to Marcus Aurelius, Seneca and Sun Tzu.
 
@@ -213,7 +223,7 @@ mindtrace/
 │   ├── content/
 │   │   ├── content-index.ts        # category registry, lookup and search
 │   │   ├── quotes.ts               # 32 quotes across 6 themes
-│   │   ├── facts/                  # 4 categories · 8 collections · 31 findings
+│   │   ├── facts/                  # 4 categories · 40 collections · 980 findings
 │   │   └── <module>/               # 14 modules · 262 entry .json files
 │   ├── facts/                      # fact browsing and reader views
 │   ├── settings.ts                 # theme, accent, text size, page width, focus
