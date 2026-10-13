@@ -12,6 +12,8 @@ import { languageThought } from './collections/language-thought';
 import { creativityInsight } from './collections/creativity-insight';
 import { developmentAgeing } from './collections/development-ageing';
 import { selfRegulation } from './collections/self-regulation';
+import { mentalHealth } from './collections/mental-health';
+import { intelligenceAbility } from './collections/intelligence-ability';
 import { FactCategory } from '../types';
 
 export const psychologyCollections = [
@@ -29,12 +31,13 @@ export const psychologyCollections = [
   creativityInsight,
   developmentAgeing,
   selfRegulation,
+  mentalHealth,
+  intelligenceAbility,
 ];
 
 export const psychologyCategory: FactCategory = {
   id: 'psychology',
   title: 'Psychology Facts',
   icon: 'brain',
-  description:
-    'Research-backed findings about how the human mind works. Every fact is organized into collections based on cognitive science, neuroscience, behavioral psychology, and experimental research.',
+  description: 'Research-backed findings about how the human mind works. Every fact is organized into collections based on cognitive science, neuroscience, behavioral psychology, and experimental research.',
 };
