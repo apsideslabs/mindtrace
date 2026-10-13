@@ -46,6 +46,11 @@ export function QuotesView() {
             <blockquote className="font-display text-[19px] leading-snug text-ink">“{q.text}”</blockquote>
             <figcaption className="mt-4 text-[12.5px] font-semibold uppercase tracking-wider text-muted">
               {q.author}
+              {q.source && (
+                <span className="mt-1 block text-[11.5px] font-normal normal-case tracking-normal text-faint">
+                  {q.source}
+                </span>
+              )}
             </figcaption>
           </figure>
         ))}

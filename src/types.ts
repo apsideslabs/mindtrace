@@ -51,5 +51,7 @@ export interface Quote {
   id: string;
   text: string;
   author: string;
+  /** Where the quote comes from — book, speech, essay or interview. */
+  source?: string;
   category: string;
 }
