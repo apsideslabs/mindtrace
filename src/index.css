@@ -1,5 +1,22 @@
 @import "tailwindcss";
 
+/* Self-hosted so the site makes no third-party request, and so card
+   rasterisation can embed the exact fonts the design depends on. */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('./assets/fonts/fraunces-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url('./assets/fonts/inter-latin.woff2') format('woff2');
+}
+
 @theme {
   /* Paper & ink — editorial light theme */
   --color-paper: #fbfaf7;

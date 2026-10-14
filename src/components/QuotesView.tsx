@@ -107,11 +107,13 @@ export function QuotesView() {
           content={{
             eyebrow: labelFor(sharing.category),
             body: sharing.text,
-            meta: sharing.source ? `${sharing.author} — ${sharing.source}` : sharing.author,
+            meta: sharing.author,
+            source: sharing.source,
             accent: accentFor(sharing.category),
           }}
           filename={`mindtrace-quote-${slugify(sharing.author)}.png`}
           onClose={() => setSharing(null)}
+          initialDesign="plate"
         />
       )}
     </div>

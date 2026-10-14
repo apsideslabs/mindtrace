@@ -139,12 +139,17 @@ export function FactReader({
             eyebrow: collection.title,
             title: fact.title,
             body: fact.summary,
-            meta: `${fact.evidenceLevel} of 5 evidence${fact.references?.[0]?.source ? ` · ${fact.references[0].source}` : ''}`,
+            meta: `Fact ${String(fact.number).padStart(2, '0')}`,
+            source: fact.references?.[0]
+              ? `${fact.references[0].title} — ${fact.references[0].source}${fact.references[0].year ? ` (${fact.references[0].year})` : ''}`
+              : undefined,
             accent: FACT_ACCENT[collection.categoryId] ?? '#b23a2a',
+            level: fact.evidenceLevel,
           }}
           filename={`mindtrace-fact-${slugify(fact.title)}.png`}
           onClose={() => setCard(false)}
           initialFormat="portrait"
+          initialDesign="orbit"
         />
       )}
     </div>

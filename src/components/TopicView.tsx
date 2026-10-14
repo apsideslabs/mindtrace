@@ -473,12 +473,14 @@ export function TopicView({
             eyebrow: category?.title ?? 'MindTrace',
             title: topic.title,
             body: insightText,
-            meta: `${topic.readTime} min read`,
+            meta: 'Key insight',
+            source: `${topic.readTime} min read`,
             accent,
           }}
           filename={`mindtrace-${slugify(topic.title)}.png`}
           onClose={() => setCard(false)}
           initialFormat="portrait"
+          initialDesign="index"
         />
       )}
     </article>
