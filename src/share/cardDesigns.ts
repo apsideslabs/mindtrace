@@ -100,6 +100,44 @@ export function wrap(text: string, font: string, maxWidth: number, maxLines = 99
   return lines;
 }
 
+/**
+ * Largest display size at which the text fills the target share of the
+ * band. This is what stops a two-line quote from floating as a small
+ * paragraph in the middle of a card: the type scales to the space.
+ */
+export function fitSize(
+  text: string,
+  fontAt: (size: number) => string,
+  maxWidth: number,
+  maxLines: number,
+  bandH: number,
+  target: number,
+  min: number,
+  max: number,
+  lhFactor: number,
+): { size: number; lines: string[] } {
+  let best = { size: min, lines: wrap(text, fontAt(min), maxWidth, maxLines) };
+  for (let s = max; s >= min; s -= 2) {
+    const lines = wrap(text, fontAt(s), maxWidth, maxLines);
+    if (lines.length * s * lhFactor <= bandH * target) return { size: s, lines };
+    best = { size: s, lines };
+  }
+  return best;
+}
+
+/** Blend one hex colour toward another — used to lift accents off dark grounds. */
+export function shift(hex: string, to: string, amt: number): string {
+  const parse = (h: string): number[] => {
+    const s = h.replace('#', '');
+    const n = s.length === 3 ? s.split('').map((c) => c + c).join('') : s;
+    return [0, 2, 4].map((i) => parseInt(n.slice(i, i + 2), 16));
+  };
+  const [r1, g1, b1] = parse(hex);
+  const [r2, g2, b2] = parse(to);
+  const f = (a: number, b: number) => Math.round(a + (b - a) * amt).toString(16).padStart(2, '0');
+  return `#${f(r1, r2)}${f(g1, g2)}${f(b1, b2)}`;
+}
+
 export function textBlock(lines: string[], x: number, firstBaseline: number, lineHeight: number, attrs: string): string {
   return lines
     .map((l, i) => `<text x="${x}" y="${Math.round(firstBaseline + i * lineHeight)}" ${attrs}>${esc(l)}</text>`)
@@ -144,14 +182,57 @@ export function wordmark(x: number, y: number, size: number, accent: string, ink
   );
 }
 
-function background(f: DesignFormat, t: DesignTheme, id: string): string {
+const lum = (hex: string): number => {
+  const h = hex.replace('#', '');
+  const n = h.length === 3 ? h.split('').map((c) => c + c).join('') : h;
+  const [r, g, b] = [0, 2, 4].map((i) => parseInt(n.slice(i, i + 2), 16) / 255);
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+};
+const isDark = (t: DesignTheme): boolean => lum(t.bg) < 0.5;
+
+/**
+ * Ground for a card. Flat colour is what makes generated cards look cheap,
+ * so the surface is built in four passes: a diagonal wash, an accent
+ * spotlight, a vignette for depth, and a fine film grain over the top.
+ * The grain is an feTurbulence filter desaturated to grey — it is what
+ * makes the gradient read as printed paper rather than as a CSS fill, and
+ * it also dissolves the banding that large soft gradients otherwise show.
+ */
+function background(f: DesignFormat, t: DesignTheme, id: string, accent: string): string {
+  const dark = isDark(t);
+  const sx = f.w * 0.78;
+  const sy = f.h * 0.06;
+  const sr = Math.max(f.w, f.h) * 0.72;
   return `<defs>
-      <radialGradient id="bg-${id}" cx="28%" cy="8%" r="110%">
+      <linearGradient id="wash-${id}" x1="0" y1="0" x2="0.75" y2="1">
         <stop offset="0%" stop-color="${t.bg2}"/>
+        <stop offset="58%" stop-color="${t.bg}"/>
         <stop offset="100%" stop-color="${t.bg}"/>
+      </linearGradient>
+      <radialGradient id="spot-${id}" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="${accent}" stop-opacity="${dark ? 0.34 : 0.16}"/>
+        <stop offset="55%" stop-color="${accent}" stop-opacity="${dark ? 0.12 : 0.05}"/>
+        <stop offset="100%" stop-color="${accent}" stop-opacity="0"/>
       </radialGradient>
+      <radialGradient id="vig-${id}" cx="46%" cy="42%" r="78%">
+        <stop offset="48%" stop-color="#000000" stop-opacity="0"/>
+        <stop offset="100%" stop-color="#000000" stop-opacity="${dark ? 0.38 : 0.07}"/>
+      </radialGradient>
+      <filter id="grain-${id}" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency="0.86" numOctaves="3" stitchTiles="stitch"/>
+        <feColorMatrix type="saturate" values="0"/>
+      </filter>
     </defs>
-    <rect width="${f.w}" height="${f.h}" fill="url(#bg-${id})"/>`;
+    <rect width="${f.w}" height="${f.h}" fill="url(#wash-${id})"/>
+    <ellipse cx="${sx.toFixed(0)}" cy="${sy.toFixed(0)}" rx="${sr.toFixed(0)}" ry="${sr.toFixed(0)}" fill="url(#spot-${id})"/>
+    <rect width="${f.w}" height="${f.h}" fill="url(#vig-${id})"/>
+    <rect width="${f.w}" height="${f.h}" filter="url(#grain-${id})" opacity="${dark ? 0.18 : 0.11}"/>`;
+}
+
+/** A partial accent arc — the apsis sweep, drawn with a dash pattern. */
+function apsis(cx: number, cy: number, r: number, accent: string, fraction: number, width: number, opacity: number, rotate = 0): string {
+  const c = 2 * Math.PI * r;
+  return `<circle cx="${cx.toFixed(0)}" cy="${cy.toFixed(0)}" r="${r.toFixed(0)}" fill="none" stroke="${accent}" stroke-opacity="${opacity}" stroke-width="${width}" stroke-linecap="round" stroke-dasharray="${(c * fraction).toFixed(1)} ${c.toFixed(1)}" transform="rotate(${rotate} ${cx.toFixed(0)} ${cy.toFixed(0)})"/>`;
 }
 
 const PAD = (f: DesignFormat) => (f.w === 1200 ? 72 : 96);
@@ -161,11 +242,6 @@ const PAD = (f: DesignFormat) => (f.w === 1200 ? 72 : 96);
 function plate(f: DesignFormat, t: DesignTheme, c: DesignContent): string {
   const pad = PAD(f);
   const wide = f.key === 'wide';
-  const size = wide ? 42 : f.key === 'portrait' ? 64 : 56;
-  const font = `600 ${size}px ${SERIF}`;
-  const lh = size * 1.32;
-  const lines = wrap(c.body, font, f.w - pad * 2 - 56, wide ? 4 : 8);
-
   const footLineY = f.h - pad - (wide ? 62 : 88);
   const metaY = footLineY + (wide ? 32 : 36);
   const srcY = metaY + (wide ? 22 : 26);
@@ -173,10 +249,20 @@ function plate(f: DesignFormat, t: DesignTheme, c: DesignContent): string {
   // The eyebrow travels with the quote, so the header never floats away
   // from the content and the remaining whitespace reads as intentional.
   const headerH = wide ? 54 : 70;
-  const blockH = lines.length * lh;
-  const groupH = headerH + blockH;
   const bandTop = pad + (wide ? 34 : 48);
   const bandBottom = footLineY - (wide ? 34 : 50);
+  const bandH = bandBottom - bandTop - headerH;
+
+  // The quote sets to the space it has: a two-line line sets large and
+  // fills the card, a long one steps down. Sized before anything else is
+  // positioned, because everything else hangs off it.
+  const fit = fitSize(c.body, (s) => `600 ${s}px ${SERIF}`, f.w - pad * 2 - 56, wide ? 4 : 8, bandH, 0.62, wide ? 30 : 38, wide ? 60 : 108, 1.32);
+  const size = fit.size;
+  const lines = fit.lines;
+  const lh = size * 1.32;
+
+  const blockH = lines.length * lh;
+  const groupH = headerH + blockH;
   const groupTop = bandTop + Math.max(0, (bandBottom - bandTop - groupH) / 2);
   const eyebrowY = groupTop + (wide ? 22 : 28);
   const ruleY = eyebrowY - (wide ? 26 : 32);
@@ -188,8 +274,9 @@ function plate(f: DesignFormat, t: DesignTheme, c: DesignContent): string {
   if (quoted.length) quoted[quoted.length - 1] = `${quoted[quoted.length - 1]}\u201D`;
 
   return `
-  ${background(f, t, 'plate')}
+  ${background(f, t, 'plate', c.accent)}
   ${orbit(f.w + 30, -50, [300, 430, 560], c.accent, [0.1, 0.07, 0.045], 2)}
+  ${apsis(f.w + 30, -50, 430, c.accent, 0.3, 3, 0.5, 142)}
   ${orbit(f.w + 30, -50, [560], c.accent, [0.05], 1.4, '2 10')}
   <rect x="${pad}" y="${pad}" width="${f.w - pad * 2}" height="${f.h - pad * 2}" fill="none" stroke="${t.rule}" stroke-width="1.4"/>
   <rect x="${pad + 14}" y="${pad + 14}" width="${f.w - (pad + 14) * 2}" height="${f.h - (pad + 14) * 2}" fill="none" stroke="${t.line}" stroke-width="0.9"/>
@@ -229,8 +316,11 @@ function orbitDesign(f: DesignFormat, t: DesignTheme, c: DesignContent): string 
 
   // The evidence rings belong to the finding, so the block and the rings
   // are centred together rather than the rings floating near the footer.
-  const ringR = wide ? 62 : 76;
-  const ringGap = wide ? 44 : 62;
+  const dark = isDark(t);
+  const ringAccent = dark ? shift(c.accent, '#ffffff', 0.34) : c.accent;
+  const ringLine = dark ? shift(t.line, '#ffffff', 0.22) : t.line;
+  const ringR = wide ? 84 : 124;
+  const ringGap = wide ? 52 : 74;
   const blockH = titleLines.length * tLH + gap + bodyLines.length * bLH;
   const groupH = blockH + ringGap + ringR * 2;
   const bandTop = eyebrowY + (wide ? 44 : 62);
@@ -244,14 +334,15 @@ function orbitDesign(f: DesignFormat, t: DesignTheme, c: DesignContent): string 
   const rings = [0.25, 0.44, 0.63, 0.82, 1]
     .map(
       (k, i) =>
-        `<circle cx="${ringCx}" cy="${ringCy}" r="${(ringR * k).toFixed(1)}" fill="none" stroke="${i < level ? c.accent : t.line}" stroke-width="${i < level ? 3.4 : 1.6}"/>`,
+        `<circle cx="${ringCx}" cy="${ringCy}" r="${(ringR * k).toFixed(1)}" fill="none" stroke="${i < level ? ringAccent : ringLine}" stroke-width="${i < level ? 4.6 : 2.2}" stroke-opacity="${i < level ? 1 : 0.9}"/>`,
     )
     .join('');
-  const ringLabel = `<text x="${ringCx}" y="${ringCy + (wide ? 4 : 5)}" text-anchor="middle" font-family="${SANS}" font-size="${wide ? 14 : 17}" font-weight="600" fill="${t.muted}">${level}/5</text>`;
+  const ringLabel = `<text x="${ringCx}" y="${ringCy + (wide ? 5 : 7)}" text-anchor="middle" font-family="${SANS}" font-size="${wide ? 17 : 22}" font-weight="600" letter-spacing="1" fill="${dark ? t.soft : t.muted}">${level}/5</text>`;
 
   return `
-  ${background(f, t, 'orbit')}
+  ${background(f, t, 'orbit', c.accent)}
   ${orbit(-40, f.h + 40, [240, 340, 440], c.accent, [0.07, 0.05, 0.03], 2)}
+  ${apsis(-40, f.h + 40, 340, c.accent, 0.28, 3, 0.45, -58)}
   <rect x="0" y="0" width="${f.w}" height="${wide ? 8 : 10}" fill="${c.accent}"/>
 
   <text x="${pad}" y="${eyebrowY}" font-family="${SANS}" font-size="${wide ? 17 : 20}" font-weight="600" letter-spacing="${wide ? 3 : 3.6}" fill="${c.accent}">${esc(c.eyebrow.toUpperCase())}</text>
@@ -274,24 +365,30 @@ function orbitDesign(f: DesignFormat, t: DesignTheme, c: DesignContent): string 
 function indexDesign(f: DesignFormat, t: DesignTheme, c: DesignContent): string {
   const pad = PAD(f);
   const wide = f.key === 'wide';
-  const tSize = wide ? 48 : f.key === 'portrait' ? 76 : 64;
   const bSize = wide ? 20 : 26;
-  const tFont = `600 ${tSize}px ${SERIF}`;
   const bFont = `400 ${bSize}px ${SANS}`;
-  const tLH = tSize * 1.12;
   const bLH = bSize * 1.6;
   const gap = wide ? 22 : 32;
   const indent = wide ? 30 : 40;
-
-  const titleLines = wrap(c.title ?? c.body, tFont, f.w - pad * 2 - indent - 20, 4);
-  const bodyLines = wrap(c.body, bFont, f.w - pad * 2 - indent - 20, wide ? 4 : 8);
+  const maxW = f.w - pad * 2 - indent - 20;
 
   const footLineY = f.h - pad - 58;
   const headerH = wide ? 54 : 76;
-  const blockH = titleLines.length * tLH + gap + bodyLines.length * bLH;
-  const groupH = headerH + blockH;
   const bandTop = pad + (wide ? 40 : 62);
   const bandBottom = footLineY - (wide ? 34 : 48);
+
+  // The title takes whatever the body and the gaps leave, so a short
+  // entry name sets big instead of sitting lost at the top of the card.
+  const bodyLines = wrap(c.body, bFont, maxW, wide ? 4 : 8);
+  const bodyH = bodyLines.length * bLH;
+  const titleBand = Math.max(130, bandBottom - bandTop - headerH - bodyH - gap);
+  const fit = fitSize(c.title ?? c.body, (s) => `600 ${s}px ${SERIF}`, maxW, 4, titleBand, 0.92, wide ? 34 : 46, wide ? 74 : 132, 1.12);
+  const tSize = fit.size;
+  const titleLines = fit.lines;
+  const tLH = tSize * 1.12;
+
+  const blockH = titleLines.length * tLH + gap + bodyH;
+  const groupH = headerH + blockH;
   const groupTop = bandTop + Math.max(0, (bandBottom - bandTop - groupH) / 2);
   const eyebrowY = groupTop + (wide ? 22 : 28);
   const topRuleY = Math.max(pad + 4, groupTop - (wide ? 56 : 80));
@@ -299,9 +396,10 @@ function indexDesign(f: DesignFormat, t: DesignTheme, c: DesignContent): string 
   const bFirst = tFirst + (titleLines.length - 1) * tLH + gap + bSize * 0.82;
 
   return `
-  ${background(f, t, 'index')}
+  ${background(f, t, 'index', c.accent)}
   ${orbit(f.w - 40, f.h + 90, [320, 470, 620], c.accent, [0.075, 0.05, 0.032], 2)}
   ${orbit(f.w - 40, f.h + 90, [620], c.accent, [0.04], 1.4, '3 12')}
+  ${apsis(f.w - 40, f.h + 90, 470, c.accent, 0.24, 3, 0.5, -42)}
   <rect x="${pad}" y="${topRuleY}" width="${f.w - pad * 2}" height="1" fill="${t.line}"/>
   <rect x="${pad}" y="${Math.round(groupTop - 14)}" width="5" height="${Math.round(blockH + 30)}" fill="${c.accent}"/>
 
