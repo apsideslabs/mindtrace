@@ -1,8 +1,8 @@
 import React, { useMemo, useState } from 'react';
-import { Share2 } from 'lucide-react';
 import { QUOTES, quoteCategories } from '../content/quotes';
 import { Quote } from '../types';
 import { ShareCardModal } from './ShareCardModal';
+import { QuoteCard } from './cards/QuoteCard';
 import { slugify } from '../share/card';
 
 /** One hue per quote theme, matching the module palette. */
@@ -70,27 +70,13 @@ export function QuotesView() {
 
       <div className="columns-1 md:columns-2 gap-4 [column-fill:_balance]">
         {shown.map((q) => (
-          <figure key={q.id} className="card p-6 mb-4 break-inside-avoid group">
-            <blockquote className="font-display text-[19px] leading-snug text-ink">“{q.text}”</blockquote>
-            <figcaption className="mt-4 flex items-end justify-between gap-3">
-              <span className="text-[12.5px] font-semibold uppercase tracking-wider text-muted">
-                {q.author}
-                {q.source && (
-                  <span className="mt-1 block text-[11.5px] font-normal normal-case tracking-normal text-faint">
-                    {q.source}
-                  </span>
-                )}
-              </span>
-              <button
-                onClick={() => setSharing(q)}
-                className="shrink-0 p-2 rounded-full text-muted hover:text-ink transition-colors opacity-0 group-hover:opacity-100 focus-visible:opacity-100"
-                aria-label={`Make a card from this quote by ${q.author}`}
-                title="Make a card"
-              >
-                <Share2 className="w-4 h-4" />
-              </button>
-            </figcaption>
-          </figure>
+          <QuoteCard
+            key={q.id}
+            quote={q}
+            label={labelFor(q.category)}
+            accent={accentFor(q.category)}
+            onShare={() => setSharing(q)}
+          />
         ))}
       </div>
 

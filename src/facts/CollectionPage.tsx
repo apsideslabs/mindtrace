@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import { ArrowLeft, Search, Clock, Star } from 'lucide-react';
+import { ArrowLeft, Search, Clock } from 'lucide-react';
 import { getCollectionById } from '../content/facts';
+import { CATEGORY_ACCENT } from '../content/content-index';
+import { FactCard } from '../components/cards/FactCard';
 
 export function CollectionPage({
   collectionId,
@@ -14,6 +16,9 @@ export function CollectionPage({
   const collection = getCollectionById(collectionId);
   const [q, setQ] = useState('');
   if (!collection) return null;
+
+  // Each collection carries its own hue, so its cards are recognisable.
+  const accent = CATEGORY_ACCENT[collection.categoryId] ?? '#b23a2a';
 
   const facts = collection.facts.filter((f) =>
     !q.trim() || `${f.title} ${f.summary}`.toLowerCase().includes(q.toLowerCase()),
@@ -45,24 +50,9 @@ export function CollectionPage({
         />
       </div>
 
-      <div className="divide-y divide-line border-t hairline">
+      <div className="flex flex-col gap-3">
         {facts.map((f) => (
-          <button key={f.id} onClick={() => onOpenFact(f.id)} className="w-full flex items-start gap-4 py-5 text-left group">
-            <span className="font-mono text-[12px] text-faint pt-1 shrink-0 tabular-nums">{String(f.number).padStart(2, '0')}</span>
-            <span className="flex-1 min-w-0">
-              <span className="font-display text-[17px] font-semibold text-ink group-hover:text-accent transition-colors block leading-snug">
-                {f.title}
-              </span>
-              <span className="mt-2 flex items-center gap-3">
-                <span className="flex items-center gap-0.5">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Star key={i} className={`w-3 h-3 ${i < f.evidenceLevel ? 'fill-accent text-accent' : 'text-line-strong'}`} />
-                  ))}
-                </span>
-                <span className="text-[12px] text-faint flex items-center gap-1.5"><Clock className="w-3 h-3" /> {f.readingTimeMinutes} min</span>
-              </span>
-            </span>
-          </button>
+          <FactCard key={f.id} fact={f} accent={accent} onOpen={() => onOpenFact(f.id)} />
         ))}
         {facts.length === 0 && <p className="py-12 text-center text-[14px] text-muted">No matching facts.</p>}
       </div>
